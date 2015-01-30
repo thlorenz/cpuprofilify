@@ -12,9 +12,11 @@
   },
   "homepage": "https://github.com/thlorenz/cpuprofilify",
   "dependencies": {
-    "inherits": "^2.0.1"
+    "inherits": "^2.0.1",
+    "xtend": "^4.0.0"
   },
   "devDependencies": {
+    "JSONSelect": "^0.4.0",
     "tape": "^3.4.0"
   },
   "keywords": [],
