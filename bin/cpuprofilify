@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+var cpuprofilify = require('../');
+
+var bufs = [];
+process.stdin
+  .on('data', function ondata(d) {
+    bufs.push(d);  
+  })
+  .on('error', function onerror(err) {
+    console.error(err);  
+  })
+  .on('end', function onend() {
+    var s = Buffer.concat(bufs).toString();
+    var trace = s.split('\n');
+
+    try {
+      var res = cpuprofilify(trace)
+      var json = JSON.stringify(res, null, 2);
+      process.stdout.write(json);
+    } catch (e) {
+      console.error(e);
+    }
+  })
