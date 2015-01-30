@@ -2,8 +2,9 @@
 
 [![testling badge](https://ci.testling.com/thlorenz/cpuprofilify.png)](https://ci.testling.com/thlorenz/cpuprofilify)
 
-
 Converts output of various profiling/sampling tools to the .cpuprofile format so it can be loaded into Chrome DevTools.
+
+![screenshot](assets/screenshot.png)
 
 ## Instructions
 
