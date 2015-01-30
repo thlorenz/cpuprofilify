@@ -1,0 +1,2302 @@
+iojs 86454 181012024: profile-1ms:
+              node`v8::internal::ArrayNArgumentsConstructorStub::InitializeDescriptor(v8::internal::CodeStubDescriptor*)+0x1
+              node`v8::internal::CodeStub::Dispatch(v8::internal::Isolate*, unsigned int, void**, void (*)(v8::internal::CodeStub*, void**))+0xd75
+              node`v8::internal::Deoptimizer::DoComputeCompiledStubFrame(v8::internal::TranslationIterator*, int)+0x7a
+              node`v8::internal::Deoptimizer::DoComputeOutputFrames()+0x3e9
+              0x36197f706425
+              0x101500cb0
+              0x488c3404121
+              0x600000000
+
+iojs 86454 181012025: profile-1ms:
+              node`v8::internal::ArrayConcatVisitor::visit(unsigned int, v8::internal::Handle<v8::internal::Object>)+0xb1
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x122d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012026: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1143
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012027: profile-1ms:
+              0x36197f93b63c Stub:ToBooleanStub(Bool)
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012028: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1249
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012029: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x126d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012030: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1143
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012031: profile-1ms:
+              node`v8::internal::ArrayConcatVisitor::visit(unsigned int, v8::internal::Handle<v8::internal::Object>)+0x42
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x122d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012032: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x359
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012033: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x39b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012034: profile-1ms:
+              node`v8::internal::Heap::AllocateFixedArrayWithFiller(int, v8::internal::PretenureFlag, v8::internal::Object*)+0x8a
+              node`v8::internal::Factory::NewFixedArrayWithHoles(int, v8::internal::PretenureFlag)+0x27
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0xbaf
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012035: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x123c
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012036: profile-1ms:
+              node`v8::internal::Object* v8::internal::VisitWeakList<v8::internal::AllocationSite>(v8::internal::Heap*, v8::internal::Object*, v8::internal::WeakObjectRetainer*)+0x2b3
+              node`v8::internal::Heap::Scavenge()+0x69c
+              node`v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags)+0x404
+              node`v8::internal::Heap::CollectGarbage(v8::internal::GarbageCollector, char const*, char const*, v8::GCCallbackFlags)+0x1f9
+              node`v8::internal::Factory::NewFixedArrayWithHoles(int, v8::internal::PretenureFlag)+0x65
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0xbaf
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012037: profile-1ms:
+              libsystem_kernel.dylib`read+0xa
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016960: profile-1ms:
+              node`v8::internal::ArrayConcatVisitor::visit(unsigned int, v8::internal::Handle<v8::internal::Object>)+0xd
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x122d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016961: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x114b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016962: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1143
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016963: profile-1ms:
+              libsystem_platform.dylib`_platform_memset_pattern16$VARIANT$Ivybridge+0x95
+              node`v8::internal::HandleScope::ZapRange(v8::internal::Object**, v8::internal::Object**)+0x2a
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1275
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016964: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x118d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016965: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x359
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016966: profile-1ms:
+              libsystem_platform.dylib`_platform_memset_pattern16$VARIANT$Ivybridge+0x7
+              node`v8::internal::HandleScope::ZapRange(v8::internal::Object**, v8::internal::Object**)+0x2a
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1275
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016967: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1249
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016968: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1191
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016969: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1175
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016970: profile-1ms:
+              node`v8::internal::ArrayConcatVisitor::visit(unsigned int, v8::internal::Handle<v8::internal::Object>)+0x1b6
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::interiojs 86454 181012024: profile-1ms:
+              node`v8::internal::ArrayNArgumentsConstructorStub::InitializeDescriptor(v8::internal::CodeStubDescriptor*)+0x1
+              node`v8::internal::CodeStub::Dispatch(v8::internal::Isolate*, unsigned int, void**, void (*)(v8::internal::CodeStub*, void**))+0xd75
+              node`v8::internal::Deoptimizer::DoComputeCompiledStubFrame(v8::internal::TranslationIterator*, int)+0x7a
+              node`v8::internal::Deoptimizer::DoComputeOutputFrames()+0x3e9
+              0x36197f706425
+              0x101500cb0
+              0x488c3404121
+              0x600000000
+
+iojs 86454 181012025: profile-1ms:
+              node`v8::internal::ArrayConcatVisitor::visit(unsigned int, v8::internal::Handle<v8::internal::Object>)+0xb1
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x122d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012026: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1143
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012027: profile-1ms:
+              0x36197f93b63c Stub:ToBooleanStub(Bool)
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012028: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1249
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012029: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x126d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012030: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1143
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012031: profile-1ms:
+              node`v8::internal::ArrayConcatVisitor::visit(unsigned int, v8::internal::Handle<v8::internal::Object>)+0x42
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x122d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012032: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x359
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012033: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x39b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012034: profile-1ms:
+              node`v8::internal::Heap::AllocateFixedArrayWithFiller(int, v8::internal::PretenureFlag, v8::internal::Object*)+0x8a
+              node`v8::internal::Factory::NewFixedArrayWithHoles(int, v8::internal::PretenureFlag)+0x27
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0xbaf
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012035: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x123c
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012036: profile-1ms:
+              node`v8::internal::Object* v8::internal::VisitWeakList<v8::internal::AllocationSite>(v8::internal::Heap*, v8::internal::Object*, v8::internal::WeakObjectRetainer*)+0x2b3
+              node`v8::internal::Heap::Scavenge()+0x69c
+              node`v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags)+0x404
+              node`v8::internal::Heap::CollectGarbage(v8::internal::GarbageCollector, char const*, char const*, v8::GCCallbackFlags)+0x1f9
+              node`v8::internal::Factory::NewFixedArrayWithHoles(int, v8::internal::PretenureFlag)+0x65
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0xbaf
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181012037: profile-1ms:
+              libsystem_kernel.dylib`read+0xa
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016960: profile-1ms:
+              node`v8::internal::ArrayConcatVisitor::visit(unsigned int, v8::internal::Handle<v8::internal::Object>)+0xd
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x122d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016961: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x114b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016962: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1143
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016963: profile-1ms:
+              libsystem_platform.dylib`_platform_memset_pattern16$VARIANT$Ivybridge+0x95
+              node`v8::internal::HandleScope::ZapRange(v8::internal::Object**, v8::internal::Object**)+0x2a
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1275
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016964: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x118d
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016965: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x359
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016966: profile-1ms:
+              libsystem_platform.dylib`_platform_memset_pattern16$VARIANT$Ivybridge+0x7
+              node`v8::internal::HandleScope::ZapRange(v8::internal::Object**, v8::internal::Object**)+0x2a
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1275
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016967: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1249
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016968: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1191
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016969: profile-1ms:
+              node`v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x1175
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+iojs 86454 181016970: profile-1ms:
+              node`v8::internal::ArrayConcatVisitor::visit(unsigned int, v8::internal::Handle<v8::internal::Object>)+0x1b6
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3bf9c LazyCompile:*ArrayConcatJS native array.js:366
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)+0x312
+              node`v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)+0x2c3
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa3ad9c LazyCompile:*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa139d1 LazyCompile:~reduce native array.js:1082
+              0x36197fa12f5d LazyCompile:~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41
+              0x36197fa0b490 LazyCompile:~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27
+              0x36197f9eafb4 LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197fa09975 LazyCompile:~parserOnIncoming _http_server.js:401
+              0x36197fa06c38 LazyCompile:~parserOnHeadersComplete _http_common.js:43
+              0x36197f91f0c0 Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::Parser::on_headers_complete_()+0x1f3
+              node`http_parser_execute+0x319
+              node`node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)+0x106
+              node`v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))+0x9f
+              node`v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)+0x22b
+              0x36197f9060bb Stub:CEntryStub
+              0x36197fa06147 LazyCompile:~socketOnData _http_server.js:321
+              0x36197f9eaf4f LazyCompile:~emit events.js:56
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fe13c LazyCompile:~readableAddChunk _stream_readable.js:119
+              0x36197f9fdbca LazyCompile:~Readable.push _stream_readable.js:95
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f9fc3bd LazyCompile:~onread net.js:487
+              0x36197f91ea55 Builtin:ArgumentsAdaptorTrampoline
+              0x36197f91f0bc Builtin:JSEntryTrampoline
+              0x36197f91dff1 Stub:JSEntryStub
+              node`v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)+0x238
+              node`v8::Function::Call(v8::Handle<v8::Value>, int, v8::Handle<v8::Value>*)+0xc6
+              node`node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)+0x21d
+              node`node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)+0x276
+              node`uv__stream_io+0x4f2
+              node`uv__io_poll+0x62d
+              node`uv_run+0x114
+              node`node::Start(int, char**)+0x1ce
+              node`start+0x34
+              node`0x3
+
+
+

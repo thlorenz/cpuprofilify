@@ -1,0 +1,342 @@
+{
+  "typeId": "CPU profile-1ms:",
+  "uid": 1,
+  "title": "iojs - profile-1ms:",
+  "head": {
+    "functionName": "iojs",
+    "url": "",
+    "lineNumber": 0,
+    "callUiD": 0,
+    "bailoutReason": "",
+    "id": 0,
+    "scriptId": 0,
+    "hitCount": 0,
+    "children": [
+      {
+        "functionName": "uv_run",
+        "url": "",
+        "lineNumber": 0,
+        "bailoutReason": "",
+        "id": 0,
+        "scriptId": 0,
+        "hitCount": 0,
+        "children": [
+          {
+            "functionName": "uv__io_poll",
+            "url": "",
+            "lineNumber": 0,
+            "bailoutReason": "",
+            "id": 1,
+            "scriptId": 0,
+            "hitCount": 0,
+            "children": [
+              {
+                "functionName": "uv__stream_io",
+                "url": "",
+                "lineNumber": 0,
+                "bailoutReason": "",
+                "id": 2,
+                "scriptId": 0,
+                "hitCount": 0,
+                "children": [
+                  {
+                    "functionName": "node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)",
+                    "url": "",
+                    "lineNumber": 0,
+                    "bailoutReason": "",
+                    "id": 3,
+                    "scriptId": 0,
+                    "hitCount": 0,
+                    "children": [
+                      {
+                        "functionName": "node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)",
+                        "url": "",
+                        "lineNumber": 0,
+                        "bailoutReason": "",
+                        "id": 4,
+                        "scriptId": 0,
+                        "hitCount": 0,
+                        "children": [
+                          {
+                            "functionName": "~onread",
+                            "url": "net.js",
+                            "lineNumber": "487",
+                            "bailoutReason": "",
+                            "id": 5,
+                            "scriptId": 1,
+                            "hitCount": 0,
+                            "children": [
+                              {
+                                "functionName": "~Readable.push",
+                                "url": "_stream_readable.js",
+                                "lineNumber": "95",
+                                "bailoutReason": "",
+                                "id": 6,
+                                "scriptId": 2,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~readableAddChunk",
+                                    "url": "_stream_readable.js",
+                                    "lineNumber": "119",
+                                    "bailoutReason": "",
+                                    "id": 7,
+                                    "scriptId": 2,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "~emit",
+                                        "url": "events.js",
+                                        "lineNumber": "56",
+                                        "bailoutReason": "",
+                                        "id": 8,
+                                        "scriptId": 3,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "~socketOnData",
+                                            "url": "_http_server.js",
+                                            "lineNumber": "321",
+                                            "bailoutReason": "",
+                                            "id": 9,
+                                            "scriptId": 4,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                "url": "",
+                                                "lineNumber": 0,
+                                                "bailoutReason": "",
+                                                "id": 10,
+                                                "scriptId": 0,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "http_parser_execute",
+                                                    "url": "",
+                                                    "lineNumber": 0,
+                                                    "bailoutReason": "",
+                                                    "id": 11,
+                                                    "scriptId": 0,
+                                                    "hitCount": 0,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "node::Parser::on_headers_complete_()",
+                                                        "url": "",
+                                                        "lineNumber": 0,
+                                                        "bailoutReason": "",
+                                                        "id": 12,
+                                                        "scriptId": 0,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~parserOnHeadersComplete",
+                                                            "url": "_http_common.js",
+                                                            "lineNumber": "43",
+                                                            "bailoutReason": "",
+                                                            "id": 13,
+                                                            "scriptId": 5,
+                                                            "hitCount": 0,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "~parserOnIncoming",
+                                                                "url": "_http_server.js",
+                                                                "lineNumber": "401",
+                                                                "bailoutReason": "",
+                                                                "id": 14,
+                                                                "scriptId": 4,
+                                                                "hitCount": 0,
+                                                                "children": [
+                                                                  {
+                                                                    "functionName": "~emit",
+                                                                    "url": "events.js",
+                                                                    "lineNumber": "56",
+                                                                    "bailoutReason": "",
+                                                                    "id": 15,
+                                                                    "scriptId": 3,
+                                                                    "hitCount": 0,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "~onRequest",
+                                                                        "url": "/Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js",
+                                                                        "lineNumber": "27",
+                                                                        "bailoutReason": "",
+                                                                        "id": 16,
+                                                                        "scriptId": 6,
+                                                                        "hitCount": 0,
+                                                                        "children": [
+                                                                          {
+                                                                            "functionName": "~cal_arrayConcat",
+                                                                            "url": "/Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js",
+                                                                            "lineNumber": "41",
+                                                                            "bailoutReason": "",
+                                                                            "id": 17,
+                                                                            "scriptId": 6,
+                                                                            "hitCount": 2,
+                                                                            "children": [
+                                                                              {
+                                                                                "functionName": "~reduce",
+                                                                                "url": "native array.js",
+                                                                                "lineNumber": "1082",
+                                                                                "bailoutReason": "",
+                                                                                "id": 18,
+                                                                                "scriptId": 7,
+                                                                                "hitCount": 0,
+                                                                                "children": [
+                                                                                  {
+                                                                                    "functionName": "*toFib",
+                                                                                    "url": "/Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js",
+                                                                                    "lineNumber": "43",
+                                                                                    "bailoutReason": "",
+                                                                                    "id": 19,
+                                                                                    "scriptId": 6,
+                                                                                    "hitCount": 0,
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "functionName": "*ArrayConcatJS",
+                                                                                        "url": "native array.js",
+                                                                                        "lineNumber": "366",
+                                                                                        "bailoutReason": "",
+                                                                                        "id": 20,
+                                                                                        "scriptId": 7,
+                                                                                        "hitCount": 41,
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "functionName": "v8::internal::Heap::Scavenge()",
+                                                                                            "url": "",
+                                                                                            "lineNumber": 0,
+                                                                                            "bailoutReason": "",
+                                                                                            "id": 21,
+                                                                                            "scriptId": 0,
+                                                                                            "hitCount": 2,
+                                                                                            "children": [],
+                                                                                            "_stackFrame": "v8::internal::Heap::Scavenge()"
+                                                                                          }
+                                                                                        ],
+                                                                                        "_stackFrame": "*ArrayConcatJS native array.js:366"
+                                                                                      }
+                                                                                    ],
+                                                                                    "_stackFrame": "*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43"
+                                                                                  }
+                                                                                ],
+                                                                                "_stackFrame": "~reduce native array.js:1082"
+                                                                              }
+                                                                            ],
+                                                                            "_stackFrame": "~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41"
+                                                                          }
+                                                                        ],
+                                                                        "_stackFrame": "~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "~emit events.js:56"
+                                                                  }
+                                                                ],
+                                                                "_stackFrame": "~parserOnIncoming _http_server.js:401"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~parserOnHeadersComplete _http_common.js:43"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "node::Parser::on_headers_complete_()"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "http_parser_execute"
+                                                  }
+                                                ],
+                                                "_stackFrame": "node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                              }
+                                            ],
+                                            "_stackFrame": "~socketOnData _http_server.js:321"
+                                          }
+                                        ],
+                                        "_stackFrame": "~emit events.js:56"
+                                      }
+                                    ],
+                                    "_stackFrame": "~readableAddChunk _stream_readable.js:119"
+                                  }
+                                ],
+                                "_stackFrame": "~Readable.push _stream_readable.js:95"
+                              }
+                            ],
+                            "_stackFrame": "~onread net.js:487"
+                          }
+                        ],
+                        "_stackFrame": "node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)"
+                      }
+                    ],
+                    "_stackFrame": "node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)"
+                  }
+                ],
+                "_stackFrame": "uv__stream_io"
+              },
+              {
+                "functionName": "libsystem_kernel.dylib`read",
+                "url": "",
+                "lineNumber": 0,
+                "bailoutReason": "",
+                "id": 22,
+                "scriptId": 0,
+                "hitCount": 2,
+                "children": [],
+                "_stackFrame": "libsystem_kernel.dylib`read"
+              }
+            ],
+            "_stackFrame": "uv__io_poll"
+          }
+        ],
+        "_stackFrame": "uv_run"
+      }
+    ]
+  },
+  "startTime": 181012,
+  "endTime": 181016,
+  "samples": [
+    20,
+    20,
+    17,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    21,
+    22,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    17,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    21,
+    22,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20
+  ]
+}

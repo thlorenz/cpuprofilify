@@ -1,0 +1,2445 @@
+{
+  "typeId": "CPU cpu-clock:u:",
+  "uid": 1,
+  "title": "node - cpu-clock:u:",
+  "head": {
+    "functionName": "node",
+    "url": "",
+    "lineNumber": 0,
+    "callUiD": 0,
+    "bailoutReason": "",
+    "id": 0,
+    "scriptId": 0,
+    "hitCount": 0,
+    "children": [
+      {
+        "functionName": "node::Init(int*, char const**, int*, char const***)",
+        "url": "",
+        "lineNumber": 0,
+        "bailoutReason": "",
+        "id": 0,
+        "scriptId": 0,
+        "hitCount": 0,
+        "children": [
+          {
+            "functionName": "v8::V8::AddMessageListener(void (*)(v8::Handle<v8::Message>, v8::Handle<v8::Value>), v8::Handle<v8::Value>)",
+            "url": "",
+            "lineNumber": 0,
+            "bailoutReason": "",
+            "id": 1,
+            "scriptId": 0,
+            "hitCount": 4,
+            "children": [
+              {
+                "functionName": "__vdso_gettimeofday",
+                "url": "",
+                "lineNumber": 0,
+                "bailoutReason": "",
+                "id": 2,
+                "scriptId": 0,
+                "hitCount": 1,
+                "children": [],
+                "_stackFrame": "__vdso_gettimeofday"
+              }
+            ],
+            "_stackFrame": "v8::V8::AddMessageListener(void (*)(v8::Handle<v8::Message>, v8::Handle<v8::Value>), v8::Handle<v8::Value>)"
+          }
+        ],
+        "_stackFrame": "node::Init(int*, char const**, int*, char const***)"
+      },
+      {
+        "functionName": "v8::Context::New(v8::Isolate*, v8::ExtensionConfiguration*, v8::Handle<v8::ObjectTemplate>, v8::Handle<v8::Value>)",
+        "url": "",
+        "lineNumber": 0,
+        "bailoutReason": "",
+        "id": 3,
+        "scriptId": 0,
+        "hitCount": 0,
+        "children": [
+          {
+            "functionName": "Script:~native messages.js",
+            "url": "",
+            "lineNumber": 0,
+            "bailoutReason": "",
+            "id": 4,
+            "scriptId": 0,
+            "hitCount": 0,
+            "children": [
+              {
+                "functionName": "~SetUpError native ",
+                "url": "messages.js",
+                "lineNumber": "836",
+                "bailoutReason": "",
+                "id": 5,
+                "scriptId": 1,
+                "hitCount": 0,
+                "children": [
+                  {
+                    "functionName": "~SetUpError.a native ",
+                    "url": "messages.js",
+                    "lineNumber": "837",
+                    "bailoutReason": "",
+                    "id": 6,
+                    "scriptId": 1,
+                    "hitCount": 0,
+                    "children": [
+                      {
+                        "functionName": "strlen",
+                        "url": "",
+                        "lineNumber": 0,
+                        "bailoutReason": "",
+                        "id": 7,
+                        "scriptId": 0,
+                        "hitCount": 1,
+                        "children": [],
+                        "_stackFrame": "strlen"
+                      }
+                    ],
+                    "_stackFrame": "~SetUpError.a native messages.js:837"
+                  }
+                ],
+                "_stackFrame": "~SetUpError native messages.js:836"
+              }
+            ],
+            "_stackFrame": "Script:~native messages.js"
+          }
+        ],
+        "_stackFrame": "v8::Context::New(v8::Isolate*, v8::ExtensionConfiguration*, v8::Handle<v8::ObjectTemplate>, v8::Handle<v8::Value>)"
+      },
+      {
+        "functionName": "node::CreateEnvironment(v8::Isolate*, v8::Handle<v8::Context>, int, char const* const*, int, char const* const*)",
+        "url": "",
+        "lineNumber": 0,
+        "bailoutReason": "",
+        "id": 8,
+        "scriptId": 0,
+        "hitCount": 0,
+        "children": [
+          {
+            "functionName": "node::Load(node::Environment*)",
+            "url": "",
+            "lineNumber": 0,
+            "bailoutReason": "",
+            "id": 9,
+            "scriptId": 0,
+            "hitCount": 0,
+            "children": [
+              {
+                "functionName": "~  <anonymous>",
+                "url": "node.js",
+                "lineNumber": "27",
+                "bailoutReason": "",
+                "id": 10,
+                "scriptId": 2,
+                "hitCount": 0,
+                "children": [
+                  {
+                    "functionName": "~startup ",
+                    "url": "node.js",
+                    "lineNumber": "30",
+                    "bailoutReason": "",
+                    "id": 11,
+                    "scriptId": 2,
+                    "hitCount": 0,
+                    "children": [
+                      {
+                        "functionName": "~create native ",
+                        "url": "v8natives.js",
+                        "lineNumber": "823",
+                        "bailoutReason": "",
+                        "id": 12,
+                        "scriptId": 3,
+                        "hitCount": 0,
+                        "children": [
+                          {
+                            "functionName": "~defineProperties native ",
+                            "url": "v8natives.js",
+                            "lineNumber": "857",
+                            "bailoutReason": "",
+                            "id": 13,
+                            "scriptId": 3,
+                            "hitCount": 1,
+                            "children": [],
+                            "_stackFrame": "~defineProperties native v8natives.js:857"
+                          }
+                        ],
+                        "_stackFrame": "~create native v8natives.js:823"
+                      },
+                      {
+                        "functionName": "~NativeModule.require ",
+                        "url": "node.js",
+                        "lineNumber": "752",
+                        "bailoutReason": "",
+                        "id": 14,
+                        "scriptId": 2,
+                        "hitCount": 0,
+                        "children": [
+                          {
+                            "functionName": "~NativeModule.compile ",
+                            "url": "node.js",
+                            "lineNumber": "797",
+                            "bailoutReason": "",
+                            "id": 15,
+                            "scriptId": 2,
+                            "hitCount": 0,
+                            "children": [
+                              {
+                                "functionName": "~runInThisContext ",
+                                "url": "node.js",
+                                "lineNumber": "737",
+                                "bailoutReason": "",
+                                "id": 16,
+                                "scriptId": 2,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                    "url": "",
+                                    "lineNumber": 0,
+                                    "bailoutReason": "",
+                                    "id": 17,
+                                    "scriptId": 0,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)",
+                                        "url": "",
+                                        "lineNumber": 0,
+                                        "bailoutReason": "",
+                                        "id": 18,
+                                        "scriptId": 0,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "[unknown]",
+                                            "url": "",
+                                            "lineNumber": 0,
+                                            "bailoutReason": "",
+                                            "id": 19,
+                                            "scriptId": 0,
+                                            "hitCount": 1,
+                                            "children": [],
+                                            "_stackFrame": "[unknown]"
+                                          }
+                                        ],
+                                        "_stackFrame": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)"
+                                      }
+                                    ],
+                                    "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                  }
+                                ],
+                                "_stackFrame": "~runInThisContext node.js:737"
+                              },
+                              {
+                                "functionName": "~  <anonymous>",
+                                "url": "tracing.js",
+                                "lineNumber": "1",
+                                "bailoutReason": "",
+                                "id": 20,
+                                "scriptId": 4,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "[unknown]",
+                                    "url": "",
+                                    "lineNumber": 0,
+                                    "bailoutReason": "",
+                                    "id": 21,
+                                    "scriptId": 0,
+                                    "hitCount": 2,
+                                    "children": [],
+                                    "_stackFrame": "[unknown]"
+                                  }
+                                ],
+                                "_stackFrame": "~ tracing.js:1"
+                              },
+                              {
+                                "functionName": "~  <anonymous>",
+                                "url": "module.js",
+                                "lineNumber": "1",
+                                "bailoutReason": "",
+                                "id": 22,
+                                "scriptId": 5,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~NativeModule.require ",
+                                    "url": "node.js",
+                                    "lineNumber": "752",
+                                    "bailoutReason": "",
+                                    "id": 23,
+                                    "scriptId": 2,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "~NativeModule.compile ",
+                                        "url": "node.js",
+                                        "lineNumber": "797",
+                                        "bailoutReason": "",
+                                        "id": 24,
+                                        "scriptId": 2,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "~  <anonymous>",
+                                            "url": "fs.js",
+                                            "lineNumber": "1",
+                                            "bailoutReason": "",
+                                            "id": 25,
+                                            "scriptId": 6,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "~NativeModule.require ",
+                                                "url": "node.js",
+                                                "lineNumber": "752",
+                                                "bailoutReason": "",
+                                                "id": 26,
+                                                "scriptId": 2,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "~NativeModule.compile ",
+                                                    "url": "node.js",
+                                                    "lineNumber": "797",
+                                                    "bailoutReason": "",
+                                                    "id": 27,
+                                                    "scriptId": 2,
+                                                    "hitCount": 0,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "~  <anonymous>",
+                                                        "url": "stream.js",
+                                                        "lineNumber": "1",
+                                                        "bailoutReason": "",
+                                                        "id": 28,
+                                                        "scriptId": 7,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~NativeModule.require ",
+                                                            "url": "node.js",
+                                                            "lineNumber": "752",
+                                                            "bailoutReason": "",
+                                                            "id": 29,
+                                                            "scriptId": 2,
+                                                            "hitCount": 0,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "~NativeModule.compile ",
+                                                                "url": "node.js",
+                                                                "lineNumber": "797",
+                                                                "bailoutReason": "",
+                                                                "id": 30,
+                                                                "scriptId": 2,
+                                                                "hitCount": 0,
+                                                                "children": [
+                                                                  {
+                                                                    "functionName": "~runInThisContext ",
+                                                                    "url": "node.js",
+                                                                    "lineNumber": "737",
+                                                                    "bailoutReason": "",
+                                                                    "id": 31,
+                                                                    "scriptId": 2,
+                                                                    "hitCount": 0,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                                        "url": "",
+                                                                        "lineNumber": 0,
+                                                                        "bailoutReason": "",
+                                                                        "id": 32,
+                                                                        "scriptId": 0,
+                                                                        "hitCount": 0,
+                                                                        "children": [
+                                                                          {
+                                                                            "functionName": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)",
+                                                                            "url": "",
+                                                                            "lineNumber": 0,
+                                                                            "bailoutReason": "",
+                                                                            "id": 33,
+                                                                            "scriptId": 0,
+                                                                            "hitCount": 1,
+                                                                            "children": [],
+                                                                            "_stackFrame": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)"
+                                                                          }
+                                                                        ],
+                                                                        "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "~runInThisContext node.js:737"
+                                                                  }
+                                                                ],
+                                                                "_stackFrame": "~NativeModule.compile node.js:797"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~NativeModule.require node.js:752"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "~ stream.js:1"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "~NativeModule.compile node.js:797"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~NativeModule.require node.js:752"
+                                              }
+                                            ],
+                                            "_stackFrame": "~ fs.js:1"
+                                          }
+                                        ],
+                                        "_stackFrame": "~NativeModule.compile node.js:797"
+                                      }
+                                    ],
+                                    "_stackFrame": "~NativeModule.require node.js:752"
+                                  }
+                                ],
+                                "_stackFrame": "~ module.js:1"
+                              }
+                            ],
+                            "_stackFrame": "~NativeModule.compile node.js:797"
+                          }
+                        ],
+                        "_stackFrame": "~NativeModule.require node.js:752"
+                      },
+                      {
+                        "functionName": "~Module.runMain ",
+                        "url": "module.js",
+                        "lineNumber": "499",
+                        "bailoutReason": "",
+                        "id": 37,
+                        "scriptId": 5,
+                        "hitCount": 0,
+                        "children": [
+                          {
+                            "functionName": "Module._load ",
+                            "url": "module.js",
+                            "lineNumber": "273",
+                            "bailoutReason": "",
+                            "id": 38,
+                            "scriptId": 5,
+                            "hitCount": 0,
+                            "children": [
+                              {
+                                "functionName": "~Module._resolveFilename ",
+                                "url": "module.js",
+                                "lineNumber": "321",
+                                "bailoutReason": "",
+                                "id": 39,
+                                "scriptId": 5,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~Module._findPath ",
+                                    "url": "module.js",
+                                    "lineNumber": "153",
+                                    "bailoutReason": "",
+                                    "id": 40,
+                                    "scriptId": 5,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "~tryFile ",
+                                        "url": "module.js",
+                                        "lineNumber": "132",
+                                        "bailoutReason": "",
+                                        "id": 41,
+                                        "scriptId": 5,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "statPath ",
+                                            "url": "module.js",
+                                            "lineNumber": "84",
+                                            "bailoutReason": "",
+                                            "id": 42,
+                                            "scriptId": 5,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "~fs.statSync ",
+                                                "url": "fs.js",
+                                                "lineNumber": "719",
+                                                "bailoutReason": "",
+                                                "id": 43,
+                                                "scriptId": 6,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "node::Stat(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                    "url": "",
+                                                    "lineNumber": 0,
+                                                    "bailoutReason": "",
+                                                    "id": 44,
+                                                    "scriptId": 0,
+                                                    "hitCount": 0,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "node::BuildStatsObject(node::Environment*, uv_stat_t const*)",
+                                                        "url": "",
+                                                        "lineNumber": 0,
+                                                        "bailoutReason": "",
+                                                        "id": 45,
+                                                        "scriptId": 0,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~fs.Stats ",
+                                                            "url": "fs.js",
+                                                            "lineNumber": "117",
+                                                            "bailoutReason": "",
+                                                            "id": 46,
+                                                            "scriptId": 6,
+                                                            "hitCount": 0,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "__vdso_gettimeofday",
+                                                                "url": "",
+                                                                "lineNumber": 0,
+                                                                "bailoutReason": "",
+                                                                "id": 47,
+                                                                "scriptId": 0,
+                                                                "hitCount": 1,
+                                                                "children": [],
+                                                                "_stackFrame": "__vdso_gettimeofday"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~fs.Stats fs.js:117"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "node::BuildStatsObject(node::Environment*, uv_stat_t const*)"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "node::Stat(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~fs.statSync fs.js:719"
+                                              }
+                                            ],
+                                            "_stackFrame": "statPath module.js:84"
+                                          }
+                                        ],
+                                        "_stackFrame": "~tryFile module.js:132"
+                                      }
+                                    ],
+                                    "_stackFrame": "~Module._findPath module.js:153"
+                                  }
+                                ],
+                                "_stackFrame": "~Module._resolveFilename module.js:321"
+                              },
+                              {
+                                "functionName": "~Module.load ",
+                                "url": "module.js",
+                                "lineNumber": "345",
+                                "bailoutReason": "",
+                                "id": 48,
+                                "scriptId": 5,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~Module._extensions..js ",
+                                    "url": "module.js",
+                                    "lineNumber": "476",
+                                    "bailoutReason": "",
+                                    "id": 49,
+                                    "scriptId": 5,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "fs.readFileSync ",
+                                        "url": "fs.js",
+                                        "lineNumber": "300",
+                                        "bailoutReason": "",
+                                        "id": 50,
+                                        "scriptId": 6,
+                                        "hitCount": 1,
+                                        "children": [],
+                                        "_stackFrame": "fs.readFileSync fs.js:300"
+                                      },
+                                      {
+                                        "functionName": "~Module._compile ",
+                                        "url": "module.js",
+                                        "lineNumber": "378",
+                                        "bailoutReason": "",
+                                        "id": 51,
+                                        "scriptId": 5,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "~exports.runInThisContext ",
+                                            "url": "vm.js",
+                                            "lineNumber": "68",
+                                            "bailoutReason": "",
+                                            "id": 52,
+                                            "scriptId": 8,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                "url": "",
+                                                "lineNumber": 0,
+                                                "bailoutReason": "",
+                                                "id": 53,
+                                                "scriptId": 0,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)",
+                                                    "url": "",
+                                                    "lineNumber": 0,
+                                                    "bailoutReason": "",
+                                                    "id": 54,
+                                                    "scriptId": 0,
+                                                    "hitCount": 1,
+                                                    "children": [],
+                                                    "_stackFrame": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)"
+                                                  }
+                                                ],
+                                                "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                              }
+                                            ],
+                                            "_stackFrame": "~exports.runInThisContext vm.js:68"
+                                          },
+                                          {
+                                            "functionName": "~  <anonymous>",
+                                            "url": "/home/vagrant/sources/node/benchmark/http_simple.js",
+                                            "lineNumber": "1",
+                                            "bailoutReason": "",
+                                            "id": 55,
+                                            "scriptId": 9,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "~require ",
+                                                "url": "module.js",
+                                                "lineNumber": "383",
+                                                "bailoutReason": "",
+                                                "id": 56,
+                                                "scriptId": 5,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "~Module.require ",
+                                                    "url": "module.js",
+                                                    "lineNumber": "362",
+                                                    "bailoutReason": "",
+                                                    "id": 57,
+                                                    "scriptId": 5,
+                                                    "hitCount": 0,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "Module._load ",
+                                                        "url": "module.js",
+                                                        "lineNumber": "273",
+                                                        "bailoutReason": "",
+                                                        "id": 58,
+                                                        "scriptId": 5,
+                                                        "hitCount": 1,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~NativeModule.require ",
+                                                            "url": "node.js",
+                                                            "lineNumber": "752",
+                                                            "bailoutReason": "",
+                                                            "id": 59,
+                                                            "scriptId": 2,
+                                                            "hitCount": 0,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "~NativeModule.compile ",
+                                                                "url": "node.js",
+                                                                "lineNumber": "797",
+                                                                "bailoutReason": "",
+                                                                "id": 60,
+                                                                "scriptId": 2,
+                                                                "hitCount": 0,
+                                                                "children": [
+                                                                  {
+                                                                    "functionName": "~  <anonymous>",
+                                                                    "url": "child_process.js",
+                                                                    "lineNumber": "1",
+                                                                    "bailoutReason": "",
+                                                                    "id": 61,
+                                                                    "scriptId": 10,
+                                                                    "hitCount": 0,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "~NativeModule.require ",
+                                                                        "url": "node.js",
+                                                                        "lineNumber": "752",
+                                                                        "bailoutReason": "",
+                                                                        "id": 62,
+                                                                        "scriptId": 2,
+                                                                        "hitCount": 0,
+                                                                        "children": [
+                                                                          {
+                                                                            "functionName": "~NativeModule.compile ",
+                                                                            "url": "node.js",
+                                                                            "lineNumber": "797",
+                                                                            "bailoutReason": "",
+                                                                            "id": 63,
+                                                                            "scriptId": 2,
+                                                                            "hitCount": 0,
+                                                                            "children": [
+                                                                              {
+                                                                                "functionName": "~runInThisContext ",
+                                                                                "url": "node.js",
+                                                                                "lineNumber": "737",
+                                                                                "bailoutReason": "",
+                                                                                "id": 64,
+                                                                                "scriptId": 2,
+                                                                                "hitCount": 0,
+                                                                                "children": [
+                                                                                  {
+                                                                                    "functionName": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                                                    "url": "",
+                                                                                    "lineNumber": 0,
+                                                                                    "bailoutReason": "",
+                                                                                    "id": 65,
+                                                                                    "scriptId": 0,
+                                                                                    "hitCount": 0,
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "functionName": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)",
+                                                                                        "url": "",
+                                                                                        "lineNumber": 0,
+                                                                                        "bailoutReason": "",
+                                                                                        "id": 66,
+                                                                                        "scriptId": 0,
+                                                                                        "hitCount": 1,
+                                                                                        "children": [],
+                                                                                        "_stackFrame": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)"
+                                                                                      }
+                                                                                    ],
+                                                                                    "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                                                                  }
+                                                                                ],
+                                                                                "_stackFrame": "~runInThisContext node.js:737"
+                                                                              }
+                                                                            ],
+                                                                            "_stackFrame": "~NativeModule.compile node.js:797"
+                                                                          }
+                                                                        ],
+                                                                        "_stackFrame": "~NativeModule.require node.js:752"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "~ child_process.js:1"
+                                                                  },
+                                                                  {
+                                                                    "functionName": "~  <anonymous>",
+                                                                    "url": "http.js",
+                                                                    "lineNumber": "1",
+                                                                    "bailoutReason": "",
+                                                                    "id": 67,
+                                                                    "scriptId": 11,
+                                                                    "hitCount": 0,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "~NativeModule.require ",
+                                                                        "url": "node.js",
+                                                                        "lineNumber": "752",
+                                                                        "bailoutReason": "",
+                                                                        "id": 68,
+                                                                        "scriptId": 2,
+                                                                        "hitCount": 0,
+                                                                        "children": [
+                                                                          {
+                                                                            "functionName": "~NativeModule.compile ",
+                                                                            "url": "node.js",
+                                                                            "lineNumber": "797",
+                                                                            "bailoutReason": "",
+                                                                            "id": 69,
+                                                                            "scriptId": 2,
+                                                                            "hitCount": 0,
+                                                                            "children": [
+                                                                              {
+                                                                                "functionName": "~runInThisContext ",
+                                                                                "url": "node.js",
+                                                                                "lineNumber": "737",
+                                                                                "bailoutReason": "",
+                                                                                "id": 70,
+                                                                                "scriptId": 2,
+                                                                                "hitCount": 0,
+                                                                                "children": [
+                                                                                  {
+                                                                                    "functionName": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                                                    "url": "",
+                                                                                    "lineNumber": 0,
+                                                                                    "bailoutReason": "",
+                                                                                    "id": 71,
+                                                                                    "scriptId": 0,
+                                                                                    "hitCount": 0,
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "functionName": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)",
+                                                                                        "url": "",
+                                                                                        "lineNumber": 0,
+                                                                                        "bailoutReason": "",
+                                                                                        "id": 72,
+                                                                                        "scriptId": 0,
+                                                                                        "hitCount": 3,
+                                                                                        "children": [],
+                                                                                        "_stackFrame": "v8::ScriptCompiler::CompileUnbound(v8::Isolate*, v8::ScriptCompiler::Source*, v8::ScriptCompiler::CompileOptions)"
+                                                                                      }
+                                                                                    ],
+                                                                                    "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                                                                  }
+                                                                                ],
+                                                                                "_stackFrame": "~runInThisContext node.js:737"
+                                                                              }
+                                                                            ],
+                                                                            "_stackFrame": "~NativeModule.compile node.js:797"
+                                                                          }
+                                                                        ],
+                                                                        "_stackFrame": "~NativeModule.require node.js:752"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "~ http.js:1"
+                                                                  }
+                                                                ],
+                                                                "_stackFrame": "~NativeModule.compile node.js:797"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~NativeModule.require node.js:752"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "Module._load module.js:273"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "~Module.require module.js:362"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~require module.js:383"
+                                              },
+                                              {
+                                                "functionName": "~makeString ",
+                                                "url": "/home/vagrant/sources/node/benchmark/http_simple.js",
+                                                "lineNumber": "109",
+                                                "bailoutReason": "",
+                                                "id": 73,
+                                                "scriptId": 9,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "__vdso_gettimeofday",
+                                                    "url": "",
+                                                    "lineNumber": 0,
+                                                    "bailoutReason": "",
+                                                    "id": 74,
+                                                    "scriptId": 0,
+                                                    "hitCount": 1,
+                                                    "children": [],
+                                                    "_stackFrame": "__vdso_gettimeofday"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~makeString /home/vagrant/sources/node/benchmark/http_simple.js:109"
+                                              },
+                                              {
+                                                "functionName": "~Server.listen ",
+                                                "url": "net.js",
+                                                "lineNumber": "1178",
+                                                "bailoutReason": "",
+                                                "id": 75,
+                                                "scriptId": 12,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "~listen ",
+                                                    "url": "net.js",
+                                                    "lineNumber": "1143",
+                                                    "bailoutReason": "",
+                                                    "id": 76,
+                                                    "scriptId": 12,
+                                                    "hitCount": 1,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "~NativeModule.require ",
+                                                        "url": "node.js",
+                                                        "lineNumber": "752",
+                                                        "bailoutReason": "",
+                                                        "id": 77,
+                                                        "scriptId": 2,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~NativeModule.compile ",
+                                                            "url": "node.js",
+                                                            "lineNumber": "797",
+                                                            "bailoutReason": "",
+                                                            "id": 78,
+                                                            "scriptId": 2,
+                                                            "hitCount": 0,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "~runInThisContext ",
+                                                                "url": "node.js",
+                                                                "lineNumber": "737",
+                                                                "bailoutReason": "",
+                                                                "id": 79,
+                                                                "scriptId": 2,
+                                                                "hitCount": 0,
+                                                                "children": [
+                                                                  {
+                                                                    "functionName": "node::ContextifyScript::RunInThisContext(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                                    "url": "",
+                                                                    "lineNumber": 0,
+                                                                    "bailoutReason": "",
+                                                                    "id": 80,
+                                                                    "scriptId": 0,
+                                                                    "hitCount": 0,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "node::ContextifyScript::EvalMachine(node::Environment*, long, bool, v8::FunctionCallbackInfo<v8::Value> const&, v8::TryCatch&)",
+                                                                        "url": "",
+                                                                        "lineNumber": 0,
+                                                                        "bailoutReason": "",
+                                                                        "id": 81,
+                                                                        "scriptId": 0,
+                                                                        "hitCount": 0,
+                                                                        "children": [
+                                                                          {
+                                                                            "functionName": "v8::Script::Run()",
+                                                                            "url": "",
+                                                                            "lineNumber": 0,
+                                                                            "bailoutReason": "",
+                                                                            "id": 82,
+                                                                            "scriptId": 0,
+                                                                            "hitCount": 0,
+                                                                            "children": [
+                                                                              {
+                                                                                "functionName": "Script:~cluster.js",
+                                                                                "url": "",
+                                                                                "lineNumber": 0,
+                                                                                "bailoutReason": "",
+                                                                                "id": 83,
+                                                                                "scriptId": 0,
+                                                                                "hitCount": 0,
+                                                                                "children": [
+                                                                                  {
+                                                                                    "functionName": "__clock_gettime",
+                                                                                    "url": "",
+                                                                                    "lineNumber": 0,
+                                                                                    "bailoutReason": "",
+                                                                                    "id": 84,
+                                                                                    "scriptId": 0,
+                                                                                    "hitCount": 0,
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "functionName": "__vdso_clock_gettime",
+                                                                                        "url": "",
+                                                                                        "lineNumber": 0,
+                                                                                        "bailoutReason": "",
+                                                                                        "id": 85,
+                                                                                        "scriptId": 0,
+                                                                                        "hitCount": 1,
+                                                                                        "children": [],
+                                                                                        "_stackFrame": "__vdso_clock_gettime"
+                                                                                      }
+                                                                                    ],
+                                                                                    "_stackFrame": "__clock_gettime"
+                                                                                  }
+                                                                                ],
+                                                                                "_stackFrame": "Script:~cluster.js"
+                                                                              }
+                                                                            ],
+                                                                            "_stackFrame": "v8::Script::Run()"
+                                                                          }
+                                                                        ],
+                                                                        "_stackFrame": "node::ContextifyScript::EvalMachine(node::Environment*, long, bool, v8::FunctionCallbackInfo<v8::Value> const&, v8::TryCatch&)"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "node::ContextifyScript::RunInThisContext(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                                                  }
+                                                                ],
+                                                                "_stackFrame": "~runInThisContext node.js:737"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~NativeModule.compile node.js:797"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "~NativeModule.require node.js:752"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "~listen net.js:1143"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~Server.listen net.js:1178"
+                                              }
+                                            ],
+                                            "_stackFrame": "~ /home/vagrant/sources/node/benchmark/http_simple.js:1"
+                                          }
+                                        ],
+                                        "_stackFrame": "~Module._compile module.js:378"
+                                      }
+                                    ],
+                                    "_stackFrame": "~Module._extensions..js module.js:476"
+                                  }
+                                ],
+                                "_stackFrame": "~Module.load module.js:345"
+                              }
+                            ],
+                            "_stackFrame": "Module._load module.js:273"
+                          },
+                          {
+                            "functionName": "_tickCallback ",
+                            "url": "node.js",
+                            "lineNumber": "332",
+                            "bailoutReason": "",
+                            "id": 86,
+                            "scriptId": 2,
+                            "hitCount": 0,
+                            "children": [
+                              {
+                                "functionName": "~  <anonymous>",
+                                "url": "net.js",
+                                "lineNumber": "1135",
+                                "bailoutReason": "",
+                                "id": 87,
+                                "scriptId": 12,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~emit ",
+                                    "url": "events.js",
+                                    "lineNumber": "68",
+                                    "bailoutReason": "",
+                                    "id": 88,
+                                    "scriptId": 13,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "~g ",
+                                        "url": "events.js",
+                                        "lineNumber": "194",
+                                        "bailoutReason": "",
+                                        "id": 89,
+                                        "scriptId": 13,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "~  <anonymous>",
+                                            "url": "/home/vagrant/sources/node/benchmark/http_simple.js",
+                                            "lineNumber": "117",
+                                            "bailoutReason": "",
+                                            "id": 90,
+                                            "scriptId": 9,
+                                            "hitCount": 1,
+                                            "children": [
+                                              {
+                                                "functionName": "~  <anonymous>",
+                                                "url": "node.js",
+                                                "lineNumber": "208",
+                                                "bailoutReason": "",
+                                                "id": 91,
+                                                "scriptId": 2,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "~NativeModule.require ",
+                                                    "url": "node.js",
+                                                    "lineNumber": "752",
+                                                    "bailoutReason": "",
+                                                    "id": 92,
+                                                    "scriptId": 2,
+                                                    "hitCount": 0,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "~NativeModule.compile ",
+                                                        "url": "node.js",
+                                                        "lineNumber": "797",
+                                                        "bailoutReason": "",
+                                                        "id": 93,
+                                                        "scriptId": 2,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~  <anonymous>",
+                                                            "url": "console.js",
+                                                            "lineNumber": "1",
+                                                            "bailoutReason": "",
+                                                            "id": 94,
+                                                            "scriptId": 14,
+                                                            "hitCount": 0,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "~  <anonymous>",
+                                                                "url": "node.js",
+                                                                "lineNumber": "512",
+                                                                "bailoutReason": "",
+                                                                "id": 95,
+                                                                "scriptId": 2,
+                                                                "hitCount": 0,
+                                                                "children": [
+                                                                  {
+                                                                    "functionName": "~createWritableStdioStream ",
+                                                                    "url": "node.js",
+                                                                    "lineNumber": "432",
+                                                                    "bailoutReason": "",
+                                                                    "id": 96,
+                                                                    "scriptId": 2,
+                                                                    "hitCount": 0,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "~WriteStream ",
+                                                                        "url": "tty.js",
+                                                                        "lineNumber": "73",
+                                                                        "bailoutReason": "",
+                                                                        "id": 97,
+                                                                        "scriptId": 15,
+                                                                        "hitCount": 1,
+                                                                        "children": [],
+                                                                        "_stackFrame": "~WriteStream tty.js:73"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "~createWritableStdioStream node.js:432"
+                                                                  }
+                                                                ],
+                                                                "_stackFrame": "~ node.js:512"
+                                                              },
+                                                              {
+                                                                "functionName": "~Console ",
+                                                                "url": "console.js",
+                                                                "lineNumber": "24",
+                                                                "bailoutReason": "",
+                                                                "id": 98,
+                                                                "scriptId": 14,
+                                                                "hitCount": 1,
+                                                                "children": [
+                                                                  {
+                                                                    "functionName": "~forEach native ",
+                                                                    "url": "array.js",
+                                                                    "lineNumber": "857",
+                                                                    "bailoutReason": "",
+                                                                    "id": 99,
+                                                                    "scriptId": 16,
+                                                                    "hitCount": 1,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "~  <anonymous>",
+                                                                        "url": "console.js",
+                                                                        "lineNumber": "47",
+                                                                        "bailoutReason": "",
+                                                                        "id": 100,
+                                                                        "scriptId": 14,
+                                                                        "hitCount": 1,
+                                                                        "children": [
+                                                                          {
+                                                                            "functionName": "~bind native ",
+                                                                            "url": "v8natives.js",
+                                                                            "lineNumber": "1259",
+                                                                            "bailoutReason": "",
+                                                                            "id": 101,
+                                                                            "scriptId": 3,
+                                                                            "hitCount": 1,
+                                                                            "children": [],
+                                                                            "_stackFrame": "~bind native v8natives.js:1259"
+                                                                          }
+                                                                        ],
+                                                                        "_stackFrame": "~ console.js:47"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "~forEach native array.js:857"
+                                                                  }
+                                                                ],
+                                                                "_stackFrame": "~Console console.js:24"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~ console.js:1"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "~NativeModule.compile node.js:797"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "~NativeModule.require node.js:752"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~ node.js:208"
+                                              },
+                                              {
+                                                "functionName": "~b native ",
+                                                "url": "v8natives.js",
+                                                "lineNumber": "1263",
+                                                "bailoutReason": "",
+                                                "id": 102,
+                                                "scriptId": 3,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "~Console.warn ",
+                                                    "url": "console.js",
+                                                    "lineNumber": "60",
+                                                    "bailoutReason": "",
+                                                    "id": 103,
+                                                    "scriptId": 14,
+                                                    "hitCount": 0,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "~exports.format ",
+                                                        "url": "util.js",
+                                                        "lineNumber": "23",
+                                                        "bailoutReason": "",
+                                                        "id": 104,
+                                                        "scriptId": 17,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~replace native ",
+                                                            "url": "string.js",
+                                                            "lineNumber": "123",
+                                                            "bailoutReason": "",
+                                                            "id": 105,
+                                                            "scriptId": 18,
+                                                            "hitCount": 1,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "~StringReplaceGlobalRegExpWithFunction native ",
+                                                                "url": "string.js",
+                                                                "lineNumber": "268",
+                                                                "bailoutReason": "",
+                                                                "id": 106,
+                                                                "scriptId": 18,
+                                                                "hitCount": 1,
+                                                                "children": [],
+                                                                "_stackFrame": "~StringReplaceGlobalRegExpWithFunction native string.js:268"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~replace native string.js:123"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "~exports.format util.js:23"
+                                                      },
+                                                      {
+                                                        "functionName": "~Socket.write ",
+                                                        "url": "net.js",
+                                                        "lineNumber": "606",
+                                                        "bailoutReason": "",
+                                                        "id": 107,
+                                                        "scriptId": 12,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~Writable.write ",
+                                                            "url": "_stream_writable.js",
+                                                            "lineNumber": "176",
+                                                            "bailoutReason": "",
+                                                            "id": 108,
+                                                            "scriptId": 19,
+                                                            "hitCount": 1,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "~writeOrBuffer ",
+                                                                "url": "_stream_writable.js",
+                                                                "lineNumber": "236",
+                                                                "bailoutReason": "",
+                                                                "id": 109,
+                                                                "scriptId": 19,
+                                                                "hitCount": 1,
+                                                                "children": [
+                                                                  {
+                                                                    "functionName": "~doWrite ",
+                                                                    "url": "_stream_writable.js",
+                                                                    "lineNumber": "257",
+                                                                    "bailoutReason": "",
+                                                                    "id": 110,
+                                                                    "scriptId": 19,
+                                                                    "hitCount": 0,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "~Socket._write ",
+                                                                        "url": "net.js",
+                                                                        "lineNumber": "681",
+                                                                        "bailoutReason": "",
+                                                                        "id": 111,
+                                                                        "scriptId": 12,
+                                                                        "hitCount": 1,
+                                                                        "children": [
+                                                                          {
+                                                                            "functionName": "~Socket._writeGeneric ",
+                                                                            "url": "net.js",
+                                                                            "lineNumber": "613",
+                                                                            "bailoutReason": "",
+                                                                            "id": 112,
+                                                                            "scriptId": 12,
+                                                                            "hitCount": 0,
+                                                                            "children": [
+                                                                              {
+                                                                                "functionName": "~createWriteReq ",
+                                                                                "url": "net.js",
+                                                                                "lineNumber": "685",
+                                                                                "bailoutReason": "",
+                                                                                "id": 113,
+                                                                                "scriptId": 12,
+                                                                                "hitCount": 1,
+                                                                                "children": [],
+                                                                                "_stackFrame": "~createWriteReq net.js:685"
+                                                                              },
+                                                                              {
+                                                                                "functionName": "~WritableState.onwrite ",
+                                                                                "url": "_stream_writable.js",
+                                                                                "lineNumber": "102",
+                                                                                "bailoutReason": "",
+                                                                                "id": 114,
+                                                                                "scriptId": 19,
+                                                                                "hitCount": 0,
+                                                                                "children": [
+                                                                                  {
+                                                                                    "functionName": "~onwrite ",
+                                                                                    "url": "_stream_writable.js",
+                                                                                    "lineNumber": "291",
+                                                                                    "bailoutReason": "",
+                                                                                    "id": 115,
+                                                                                    "scriptId": 19,
+                                                                                    "hitCount": 1,
+                                                                                    "children": [],
+                                                                                    "_stackFrame": "~onwrite _stream_writable.js:291"
+                                                                                  }
+                                                                                ],
+                                                                                "_stackFrame": "~WritableState.onwrite _stream_writable.js:102"
+                                                                              }
+                                                                            ],
+                                                                            "_stackFrame": "~Socket._writeGeneric net.js:613"
+                                                                          }
+                                                                        ],
+                                                                        "_stackFrame": "~Socket._write net.js:681"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "~doWrite _stream_writable.js:257"
+                                                                  }
+                                                                ],
+                                                                "_stackFrame": "~writeOrBuffer _stream_writable.js:236"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~Writable.write _stream_writable.js:176"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "~Socket.write net.js:606"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "~Console.warn console.js:60"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~b native v8natives.js:1263"
+                                              }
+                                            ],
+                                            "_stackFrame": "~ /home/vagrant/sources/node/benchmark/http_simple.js:117"
+                                          }
+                                        ],
+                                        "_stackFrame": "~g events.js:194"
+                                      }
+                                    ],
+                                    "_stackFrame": "~emit events.js:68"
+                                  }
+                                ],
+                                "_stackFrame": "~ net.js:1135"
+                              },
+                              {
+                                "functionName": "~  <anonymous>",
+                                "url": "_stream_writable.js",
+                                "lineNumber": "312",
+                                "bailoutReason": "",
+                                "id": 116,
+                                "scriptId": 19,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~afterWrite ",
+                                    "url": "_stream_writable.js",
+                                    "lineNumber": "321",
+                                    "bailoutReason": "",
+                                    "id": 117,
+                                    "scriptId": 19,
+                                    "hitCount": 1,
+                                    "children": [],
+                                    "_stackFrame": "~afterWrite _stream_writable.js:321"
+                                  }
+                                ],
+                                "_stackFrame": "~ _stream_writable.js:312"
+                              }
+                            ],
+                            "_stackFrame": "_tickCallback node.js:332"
+                          }
+                        ],
+                        "_stackFrame": "~Module.runMain module.js:499"
+                      }
+                    ],
+                    "_stackFrame": "~startup node.js:30"
+                  }
+                ],
+                "_stackFrame": "~ node.js:27"
+              }
+            ],
+            "_stackFrame": "node::Load(node::Environment*)"
+          }
+        ],
+        "_stackFrame": "node::CreateEnvironment(v8::Isolate*, v8::Handle<v8::Context>, int, char const* const*, int, char const* const*)"
+      },
+      {
+        "functionName": "[unknown]",
+        "url": "",
+        "lineNumber": 0,
+        "bailoutReason": "",
+        "id": 34,
+        "scriptId": 0,
+        "hitCount": 0,
+        "children": [
+          {
+            "functionName": "[unknown]",
+            "url": "",
+            "lineNumber": 0,
+            "bailoutReason": "",
+            "id": 35,
+            "scriptId": 0,
+            "hitCount": 0,
+            "children": [
+              {
+                "functionName": "[unknown]",
+                "url": "",
+                "lineNumber": 0,
+                "bailoutReason": "",
+                "id": 36,
+                "scriptId": 0,
+                "hitCount": 1,
+                "children": [],
+                "_stackFrame": "[unknown]"
+              }
+            ],
+            "_stackFrame": "[unknown]"
+          }
+        ],
+        "_stackFrame": "[unknown]"
+      },
+      {
+        "functionName": "uv_run",
+        "url": "",
+        "lineNumber": 0,
+        "bailoutReason": "",
+        "id": 118,
+        "scriptId": 0,
+        "hitCount": 0,
+        "children": [
+          {
+            "functionName": "uv__io_poll",
+            "url": "",
+            "lineNumber": 0,
+            "bailoutReason": "",
+            "id": 119,
+            "scriptId": 0,
+            "hitCount": 0,
+            "children": [
+              {
+                "functionName": "uv__server_io",
+                "url": "",
+                "lineNumber": 0,
+                "bailoutReason": "",
+                "id": 120,
+                "scriptId": 0,
+                "hitCount": 0,
+                "children": [
+                  {
+                    "functionName": "node::TCPWrap::OnConnection(uv_stream_s*, int)",
+                    "url": "",
+                    "lineNumber": 0,
+                    "bailoutReason": "",
+                    "id": 121,
+                    "scriptId": 0,
+                    "hitCount": 0,
+                    "children": [
+                      {
+                        "functionName": "node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)",
+                        "url": "",
+                        "lineNumber": 0,
+                        "bailoutReason": "",
+                        "id": 122,
+                        "scriptId": 0,
+                        "hitCount": 1,
+                        "children": [
+                          {
+                            "functionName": "~onconnection ",
+                            "url": "net.js",
+                            "lineNumber": "1250",
+                            "bailoutReason": "",
+                            "id": 123,
+                            "scriptId": 12,
+                            "hitCount": 0,
+                            "children": [
+                              {
+                                "functionName": "~Socket ",
+                                "url": "net.js",
+                                "lineNumber": "131",
+                                "bailoutReason": "",
+                                "id": 124,
+                                "scriptId": 12,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~Duplex ",
+                                    "url": "_stream_duplex.js",
+                                    "lineNumber": "39",
+                                    "bailoutReason": "",
+                                    "id": 125,
+                                    "scriptId": 20,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "~Readable ",
+                                        "url": "_stream_readable.js",
+                                        "lineNumber": "98",
+                                        "bailoutReason": "",
+                                        "id": 126,
+                                        "scriptId": 21,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "~Stream ",
+                                            "url": "stream.js",
+                                            "lineNumber": "42",
+                                            "bailoutReason": "",
+                                            "id": 127,
+                                            "scriptId": 7,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "~EventEmitter ",
+                                                "url": "events.js",
+                                                "lineNumber": "25",
+                                                "bailoutReason": "",
+                                                "id": 128,
+                                                "scriptId": 13,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "~EventEmitter.init ",
+                                                    "url": "events.js",
+                                                    "lineNumber": "43",
+                                                    "bailoutReason": "",
+                                                    "id": 129,
+                                                    "scriptId": 13,
+                                                    "hitCount": 1,
+                                                    "children": [],
+                                                    "_stackFrame": "~EventEmitter.init events.js:43"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~EventEmitter events.js:25"
+                                              }
+                                            ],
+                                            "_stackFrame": "~Stream stream.js:42"
+                                          }
+                                        ],
+                                        "_stackFrame": "~Readable _stream_readable.js:98"
+                                      },
+                                      {
+                                        "functionName": "~Writable ",
+                                        "url": "_stream_writable.js",
+                                        "lineNumber": "126",
+                                        "bailoutReason": "",
+                                        "id": 130,
+                                        "scriptId": 19,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "~Stream ",
+                                            "url": "stream.js",
+                                            "lineNumber": "42",
+                                            "bailoutReason": "",
+                                            "id": 131,
+                                            "scriptId": 7,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "~EventEmitter ",
+                                                "url": "events.js",
+                                                "lineNumber": "25",
+                                                "bailoutReason": "",
+                                                "id": 132,
+                                                "scriptId": 13,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "~EventEmitter.init ",
+                                                    "url": "events.js",
+                                                    "lineNumber": "43",
+                                                    "bailoutReason": "",
+                                                    "id": 133,
+                                                    "scriptId": 13,
+                                                    "hitCount": 1,
+                                                    "children": [],
+                                                    "_stackFrame": "~EventEmitter.init events.js:43"
+                                                  }
+                                                ],
+                                                "_stackFrame": "~EventEmitter events.js:25"
+                                              }
+                                            ],
+                                            "_stackFrame": "~Stream stream.js:42"
+                                          }
+                                        ],
+                                        "_stackFrame": "~Writable _stream_writable.js:126"
+                                      }
+                                    ],
+                                    "_stackFrame": "~Duplex _stream_duplex.js:39"
+                                  }
+                                ],
+                                "_stackFrame": "~Socket net.js:131"
+                              },
+                              {
+                                "functionName": "~emit ",
+                                "url": "events.js",
+                                "lineNumber": "68",
+                                "bailoutReason": "",
+                                "id": 134,
+                                "scriptId": 13,
+                                "hitCount": 1,
+                                "children": [
+                                  {
+                                    "functionName": "~connectionListener ",
+                                    "url": "_http_server.js",
+                                    "lineNumber": "272",
+                                    "bailoutReason": "",
+                                    "id": 135,
+                                    "scriptId": 22,
+                                    "hitCount": 1,
+                                    "children": [
+                                      {
+                                        "functionName": "~httpSocketSetup ",
+                                        "url": "_http_common.js",
+                                        "lineNumber": "218",
+                                        "bailoutReason": "",
+                                        "id": 136,
+                                        "scriptId": 23,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "~removeListener ",
+                                            "url": "events.js",
+                                            "lineNumber": "211",
+                                            "bailoutReason": "",
+                                            "id": 137,
+                                            "scriptId": 13,
+                                            "hitCount": 1,
+                                            "children": [],
+                                            "_stackFrame": "~removeListener events.js:211"
+                                          }
+                                        ],
+                                        "_stackFrame": "~httpSocketSetup _http_common.js:218"
+                                      },
+                                      {
+                                        "functionName": "~Socket.setTimeout ",
+                                        "url": "net.js",
+                                        "lineNumber": "307",
+                                        "bailoutReason": "",
+                                        "id": 142,
+                                        "scriptId": 12,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "~exports._unrefActive ",
+                                            "url": "timers.js",
+                                            "lineNumber": "517",
+                                            "bailoutReason": "",
+                                            "id": 143,
+                                            "scriptId": 24,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                "url": "",
+                                                "lineNumber": 0,
+                                                "bailoutReason": "",
+                                                "id": 144,
+                                                "scriptId": 0,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "uv_update_time",
+                                                    "url": "",
+                                                    "lineNumber": 0,
+                                                    "bailoutReason": "",
+                                                    "id": 145,
+                                                    "scriptId": 0,
+                                                    "hitCount": 0,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "__clock_gettime",
+                                                        "url": "",
+                                                        "lineNumber": 0,
+                                                        "bailoutReason": "",
+                                                        "id": 146,
+                                                        "scriptId": 0,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "__vdso_clock_gettime",
+                                                            "url": "",
+                                                            "lineNumber": 0,
+                                                            "bailoutReason": "",
+                                                            "id": 147,
+                                                            "scriptId": 0,
+                                                            "hitCount": 2,
+                                                            "children": [],
+                                                            "_stackFrame": "__vdso_clock_gettime"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "__clock_gettime"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "uv_update_time"
+                                                  }
+                                                ],
+                                                "_stackFrame": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                              }
+                                            ],
+                                            "_stackFrame": "~exports._unrefActive timers.js:517"
+                                          }
+                                        ],
+                                        "_stackFrame": "~Socket.setTimeout net.js:307"
+                                      }
+                                    ],
+                                    "_stackFrame": "~connectionListener _http_server.js:272"
+                                  }
+                                ],
+                                "_stackFrame": "~emit events.js:68"
+                              }
+                            ],
+                            "_stackFrame": "~onconnection net.js:1250"
+                          },
+                          {
+                            "functionName": "_tickCallback ",
+                            "url": "node.js",
+                            "lineNumber": "332",
+                            "bailoutReason": "",
+                            "id": 138,
+                            "scriptId": 2,
+                            "hitCount": 0,
+                            "children": [
+                              {
+                                "functionName": "~  <anonymous>",
+                                "url": "_stream_readable.js",
+                                "lineNumber": "711",
+                                "bailoutReason": "",
+                                "id": 139,
+                                "scriptId": 21,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~resume_ ",
+                                    "url": "_stream_readable.js",
+                                    "lineNumber": "717",
+                                    "bailoutReason": "",
+                                    "id": 140,
+                                    "scriptId": 21,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "~flow ",
+                                        "url": "_stream_readable.js",
+                                        "lineNumber": "740",
+                                        "bailoutReason": "",
+                                        "id": 141,
+                                        "scriptId": 21,
+                                        "hitCount": 1,
+                                        "children": [],
+                                        "_stackFrame": "~flow _stream_readable.js:740"
+                                      }
+                                    ],
+                                    "_stackFrame": "~resume_ _stream_readable.js:717"
+                                  }
+                                ],
+                                "_stackFrame": "~ _stream_readable.js:711"
+                              }
+                            ],
+                            "_stackFrame": "_tickCallback node.js:332"
+                          }
+                        ],
+                        "_stackFrame": "node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)"
+                      }
+                    ],
+                    "_stackFrame": "node::TCPWrap::OnConnection(uv_stream_s*, int)"
+                  }
+                ],
+                "_stackFrame": "uv__server_io"
+              },
+              {
+                "functionName": "uv__stream_io",
+                "url": "",
+                "lineNumber": 0,
+                "bailoutReason": "",
+                "id": 148,
+                "scriptId": 0,
+                "hitCount": 0,
+                "children": [
+                  {
+                    "functionName": "node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)",
+                    "url": "",
+                    "lineNumber": 0,
+                    "bailoutReason": "",
+                    "id": 149,
+                    "scriptId": 0,
+                    "hitCount": 0,
+                    "children": [
+                      {
+                        "functionName": "node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)",
+                        "url": "",
+                        "lineNumber": 0,
+                        "bailoutReason": "",
+                        "id": 150,
+                        "scriptId": 0,
+                        "hitCount": 0,
+                        "children": [
+                          {
+                            "functionName": "~onread ",
+                            "url": "net.js",
+                            "lineNumber": "492",
+                            "bailoutReason": "",
+                            "id": 151,
+                            "scriptId": 12,
+                            "hitCount": 0,
+                            "children": [
+                              {
+                                "functionName": "~exports._unrefActive ",
+                                "url": "timers.js",
+                                "lineNumber": "517",
+                                "bailoutReason": "",
+                                "id": 152,
+                                "scriptId": 24,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                    "url": "",
+                                    "lineNumber": 0,
+                                    "bailoutReason": "",
+                                    "id": 153,
+                                    "scriptId": 0,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "uv_update_time",
+                                        "url": "",
+                                        "lineNumber": 0,
+                                        "bailoutReason": "",
+                                        "id": 154,
+                                        "scriptId": 0,
+                                        "hitCount": 0,
+                                        "children": [
+                                          {
+                                            "functionName": "__clock_gettime",
+                                            "url": "",
+                                            "lineNumber": 0,
+                                            "bailoutReason": "",
+                                            "id": 155,
+                                            "scriptId": 0,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "__vdso_clock_gettime",
+                                                "url": "",
+                                                "lineNumber": 0,
+                                                "bailoutReason": "",
+                                                "id": 156,
+                                                "scriptId": 0,
+                                                "hitCount": 1,
+                                                "children": [],
+                                                "_stackFrame": "__vdso_clock_gettime"
+                                              }
+                                            ],
+                                            "_stackFrame": "__clock_gettime"
+                                          }
+                                        ],
+                                        "_stackFrame": "uv_update_time"
+                                      }
+                                    ],
+                                    "_stackFrame": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                  }
+                                ],
+                                "_stackFrame": "~exports._unrefActive timers.js:517"
+                              },
+                              {
+                                "functionName": "~Readable.push ",
+                                "url": "_stream_readable.js",
+                                "lineNumber": "114",
+                                "bailoutReason": "",
+                                "id": 157,
+                                "scriptId": 21,
+                                "hitCount": 0,
+                                "children": [
+                                  {
+                                    "functionName": "~readableAddChunk ",
+                                    "url": "_stream_readable.js",
+                                    "lineNumber": "134",
+                                    "bailoutReason": "",
+                                    "id": 158,
+                                    "scriptId": 21,
+                                    "hitCount": 0,
+                                    "children": [
+                                      {
+                                        "functionName": "~emit ",
+                                        "url": "events.js",
+                                        "lineNumber": "68",
+                                        "bailoutReason": "",
+                                        "id": 159,
+                                        "scriptId": 13,
+                                        "hitCount": 1,
+                                        "children": [
+                                          {
+                                            "functionName": "~socketOnData ",
+                                            "url": "_http_server.js",
+                                            "lineNumber": "340",
+                                            "bailoutReason": "",
+                                            "id": 160,
+                                            "scriptId": 22,
+                                            "hitCount": 0,
+                                            "children": [
+                                              {
+                                                "functionName": "node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                "url": "",
+                                                "lineNumber": 0,
+                                                "bailoutReason": "",
+                                                "id": 161,
+                                                "scriptId": 0,
+                                                "hitCount": 0,
+                                                "children": [
+                                                  {
+                                                    "functionName": "http_parser_execute",
+                                                    "url": "",
+                                                    "lineNumber": 0,
+                                                    "bailoutReason": "",
+                                                    "id": 162,
+                                                    "scriptId": 0,
+                                                    "hitCount": 0,
+                                                    "children": [
+                                                      {
+                                                        "functionName": "node::Parser::on_headers_complete_()",
+                                                        "url": "",
+                                                        "lineNumber": 0,
+                                                        "bailoutReason": "",
+                                                        "id": 163,
+                                                        "scriptId": 0,
+                                                        "hitCount": 0,
+                                                        "children": [
+                                                          {
+                                                            "functionName": "~parserOnHeadersComplete ",
+                                                            "url": "_http_common.js",
+                                                            "lineNumber": "63",
+                                                            "bailoutReason": "",
+                                                            "id": 164,
+                                                            "scriptId": 23,
+                                                            "hitCount": 0,
+                                                            "children": [
+                                                              {
+                                                                "functionName": "~parserOnIncoming ",
+                                                                "url": "_http_server.js",
+                                                                "lineNumber": "419",
+                                                                "bailoutReason": "",
+                                                                "id": 165,
+                                                                "scriptId": 22,
+                                                                "hitCount": 0,
+                                                                "children": [
+                                                                  {
+                                                                    "functionName": "~emit ",
+                                                                    "url": "events.js",
+                                                                    "lineNumber": "68",
+                                                                    "bailoutReason": "",
+                                                                    "id": 166,
+                                                                    "scriptId": 13,
+                                                                    "hitCount": 1,
+                                                                    "children": [
+                                                                      {
+                                                                        "functionName": "~  <anonymous>",
+                                                                        "url": "/home/vagrant/sources/node/benchmark/http_simple.js",
+                                                                        "lineNumber": "25",
+                                                                        "bailoutReason": "",
+                                                                        "id": 167,
+                                                                        "scriptId": 9,
+                                                                        "hitCount": 0,
+                                                                        "children": [
+                                                                          {
+                                                                            "functionName": "~ServerResponse.writeHead ",
+                                                                            "url": "_http_server.js",
+                                                                            "lineNumber": "175",
+                                                                            "bailoutReason": "",
+                                                                            "id": 168,
+                                                                            "scriptId": 22,
+                                                                            "hitCount": 0,
+                                                                            "children": [
+                                                                              {
+                                                                                "functionName": "~OutgoingMessage._storeHeader ",
+                                                                                "url": "_http_outgoing.js",
+                                                                                "lineNumber": "191",
+                                                                                "bailoutReason": "",
+                                                                                "id": 169,
+                                                                                "scriptId": 25,
+                                                                                "hitCount": 0,
+                                                                                "children": [
+                                                                                  {
+                                                                                    "functionName": "~utcDate ",
+                                                                                    "url": "_http_outgoing.js",
+                                                                                    "lineNumber": "50",
+                                                                                    "bailoutReason": "",
+                                                                                    "id": 170,
+                                                                                    "scriptId": 25,
+                                                                                    "hitCount": 0,
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "functionName": "~DateConstructor native ",
+                                                                                        "url": "date.js",
+                                                                                        "lineNumber": "61",
+                                                                                        "bailoutReason": "",
+                                                                                        "id": 171,
+                                                                                        "scriptId": 26,
+                                                                                        "hitCount": 0,
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "functionName": "__vdso_gettimeofday",
+                                                                                            "url": "",
+                                                                                            "lineNumber": 0,
+                                                                                            "bailoutReason": "",
+                                                                                            "id": 172,
+                                                                                            "scriptId": 0,
+                                                                                            "hitCount": 1,
+                                                                                            "children": [],
+                                                                                            "_stackFrame": "__vdso_gettimeofday"
+                                                                                          }
+                                                                                        ],
+                                                                                        "_stackFrame": "~DateConstructor native date.js:61"
+                                                                                      }
+                                                                                    ],
+                                                                                    "_stackFrame": "~utcDate _http_outgoing.js:50"
+                                                                                  }
+                                                                                ],
+                                                                                "_stackFrame": "~OutgoingMessage._storeHeader _http_outgoing.js:191"
+                                                                              }
+                                                                            ],
+                                                                            "_stackFrame": "~ServerResponse.writeHead _http_server.js:175"
+                                                                          },
+                                                                          {
+                                                                            "functionName": "~OutgoingMessage.end ",
+                                                                            "url": "_http_outgoing.js",
+                                                                            "lineNumber": "486",
+                                                                            "bailoutReason": "",
+                                                                            "id": 173,
+                                                                            "scriptId": 25,
+                                                                            "hitCount": 0,
+                                                                            "children": [
+                                                                              {
+                                                                                "functionName": "~Writable.uncork ",
+                                                                                "url": "_stream_writable.js",
+                                                                                "lineNumber": "209",
+                                                                                "bailoutReason": "",
+                                                                                "id": 174,
+                                                                                "scriptId": 19,
+                                                                                "hitCount": 0,
+                                                                                "children": [
+                                                                                  {
+                                                                                    "functionName": "~clearBuffer ",
+                                                                                    "url": "_stream_writable.js",
+                                                                                    "lineNumber": "341",
+                                                                                    "bailoutReason": "",
+                                                                                    "id": 175,
+                                                                                    "scriptId": 19,
+                                                                                    "hitCount": 0,
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "functionName": "~doWrite ",
+                                                                                        "url": "_stream_writable.js",
+                                                                                        "lineNumber": "257",
+                                                                                        "bailoutReason": "",
+                                                                                        "id": 176,
+                                                                                        "scriptId": 19,
+                                                                                        "hitCount": 0,
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "functionName": "~Socket._writev ",
+                                                                                            "url": "net.js",
+                                                                                            "lineNumber": "676",
+                                                                                            "bailoutReason": "",
+                                                                                            "id": 177,
+                                                                                            "scriptId": 12,
+                                                                                            "hitCount": 0,
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "functionName": "~Socket._writeGeneric ",
+                                                                                                "url": "net.js",
+                                                                                                "lineNumber": "613",
+                                                                                                "bailoutReason": "",
+                                                                                                "id": 178,
+                                                                                                "scriptId": 12,
+                                                                                                "hitCount": 0,
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "functionName": "~exports._unrefActive ",
+                                                                                                    "url": "timers.js",
+                                                                                                    "lineNumber": "517",
+                                                                                                    "bailoutReason": "",
+                                                                                                    "id": 179,
+                                                                                                    "scriptId": 24,
+                                                                                                    "hitCount": 0,
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "functionName": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                                                                        "url": "",
+                                                                                                        "lineNumber": 0,
+                                                                                                        "bailoutReason": "",
+                                                                                                        "id": 180,
+                                                                                                        "scriptId": 0,
+                                                                                                        "hitCount": 0,
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "functionName": "uv_update_time",
+                                                                                                            "url": "",
+                                                                                                            "lineNumber": 0,
+                                                                                                            "bailoutReason": "",
+                                                                                                            "id": 181,
+                                                                                                            "scriptId": 0,
+                                                                                                            "hitCount": 0,
+                                                                                                            "children": [
+                                                                                                              {
+                                                                                                                "functionName": "__clock_gettime",
+                                                                                                                "url": "",
+                                                                                                                "lineNumber": 0,
+                                                                                                                "bailoutReason": "",
+                                                                                                                "id": 182,
+                                                                                                                "scriptId": 0,
+                                                                                                                "hitCount": 0,
+                                                                                                                "children": [
+                                                                                                                  {
+                                                                                                                    "functionName": "__vdso_clock_gettime",
+                                                                                                                    "url": "",
+                                                                                                                    "lineNumber": 0,
+                                                                                                                    "bailoutReason": "",
+                                                                                                                    "id": 183,
+                                                                                                                    "scriptId": 0,
+                                                                                                                    "hitCount": 1,
+                                                                                                                    "children": [],
+                                                                                                                    "_stackFrame": "__vdso_clock_gettime"
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                "_stackFrame": "__clock_gettime"
+                                                                                                              }
+                                                                                                            ],
+                                                                                                            "_stackFrame": "uv_update_time"
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "_stackFrame": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "_stackFrame": "~exports._unrefActive timers.js:517"
+                                                                                                  }
+                                                                                                ],
+                                                                                                "_stackFrame": "~Socket._writeGeneric net.js:613"
+                                                                                              }
+                                                                                            ],
+                                                                                            "_stackFrame": "~Socket._writev net.js:676"
+                                                                                          }
+                                                                                        ],
+                                                                                        "_stackFrame": "~doWrite _stream_writable.js:257"
+                                                                                      }
+                                                                                    ],
+                                                                                    "_stackFrame": "~clearBuffer _stream_writable.js:341"
+                                                                                  }
+                                                                                ],
+                                                                                "_stackFrame": "~Writable.uncork _stream_writable.js:209"
+                                                                              }
+                                                                            ],
+                                                                            "_stackFrame": "~OutgoingMessage.end _http_outgoing.js:486"
+                                                                          },
+                                                                          {
+                                                                            "functionName": "~OutgoingMessage.write ",
+                                                                            "url": "_http_outgoing.js",
+                                                                            "lineNumber": "405",
+                                                                            "bailoutReason": "",
+                                                                            "id": 184,
+                                                                            "scriptId": 25,
+                                                                            "hitCount": 0,
+                                                                            "children": [
+                                                                              {
+                                                                                "functionName": "~OutgoingMessage._send ",
+                                                                                "url": "_http_outgoing.js",
+                                                                                "lineNumber": "121",
+                                                                                "bailoutReason": "",
+                                                                                "id": 185,
+                                                                                "scriptId": 25,
+                                                                                "hitCount": 0,
+                                                                                "children": [
+                                                                                  {
+                                                                                    "functionName": "~OutgoingMessage._writeRaw ",
+                                                                                    "url": "_http_outgoing.js",
+                                                                                    "lineNumber": "141",
+                                                                                    "bailoutReason": "",
+                                                                                    "id": 186,
+                                                                                    "scriptId": 25,
+                                                                                    "hitCount": 0,
+                                                                                    "children": [
+                                                                                      {
+                                                                                        "functionName": "~Socket.write ",
+                                                                                        "url": "net.js",
+                                                                                        "lineNumber": "606",
+                                                                                        "bailoutReason": "",
+                                                                                        "id": 187,
+                                                                                        "scriptId": 12,
+                                                                                        "hitCount": 0,
+                                                                                        "children": [
+                                                                                          {
+                                                                                            "functionName": "~Writable.write ",
+                                                                                            "url": "_stream_writable.js",
+                                                                                            "lineNumber": "176",
+                                                                                            "bailoutReason": "",
+                                                                                            "id": 188,
+                                                                                            "scriptId": 19,
+                                                                                            "hitCount": 0,
+                                                                                            "children": [
+                                                                                              {
+                                                                                                "functionName": "~writeOrBuffer ",
+                                                                                                "url": "_stream_writable.js",
+                                                                                                "lineNumber": "236",
+                                                                                                "bailoutReason": "",
+                                                                                                "id": 189,
+                                                                                                "scriptId": 19,
+                                                                                                "hitCount": 0,
+                                                                                                "children": [
+                                                                                                  {
+                                                                                                    "functionName": "~doWrite ",
+                                                                                                    "url": "_stream_writable.js",
+                                                                                                    "lineNumber": "257",
+                                                                                                    "bailoutReason": "",
+                                                                                                    "id": 190,
+                                                                                                    "scriptId": 19,
+                                                                                                    "hitCount": 0,
+                                                                                                    "children": [
+                                                                                                      {
+                                                                                                        "functionName": "~Socket._write ",
+                                                                                                        "url": "net.js",
+                                                                                                        "lineNumber": "681",
+                                                                                                        "bailoutReason": "",
+                                                                                                        "id": 191,
+                                                                                                        "scriptId": 12,
+                                                                                                        "hitCount": 0,
+                                                                                                        "children": [
+                                                                                                          {
+                                                                                                            "functionName": "~Socket._writeGeneric ",
+                                                                                                            "url": "net.js",
+                                                                                                            "lineNumber": "613",
+                                                                                                            "bailoutReason": "",
+                                                                                                            "id": 192,
+                                                                                                            "scriptId": 12,
+                                                                                                            "hitCount": 0,
+                                                                                                            "children": [
+                                                                                                              {
+                                                                                                                "functionName": "~exports._unrefActive ",
+                                                                                                                "url": "timers.js",
+                                                                                                                "lineNumber": "517",
+                                                                                                                "bailoutReason": "",
+                                                                                                                "id": 193,
+                                                                                                                "scriptId": 24,
+                                                                                                                "hitCount": 0,
+                                                                                                                "children": [
+                                                                                                                  {
+                                                                                                                    "functionName": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)",
+                                                                                                                    "url": "",
+                                                                                                                    "lineNumber": 0,
+                                                                                                                    "bailoutReason": "",
+                                                                                                                    "id": 194,
+                                                                                                                    "scriptId": 0,
+                                                                                                                    "hitCount": 0,
+                                                                                                                    "children": [
+                                                                                                                      {
+                                                                                                                        "functionName": "uv_update_time",
+                                                                                                                        "url": "",
+                                                                                                                        "lineNumber": 0,
+                                                                                                                        "bailoutReason": "",
+                                                                                                                        "id": 195,
+                                                                                                                        "scriptId": 0,
+                                                                                                                        "hitCount": 0,
+                                                                                                                        "children": [
+                                                                                                                          {
+                                                                                                                            "functionName": "__clock_gettime",
+                                                                                                                            "url": "",
+                                                                                                                            "lineNumber": 0,
+                                                                                                                            "bailoutReason": "",
+                                                                                                                            "id": 196,
+                                                                                                                            "scriptId": 0,
+                                                                                                                            "hitCount": 0,
+                                                                                                                            "children": [
+                                                                                                                              {
+                                                                                                                                "functionName": "__vdso_clock_gettime",
+                                                                                                                                "url": "",
+                                                                                                                                "lineNumber": 0,
+                                                                                                                                "bailoutReason": "",
+                                                                                                                                "id": 197,
+                                                                                                                                "scriptId": 0,
+                                                                                                                                "hitCount": 2,
+                                                                                                                                "children": [],
+                                                                                                                                "_stackFrame": "__vdso_clock_gettime"
+                                                                                                                              }
+                                                                                                                            ],
+                                                                                                                            "_stackFrame": "__clock_gettime"
+                                                                                                                          }
+                                                                                                                        ],
+                                                                                                                        "_stackFrame": "uv_update_time"
+                                                                                                                      }
+                                                                                                                    ],
+                                                                                                                    "_stackFrame": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                                                                                                  }
+                                                                                                                ],
+                                                                                                                "_stackFrame": "~exports._unrefActive timers.js:517"
+                                                                                                              }
+                                                                                                            ],
+                                                                                                            "_stackFrame": "~Socket._writeGeneric net.js:613"
+                                                                                                          }
+                                                                                                        ],
+                                                                                                        "_stackFrame": "~Socket._write net.js:681"
+                                                                                                      }
+                                                                                                    ],
+                                                                                                    "_stackFrame": "~doWrite _stream_writable.js:257"
+                                                                                                  }
+                                                                                                ],
+                                                                                                "_stackFrame": "~writeOrBuffer _stream_writable.js:236"
+                                                                                              }
+                                                                                            ],
+                                                                                            "_stackFrame": "~Writable.write _stream_writable.js:176"
+                                                                                          }
+                                                                                        ],
+                                                                                        "_stackFrame": "~Socket.write net.js:606"
+                                                                                      }
+                                                                                    ],
+                                                                                    "_stackFrame": "~OutgoingMessage._writeRaw _http_outgoing.js:141"
+                                                                                  }
+                                                                                ],
+                                                                                "_stackFrame": "~OutgoingMessage._send _http_outgoing.js:121"
+                                                                              }
+                                                                            ],
+                                                                            "_stackFrame": "~OutgoingMessage.write _http_outgoing.js:405"
+                                                                          }
+                                                                        ],
+                                                                        "_stackFrame": "~ /home/vagrant/sources/node/benchmark/http_simple.js:25"
+                                                                      }
+                                                                    ],
+                                                                    "_stackFrame": "~emit events.js:68"
+                                                                  }
+                                                                ],
+                                                                "_stackFrame": "~parserOnIncoming _http_server.js:419"
+                                                              }
+                                                            ],
+                                                            "_stackFrame": "~parserOnHeadersComplete _http_common.js:63"
+                                                          }
+                                                        ],
+                                                        "_stackFrame": "node::Parser::on_headers_complete_()"
+                                                      }
+                                                    ],
+                                                    "_stackFrame": "http_parser_execute"
+                                                  }
+                                                ],
+                                                "_stackFrame": "node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)"
+                                              }
+                                            ],
+                                            "_stackFrame": "~socketOnData _http_server.js:340"
+                                          }
+                                        ],
+                                        "_stackFrame": "~emit events.js:68"
+                                      }
+                                    ],
+                                    "_stackFrame": "~readableAddChunk _stream_readable.js:134"
+                                  }
+                                ],
+                                "_stackFrame": "~Readable.push _stream_readable.js:114"
+                              }
+                            ],
+                            "_stackFrame": "~onread net.js:492"
+                          }
+                        ],
+                        "_stackFrame": "node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)"
+                      },
+                      {
+                        "functionName": "node::Buffer::Use(node::Environment*, char*, unsigned int)",
+                        "url": "",
+                        "lineNumber": 0,
+                        "bailoutReason": "",
+                        "id": 198,
+                        "scriptId": 0,
+                        "hitCount": 0,
+                        "children": [
+                          {
+                            "functionName": "*NativeBuffer ",
+                            "url": "buffer.js",
+                            "lineNumber": "119",
+                            "bailoutReason": "",
+                            "id": 199,
+                            "scriptId": 27,
+                            "hitCount": 1,
+                            "children": [],
+                            "_stackFrame": "*NativeBuffer buffer.js:119"
+                          }
+                        ],
+                        "_stackFrame": "node::Buffer::Use(node::Environment*, char*, unsigned int)"
+                      }
+                    ],
+                    "_stackFrame": "node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)"
+                  }
+                ],
+                "_stackFrame": "uv__stream_io"
+              }
+            ],
+            "_stackFrame": "uv__io_poll"
+          }
+        ],
+        "_stackFrame": "uv_run"
+      }
+    ]
+  },
+  "startTime": 13108,
+  "endTime": 13112,
+  "samples": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    7,
+    13,
+    19,
+    21,
+    21,
+    33,
+    36,
+    47,
+    50,
+    54,
+    58,
+    66,
+    72,
+    72,
+    72,
+    74,
+    85,
+    76,
+    97,
+    98,
+    99,
+    100,
+    101,
+    90,
+    105,
+    106,
+    108,
+    109,
+    111,
+    113,
+    115,
+    117,
+    122,
+    129,
+    133,
+    134,
+    137,
+    135,
+    141,
+    147,
+    147,
+    156,
+    159,
+    166,
+    172,
+    183,
+    197,
+    199,
+    197
+  ]
+}
