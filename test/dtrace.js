@@ -1,8 +1,7 @@
 'use strict';
 
 var test = require('tape')
-  , cpuprofilify = require('../')
-  , select = require('JSONSelect')
+  , check = require('./util/check-conversion')
 
 var stack1 = [
     'iojs 86454 181016967: profile-1ms:'
@@ -70,43 +69,7 @@ function inspect(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 5, true));
 }
 
-function check(t, stack, convertOpts, opts) {
-  var res = cpuprofilify(stack, convertOpts);
-
-  var hits   =  select.match('.hitCount:expr(x=1)', res)
-    , nohits =  select.match('.hitCount:expr(x=0)', res)
-    , fns    =  select.match('.functionName', res)
-    , id     =  select.match('.hitCount:expr(x=1) ~.id', res)
-    , fn     =  select.match('.hitCount:expr(x=1) ~.functionName', res)
-    , url    =  select.match('.hitCount:expr(x=1) ~.url', res)
-
-  if (!opts) {
-    inspect({
-        fns  : fns.length
-      , hits : hits.length
-      , id   : id[0]
-      , fn   : fn[0]
-      , url  : url[0]
-      , names : fns
-    })
-    return t.end()
-  }
-
-  t.equal(fns.length, opts.fns, 'have a total of ' + opts.fns + ' functions')
-  t.deepEqual(hits, [ opts.hits ], 'one node has hitcount of ' + opts.hits)
-  t.equal(nohits.length, fns.length - 1, 'all other functions have no hits')
-  t.deepEqual(id, [ opts.id ], 'id of function with hit is ' + opts.id)
-  t.deepEqual(res.samples, id, 'samples contain only function id')
-
-  t.deepEqual(fn, [ opts.fn ], 'function name is top of stack not filtered function cleaned up')
-  t.deepEqual(url, [ opts.url ], 'url is top of stack url')
-
-  t.deepEqual(fns, opts.names, 'all function names where cleaned up correctly')
-
-  t.end()
-}
-
-test('\nwhen converting a stack containing C++ and resolved JavaScript with the default settings', function (t) {
+test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript with the default settings', function (t) {
   var opts = {
       fns  : 22
     , hits : 1
@@ -135,12 +98,12 @@ test('\nwhen converting a stack containing C++ and resolved JavaScript with the 
           '~cal_arrayConcat',
           '~reduce',
           '*toFib',
-          '*ArrayConcatJS' ]
-  }
+          '*ArrayConcatJS' ] }
+
   check(t, stack1, null, opts)
 })
 
-test('\nwhen converting a stack containing C++ and resolved JavaScript keeping v8internals', function (t) {
+test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping v8internals', function (t) {
   var opts = { 
     fns  : 48,
     hits : 1,
@@ -200,7 +163,7 @@ test('\nwhen converting a stack containing C++ and resolved JavaScript keeping v
   check(t, stack1, { v8internals: true }, opts)
 })
 
-test('\nwhen converting a stack containing C++ and resolved JavaScript keeping sysinternals', function (t) {
+test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping sysinternals', function (t) {
   var opts = { 
     fns: 4,
     hits: 1,
