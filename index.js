@@ -6,7 +6,7 @@ var filterInternals = require('./lib/filter-internals')
   , resolveSymbols  = require('./lib/resolve-symbols')
   , xtend           = require('xtend')
   , inherits        = require('inherits')
-  , EventEmitter    = require('events')
+  , EventEmitter    = require('events').EventEmitter
 
 function CpuProfilifier() {
   if (!(this instanceof CpuProfilifier)) return new CpuProfilifier();
