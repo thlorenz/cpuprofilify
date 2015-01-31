@@ -4,6 +4,9 @@
 
 var cpuprofilify = require('../')()
   , format       = require('util').format
+  , minimist     = require('minimist')
+  , path         = require('path')
+  , fs           = require('fs')
   , log          = require('npmlog');
 
 function onmsg(type) {
@@ -16,6 +19,28 @@ cpuprofilify.on('info', onmsg('info'));
 cpuprofilify.on('warn', onmsg('warn'));
 cpuprofilify.on('error', onmsg('error'));
 
+
+function usage() {
+  var usageFile = path.join(__dirname, 'cpuprofilify-usage.txt');
+  fs.createReadStream(usageFile).pipe(process.stdout);
+}
+
+var flags = [ 'shortStack' , 'unresolveds' , 'sysinternals' , 'v8internals' , 'v8gc' ]
+  , negatedFlags = flags.map(function negate(x) { return 'no' + x })
+
+var argv = minimist(process.argv.slice(2)
+  , { boolean: flags.concat(negatedFlags).concat('help') }
+);
+
+if (argv.help) return usage();
+
+var opts = {};
+function considerFlag(name) {
+  if (argv[name]) opts[name] = true;
+  if (argv['no' + name]) opts[name] = false;
+}
+flags.forEach(considerFlag);
+
 var bufs = [];
 process.stdin
   .on('data', function ondata(d) {
@@ -27,7 +52,7 @@ process.stdin
     var trace = s.split('\n');
 
     try {
-      var res = cpuprofilify.convert(trace)
+      var res = cpuprofilify.convert(trace, opts)
       var json = JSON.stringify(res, null, 2);
       process.stdout.write(json);
     } catch (e) {

@@ -49,6 +49,7 @@ proto.convert =
 function convert(trace, opts) {
   opts = opts || {};
   this._opts = xtend({ v8gc: true }, opts);
+  this.emit('info', 'Options: %j', this._opts);
 
   this._trace = trace;
   this._traceLen = trace.length;

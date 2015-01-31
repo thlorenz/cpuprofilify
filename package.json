@@ -21,6 +21,7 @@
   "homepage": "https://github.com/thlorenz/cpuprofilify",
   "dependencies": {
     "inherits": "~2.0.1",
+    "minimist": "^1.1.0",
     "npmlog": "~1.0.0",
     "resolve-jit-symbols": "~0.4.3",
     "xtend": "~4.0.0"
@@ -29,7 +30,16 @@
     "JSONSelect": "~0.4.0",
     "tape": "~3.4.0"
   },
-  "keywords": [ "dtrace", "perf", "timeline", "debug", "inspect", "cpuprofile", "profile", "devtools" ],
+  "keywords": [
+    "dtrace",
+    "perf",
+    "timeline",
+    "debug",
+    "inspect",
+    "cpuprofile",
+    "profile",
+    "devtools"
+  ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",

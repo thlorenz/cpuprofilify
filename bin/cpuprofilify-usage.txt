@@ -1,0 +1,28 @@
+usage: cat trace.txt | cpuprofilify <options> > my.cpuprofile 
+
+  Converts the given trace taking according to the given opttions
+
+
+OPTIONS:
+
+--shortStack   , --noshortStack     stacks that have only one line are ignored unless this flag is set (default: false)
+--unresolveds  , --nounresolveds    unresolved addresses like `0x1a23c` are filtered from the trace unless this flag is set (default: false)
+--sysinternals , --nosysinternals   sysinternals like `__lib_c_start...` are filtered from the trace unless this flag is set (default: false)
+--v8internals  , --nov8internals    v8internals like `v8::internal::...` are filtered from the trace unless this flag is set (default: false)
+--v8gc         , --nov8gc           when v8internals are filtered, garbage collection info is as well unless this flag set  (default: true)
+
+--help                              print this help
+
+EXAMPLE:
+
+  Generate cpuprofile from DTrace data with default options
+
+    sudo profile_1ms.d -c <command> | cpuprofilify > out.cpuprofile
+
+  Generate cpuprofile from DTrace data with default options keeping v8 internals
+
+    sudo profile_1ms.d -c <command> | cpuprofilify --v8internals > out.cpuprofile
+
+  Generate cpuprofile from DTrace data with default options filtering v8 gc events
+    
+    sudo profile_1ms.d -c <command> | cpuprofilify --nov8gc > out.cpuprofile

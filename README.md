@@ -13,8 +13,11 @@ Converts output of various profiling/sampling tools to the .cpuprofile format so
 - [Installation](#installation)
 - [Instructions](#instructions)
 - [Example](#example)
+- [Usage](#usage)
 - [cpuprofilify and `perf`](#cpuprofilify-and-perf)
 - [API](#api)
+    - [CpuProfilifier()](#cpuprofilifier)
+    - [CpuProfilifier::convert(trace, opts) → {Object}](#cpuprofilifierconverttrace-opts-→-object)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -28,8 +31,8 @@ Converts output of various profiling/sampling tools to the .cpuprofile format so
 cpuprofilify installs two binary scripts:
 
 - **`profile_1ms.d`**: DTrace script that samples your process, use either of the following to generate a trace
-  - `sudo profile_1ms.d -p <process id> | cpuprofilify > out.cpuprofile`
   - `sudo profile_1ms.d -c <command> | cpuprofilify > out.cpuprofile`
+  - `sudo profile_1ms.d -p <process id> | cpuprofilify > out.cpuprofile`
 - **`cpuprofilify`**: which will convert a *perf* or *DTrace* trace into a `.cpuprofile` importable into Chrome DevTools
 
 ## Example
@@ -58,6 +61,39 @@ Benchmarking :: (be patient).....done
 Now open `/tmp/example.cpuprofile` in Chrome DevTools *Profiles - Load*
 
 **NOTE:** in order to try the above example please clone this repository.
+
+## Usage
+
+```
+cat trace.txt | cpuprofilify <options> > my.cpuprofile 
+
+  Converts the given trace taking according to the given opttions
+
+
+OPTIONS:
+
+--shortStack   , --noshortStack     stacks that have only one line are ignored unless this flag is set (default: false)
+--unresolveds  , --nounresolveds    unresolved addresses like `0x1a23c` are filtered from the trace unless this flag is set (default: false)
+--sysinternals , --nosysinternals   sysinternals like `__lib_c_start...` are filtered from the trace unless this flag is set (default: false)
+--v8internals  , --nov8internals    v8internals like `v8::internal::...` are filtered from the trace unless this flag is set (default: false)
+--v8gc         , --nov8gc           when v8internals are filtered, garbage collection info is as well unless this flag set  (default: true)
+
+--help                              print this help
+
+EXAMPLE:
+
+  Generate cpuprofile from DTrace data with default options
+
+    sudo profile_1ms.d -c <command> | cpuprofilify > out.cpuprofile
+
+  Generate cpuprofile from DTrace data with default options keeping v8 internals
+
+    sudo profile_1ms.d -c <command> | cpuprofilify --v8internals > out.cpuprofile
+
+  Generate cpuprofile from DTrace data with default options filtering v8 gc events
+    
+    sudo profile_1ms.d -c <command> | cpuprofilify --nov8gc > out.cpuprofile
+```
 
 ## cpuprofilify and `perf`
 
