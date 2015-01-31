@@ -4,6 +4,7 @@
   "description": "Converts output of various profiling/sampling tools to the .cpuprofile format so it can be loaded into Chrome DevTools.",
   "main": "index.js",
   "scripts": {
+    "docme": "docme README.md -- --configure .jsdocrc",
     "test": "tape test/*.js"
   },
   "bin": {

@@ -8,6 +8,12 @@ var filterInternals = require('./lib/filter-internals')
   , inherits        = require('inherits')
   , EventEmitter    = require('events').EventEmitter
 
+/**
+ * Creates new CpuProfilifier
+ * 
+ * @name CpuProfilifier
+ * @function
+ */
 function CpuProfilifier() {
   if (!(this instanceof CpuProfilifier)) return new CpuProfilifier();
   EventEmitter.call(this);
@@ -18,7 +24,29 @@ inherits(CpuProfilifier, EventEmitter);
 var proto = CpuProfilifier.prototype;
 module.exports = CpuProfilifier;
 
-proto.convert = function convert(trace, opts) {
+proto.convert = 
+
+/**
+ * Converts the given trace taking according to the given opts.
+ *
+ * ```
+ * var cpuprofilifier = require('cpuprofilifier');
+ * var cpuprofile = cpuprofilifier().convert(trace);
+ * fs.writeFileSync('/tmp/my.cpuprofile', JSON.stringify(cpuprofile));
+ * ```
+ *
+ * @name CpuProfilifier::convert
+ * @function
+ * @param {Array.<String>} trace a trace generated via `perf script` or the `profile_1ms.d` DTrace script
+ * @param {Object=} opts 
+ * @param {Boolean} opts.shortStack stacks that have only one line are ignored unless this flag is set
+ * @param {Boolean} opts.unresolveds unresolved addresses like `0x1a23c` are filtered from the trace unless this flag is set (default: false)
+ * @param {Boolean} opts.sysinternals sysinternals like `__lib_c_start...` are filtered from the trace unless this flag is set (default: false)
+ * @param {Boolean} opts.v8internals v8internals like `v8::internal::...` are filtered from the trace unless this flag is set (default: false)
+ * @param {Boolean} opts.v8gc        when v8internals are filtered, garbage collection info is as well unless this flag set  (default: true)
+ * @return {Object} an cpuprofile presentation of the given trace
+ */
+function convert(trace, opts) {
   opts = opts || {};
   this._opts = xtend({ v8gc: true }, opts);
 

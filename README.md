@@ -70,7 +70,157 @@ perf script | cpuprofilify > out.cpuprofile
 
 ## API
 
-*TODO*
+<!-- START docme generated API please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN docme TO UPDATE -->
+
+<div>
+<div class="jsdoc-githubify">
+<section>
+<article>
+<div class="container-overview">
+<dl class="details">
+</dl>
+</div>
+<dl>
+<dt>
+<h4 class="name" id="CpuProfilifier"><span class="type-signature"></span>CpuProfilifier<span class="signature">()</span><span class="type-signature"></span></h4>
+</dt>
+<dd>
+<div class="description">
+<p>Creates new CpuProfilifier</p>
+</div>
+<dl class="details">
+<dt class="tag-source">Source:</dt>
+<dd class="tag-source"><ul class="dummy">
+<li>
+<a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js">index.js</a>
+<span>, </span>
+<a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js#L11">lineno 11</a>
+</li>
+</ul></dd>
+</dl>
+</dd>
+<dt>
+<h4 class="name" id="CpuProfilifier::convert"><span class="type-signature"></span>CpuProfilifier::convert<span class="signature">(trace, <span class="optional">opts</span>)</span><span class="type-signature"> &rarr; {Object}</span></h4>
+</dt>
+<dd>
+<div class="description">
+<p>Converts the given trace taking according to the given opts.</p>
+<pre><code>var cpuprofilifier = require('cpuprofilifier');
+var cpuprofile = cpuprofilifier().convert(trace);
+fs.writeFileSync('/tmp/my.cpuprofile', JSON.stringify(cpuprofile));</code></pre>
+</div>
+<h5>Parameters:</h5>
+<table class="params">
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Argument</th>
+<th class="last">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="name"><code>trace</code></td>
+<td class="type">
+<span class="param-type">Array.&lt;String></span>
+</td>
+<td class="attributes">
+</td>
+<td class="description last"><p>a trace generated via <code>perf script</code> or the <code>profile_1ms.d</code> DTrace script</p></td>
+</tr>
+<tr>
+<td class="name"><code>opts</code></td>
+<td class="type">
+<span class="param-type">Object</span>
+</td>
+<td class="attributes">
+&lt;optional><br>
+</td>
+<td class="description last">
+<h6>Properties</h6>
+<table class="params">
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th class="last">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="name"><code>shortStack</code></td>
+<td class="type">
+<span class="param-type">Boolean</span>
+</td>
+<td class="description last"><p>stacks that have only one line are ignored unless this flag is set</p></td>
+</tr>
+<tr>
+<td class="name"><code>unresolveds</code></td>
+<td class="type">
+<span class="param-type">Boolean</span>
+</td>
+<td class="description last"><p>unresolved addresses like <code>0x1a23c</code> are filtered from the trace unless this flag is set (default: false)</p></td>
+</tr>
+<tr>
+<td class="name"><code>sysinternals</code></td>
+<td class="type">
+<span class="param-type">Boolean</span>
+</td>
+<td class="description last"><p>sysinternals like <code>__lib_c_start...</code> are filtered from the trace unless this flag is set (default: false)</p></td>
+</tr>
+<tr>
+<td class="name"><code>v8internals</code></td>
+<td class="type">
+<span class="param-type">Boolean</span>
+</td>
+<td class="description last"><p>v8internals like <code>v8::internal::...</code> are filtered from the trace unless this flag is set (default: false)</p></td>
+</tr>
+<tr>
+<td class="name"><code>v8gc</code></td>
+<td class="type">
+<span class="param-type">Boolean</span>
+</td>
+<td class="description last"><p>when v8internals are filtered, garbage collection info is as well unless this flag set  (default: true)</p></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="details">
+<dt class="tag-source">Source:</dt>
+<dd class="tag-source"><ul class="dummy">
+<li>
+<a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js">index.js</a>
+<span>, </span>
+<a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js#L29">lineno 29</a>
+</li>
+</ul></dd>
+</dl>
+<h5>Returns:</h5>
+<div class="param-desc">
+<p>an cpuprofile presentation of the given trace</p>
+</div>
+<dl>
+<dt>
+Type
+</dt>
+<dd>
+<span class="param-type">Object</span>
+</dd>
+</dl>
+</dd>
+</dl>
+</article>
+</section>
+</div>
+
+*generated with [docme](https://github.com/thlorenz/docme)*
+</div>
+<!-- END docme generated API please keep comment here to allow auto update -->
 
 ## License
 
