@@ -17,12 +17,13 @@ server
 process.on('SIGTERM', onSIGTERM);
 
 function onSIGTERM() {
-  console.log('Caught SIGTERM, shutting down.');
+  // IMPORTANT to log on stderr, to not clutter stdout which is purely for data, i.e. dtrace stacks
+  console.error('Caught SIGTERM, shutting down.');
   server.close();
   process.exit(0);
 }
 
-console.log('pid', process.pid);
+console.error('pid', process.pid);
 
 function onRequest(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
@@ -34,7 +35,7 @@ function onRequest(req, res) {
 }
 
 function onListening() {
-  console.log('HTTP server listening on port', PORT);
+  console.error('HTTP server listening on port', PORT);
 }
 
 

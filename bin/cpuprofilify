@@ -1,21 +1,33 @@
 #!/usr/bin/env node
+/*vim ft=JavaScript*/
+'use strict';
 
-var cpuprofilify = require('../');
+var cpuprofilify = require('../')()
+  , format       = require('util').format
+  , log          = require('npmlog');
+
+function onmsg(type) {
+  return function logType() {
+    log[type]('cpup', format.apply(null, arguments));
+  }
+}
+
+cpuprofilify.on('info', onmsg('info'));
+cpuprofilify.on('warn', onmsg('warn'));
+cpuprofilify.on('error', onmsg('error'));
 
 var bufs = [];
 process.stdin
   .on('data', function ondata(d) {
     bufs.push(d);  
   })
-  .on('error', function onerror(err) {
-    console.error(err);  
-  })
+  .on('error', onmsg('error'))
   .on('end', function onend() {
     var s = Buffer.concat(bufs).toString();
     var trace = s.split('\n');
 
     try {
-      var res = cpuprofilify(trace)
+      var res = cpuprofilify.convert(trace)
       var json = JSON.stringify(res, null, 2);
       process.stdout.write(json);
     } catch (e) {

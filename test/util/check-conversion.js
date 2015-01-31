@@ -1,13 +1,13 @@
 'use strict';
 var select = require('JSONSelect')
-  , cpuprofilify = require('../../')
+  , cpuprofilify = require('../../')()
 
 function inspect(obj, depth) {
   console.error(require('util').inspect(obj, false, depth || 5, true));
 }
 
 module.exports = function check(t, stack, convertOpts, opts) {
-  var res = cpuprofilify(stack, convertOpts);
+  var res = cpuprofilify.convert(stack, convertOpts);
 
   var hits   =  select.match('.hitCount:expr(x=1)', res)
     , nohits =  select.match('.hitCount:expr(x=0)', res)

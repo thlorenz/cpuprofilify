@@ -13,7 +13,7 @@ if (typeof window !== 'undefined') return;
 
 var test = require('tape')
   , fs = require('fs')
-  , cpuprofilify = require('../')
+  , cpuprofilify = require('../')()
 
 test('\nDTrace default opts integration', function (t) {
   var trace = fs.readFileSync(__dirname + '/fixtures/dtrace.resolved.stack', 'utf8').split('\n')
@@ -21,7 +21,7 @@ test('\nDTrace default opts integration', function (t) {
 
   var expected = JSON.parse(expectedJSON);
 
-  var res = cpuprofilify(trace);
+  var res = cpuprofilify.convert(trace);
 
   t.deepEqual(res, expected, 'matches previously generated cpuprofile exactly')
   t.end()
