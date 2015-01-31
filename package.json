@@ -10,6 +10,9 @@
     "cpuprofilify": "bin/cpuprofilify",
     "profile_1ms.d": "bin/profile_1ms.d"
   },
+  "browser": {
+    "./lib/resolve-symbols.js": "./lib/resolve-symbols.browser.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/thlorenz/cpuprofilify.git"
@@ -25,7 +28,7 @@
     "JSONSelect": "~0.4.0",
     "tape": "~3.4.0"
   },
-  "keywords": [],
+  "keywords": [ "dtrace", "perf", "timeline", "debug", "inspect", "cpuprofile", "profile", "devtools" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
