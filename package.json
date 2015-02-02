@@ -24,6 +24,7 @@
     "minimist": "^1.1.0",
     "npmlog": "~1.0.0",
     "resolve-jit-symbols": "~0.4.3",
+    "trace-filter-internals": "^0.1.0",
     "xtend": "~4.0.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 'use strict';
 
-var filterInternals = require('./lib/filter-internals')
+var filterInternals = require('trace-filter-internals')
   , traceUtil       = require('./lib/trace-util')
   , getConverter    = require('./lib/get-converter')
   , resolveSymbols  = require('./lib/resolve-symbols')
