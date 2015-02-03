@@ -78,6 +78,7 @@ OPTIONS:
 --v8internals  , --nov8internals    v8internals like `v8::internal::...` are filtered from the trace unless this flag is set (default: false)
 --v8gc         , --nov8gc           when v8internals are filtered, garbage collection info is as well unless this flag set  (default: true)
 
+--type                              type of input `perf|dtrace`. If not supplied it will be detected. 
 --help                              print this help
 
 EXAMPLE:
@@ -185,6 +186,13 @@ fs.writeFileSync('/tmp/my.cpuprofile', JSON.stringify(cpuprofile));</code></pre>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td class="name"><code>type</code></td>
+<td class="type">
+<span class="param-type">string</span>
+</td>
+<td class="description last"><p>type of input <code>perf|dtrace</code>. If not supplied it will be detected.</p></td>
+</tr>
 <tr>
 <td class="name"><code>shortStack</code></td>
 <td class="type">

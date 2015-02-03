@@ -39,6 +39,7 @@ proto.convert =
  * @function
  * @param {Array.<String>} trace a trace generated via `perf script` or the `profile_1ms.d` DTrace script
  * @param {Object=} opts 
+ * @param {string} opts.type type of input `perf|dtrace`. If not supplied it will be detected. 
  * @param {Boolean} opts.shortStack stacks that have only one line are ignored unless this flag is set
  * @param {Boolean} opts.unresolveds unresolved addresses like `0x1a23c` are filtered from the trace unless this flag is set (default: false)
  * @param {Boolean} opts.sysinternals sysinternals like `__lib_c_start...` are filtered from the trace unless this flag is set (default: false)
