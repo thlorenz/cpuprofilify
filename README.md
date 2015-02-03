@@ -187,6 +187,13 @@ fs.writeFileSync('/tmp/my.cpuprofile', JSON.stringify(cpuprofile));</code></pre>
 </thead>
 <tbody>
 <tr>
+<td class="name"><code>map</code></td>
+<td class="type">
+<span class="param-type">string</span>
+</td>
+<td class="description last"><p>a map containing symbols information, if not given it will be read from /tmp/perf-<pid>.map.</pid></p></td>
+</tr>
+<tr>
 <td class="name"><code>type</code></td>
 <td class="type">
 <span class="param-type">string</span>

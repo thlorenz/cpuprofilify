@@ -1,12 +1,13 @@
 'use strict';
 
-var filterInternals = require('trace-filter-internals')
-  , traceUtil       = require('./lib/trace-util')
-  , getConverter    = require('./lib/get-converter')
-  , resolveSymbols  = require('./lib/resolve-symbols')
-  , xtend           = require('xtend')
-  , inherits        = require('inherits')
-  , EventEmitter    = require('events').EventEmitter
+var filterInternals       = require('trace-filter-internals')
+  , traceUtil             = require('./lib/trace-util')
+  , getConverter          = require('./lib/get-converter')
+  , resolveSymbols        = require('./lib/resolve-symbols')
+  , resolveSymbolsFromMap = require('./lib/resolve-symbols-from-map')
+  , xtend                 = require('xtend')
+  , inherits              = require('inherits')
+  , EventEmitter          = require('events').EventEmitter
 
 /**
  * Creates new CpuProfilifier
@@ -39,6 +40,7 @@ proto.convert =
  * @function
  * @param {Array.<String>} trace a trace generated via `perf script` or the `profile_1ms.d` DTrace script
  * @param {Object=} opts 
+ * @param {string} opts.map a map containing symbols information, if not given it will be read from /tmp/perf-<pid>.map. 
  * @param {string} opts.type type of input `perf|dtrace`. If not supplied it will be detected. 
  * @param {Boolean} opts.shortStack stacks that have only one line are ignored unless this flag is set
  * @param {Boolean} opts.unresolveds unresolved addresses like `0x1a23c` are filtered from the trace unless this flag is set (default: false)
@@ -49,7 +51,9 @@ proto.convert =
  */
 function convert(trace, opts) {
   opts = opts || {};
-  this._opts = xtend({ v8gc: true }, opts);
+  this._map = opts.map;
+
+  this._opts = xtend({ v8gc: true }, opts, { map: this._map ? 'was supplied' : 'was not supplied' });
   this.emit('info', 'Options: %j', this._opts);
 
   this._trace = trace;
@@ -79,7 +83,7 @@ function convert(trace, opts) {
 }
 
 proto._tryResolveSymbols = function _tryResolveSymbols() {
-  var res = resolveSymbols(this.traceInfo.pid, this._trace);
+  var res = this._map ? resolveSymbolsFromMap(this._map, this._trace) :  resolveSymbols(this.traceInfo.pid, this._trace);
   if (res.resolved) { 
     this.emit('info', 'Resolved symbols in trace.');
     this._trace = res.resolved;
