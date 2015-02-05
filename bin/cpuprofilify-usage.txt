@@ -12,7 +12,7 @@ OPTIONS:
 --v8gc         , --nov8gc           when v8internals are filtered, garbage collection info is as well unless this flag set  (default: true)
 
 
---type                              type of input `perf|dtrace`. If not supplied it will be detected. 
+--type                              type of input `perf|dtrace|instruments`. If not supplied it will be detected. 
 --help                              print this help
 
 EXAMPLE:

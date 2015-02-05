@@ -78,7 +78,7 @@ OPTIONS:
 --v8internals  , --nov8internals    v8internals like `v8::internal::...` are filtered from the trace unless this flag is set (default: false)
 --v8gc         , --nov8gc           when v8internals are filtered, garbage collection info is as well unless this flag set  (default: true)
 
---type                              type of input `perf|dtrace`. If not supplied it will be detected. 
+--type                              type of input `perf|dtrace|instruments`. If not supplied it will be detected. 
 --help                              print this help
 
 EXAMPLE:
@@ -132,7 +132,7 @@ perf script | cpuprofilify > out.cpuprofile
 <li>
 <a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js#L11">lineno 11</a>
+<a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js#L12">lineno 12</a>
 </li>
 </ul></dd>
 </dl>
@@ -198,7 +198,7 @@ fs.writeFileSync('/tmp/my.cpuprofile', JSON.stringify(cpuprofile));</code></pre>
 <td class="type">
 <span class="param-type">string</span>
 </td>
-<td class="description last"><p>type of input <code>perf|dtrace</code>. If not supplied it will be detected.</p></td>
+<td class="description last"><p>type of input <code>perf|dtrace|instruments</code>. If not supplied it will be detected.</p></td>
 </tr>
 <tr>
 <td class="name"><code>shortStack</code></td>
@@ -247,7 +247,7 @@ fs.writeFileSync('/tmp/my.cpuprofile', JSON.stringify(cpuprofile));</code></pre>
 <li>
 <a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js">index.js</a>
 <span>, </span>
-<a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js#L29">lineno 29</a>
+<a href="https://github.com/thlorenz/cpuprofilify/blob/master/index.js#L30">lineno 30</a>
 </li>
 </ul></dd>
 </dl>

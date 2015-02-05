@@ -19,7 +19,6 @@ cpuprofilify.on('info', onmsg('info'));
 cpuprofilify.on('warn', onmsg('warn'));
 cpuprofilify.on('error', onmsg('error'));
 
-
 function usage() {
   var usageFile = path.join(__dirname, 'cpuprofilify-usage.txt');
   fs.createReadStream(usageFile).pipe(process.stdout);
