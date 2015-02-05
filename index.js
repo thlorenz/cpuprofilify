@@ -114,12 +114,8 @@ proto._resolveTraceInfo = function _resolveTraceInfo() {
 }
 
 proto._filterInternals = function _filterInternals() {
-  if (this._converterCtr.proto.type === 'instruments') {
-    this.emit('warn', 'Filtering internals is not supported for Instrument callgraphs at this point');
-    this._filtered = this._trace;
-  } else {
-    this._filtered = filterInternals(this._trace, this._opts);
-  }
+  this._filtered = this._trace;
+  this._filtered = filterInternals(this._trace, this._opts);
   this._filteredLen = this._filtered.length;
 
   this.emit('info', 'Filtered %d internals from given trace', this._traceLen - this._filteredLen);
