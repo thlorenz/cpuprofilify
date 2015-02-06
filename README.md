@@ -41,8 +41,8 @@ cpuprofilify installs two binary scripts:
 
 ```sh
 # In Terminal A
-
-➝  sudo profile_1ms.d -c 'node --perf-basic-prof example/fibonacci' | cpuprofilify > /tmp/example.cpuprofile
+➝  sudo profile_1ms.d -x switchrate=1000hz -c 'node --perf-basic-prof example/fibonacci' | \
+      cpuprofilify > /tmp/example.cpuprofile
 pid <process-pid>
 HTTP server listening on port 8000
 
@@ -83,9 +83,10 @@ OPTIONS:
 
 EXAMPLE:
 
-  Generate cpuprofile from DTrace data with default options
+  Generate cpuprofile from DTrace data with default options 
+  using higher switchrate in order to deal with large amount of data being emitted
 
-    sudo profile_1ms.d -c <command> | cpuprofilify > out.cpuprofile
+    sudo profile_1ms.d -x switchrate=1000hz  -c <command> | cpuprofilify > out.cpuprofile
 
   Generate cpuprofile from DTrace data with default options keeping v8 internals
 

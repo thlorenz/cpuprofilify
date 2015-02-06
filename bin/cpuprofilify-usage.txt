@@ -17,7 +17,8 @@ OPTIONS:
 
 EXAMPLE:
 
-  Generate cpuprofile from DTrace data with default options
+  Generate cpuprofile from DTrace data with default options 
+  using higher switchrate in order to deal with large amount of data being emitted
 
     sudo profile_1ms.d -c <command> | cpuprofilify > out.cpuprofile
 
