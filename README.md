@@ -41,7 +41,7 @@ cpuprofilify installs two binary scripts:
 
 ```sh
 # In Terminal A
-➝  sudo profile_1ms.d -x switchrate=1000hz -c 'node --perf-basic-prof example/fibonacci' | \
+➝  sudo profile_1ms.d -c 'node --perf-basic-prof example/fibonacci' | \
       cpuprofilify > /tmp/example.cpuprofile
 pid <process-pid>
 HTTP server listening on port 8000
