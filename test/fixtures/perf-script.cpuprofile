@@ -57,7 +57,7 @@
         "hitCount": 0,
         "children": [
           {
-            "functionName": "Script:~native messages.js",
+            "functionName": "~*native messages.js",
             "url": "",
             "lineNumber": 0,
             "bailoutReason": "",
@@ -66,7 +66,7 @@
             "hitCount": 0,
             "children": [
               {
-                "functionName": "~SetUpError native ",
+                "functionName": "~*SetUpError native ",
                 "url": "messages.js",
                 "lineNumber": "836",
                 "bailoutReason": "",
@@ -75,7 +75,7 @@
                 "hitCount": 0,
                 "children": [
                   {
-                    "functionName": "~SetUpError.a native ",
+                    "functionName": "~*SetUpError.a native ",
                     "url": "messages.js",
                     "lineNumber": "837",
                     "bailoutReason": "",
@@ -95,13 +95,13 @@
                         "_stackFrame": "strlen"
                       }
                     ],
-                    "_stackFrame": "~SetUpError.a native messages.js:837"
+                    "_stackFrame": "~*SetUpError.a native messages.js:837"
                   }
                 ],
-                "_stackFrame": "~SetUpError native messages.js:836"
+                "_stackFrame": "~*SetUpError native messages.js:836"
               }
             ],
-            "_stackFrame": "Script:~native messages.js"
+            "_stackFrame": "~*native messages.js"
           }
         ],
         "_stackFrame": "v8::Context::New(v8::Isolate*, v8::ExtensionConfiguration*, v8::Handle<v8::ObjectTemplate>, v8::Handle<v8::Value>)"
@@ -125,7 +125,7 @@
             "hitCount": 0,
             "children": [
               {
-                "functionName": "~  <anonymous>",
+                "functionName": "~* ",
                 "url": "node.js",
                 "lineNumber": "27",
                 "bailoutReason": "",
@@ -134,7 +134,7 @@
                 "hitCount": 0,
                 "children": [
                   {
-                    "functionName": "~startup ",
+                    "functionName": "~*startup ",
                     "url": "node.js",
                     "lineNumber": "30",
                     "bailoutReason": "",
@@ -143,7 +143,7 @@
                     "hitCount": 0,
                     "children": [
                       {
-                        "functionName": "~create native ",
+                        "functionName": "~*create native ",
                         "url": "v8natives.js",
                         "lineNumber": "823",
                         "bailoutReason": "",
@@ -152,7 +152,7 @@
                         "hitCount": 0,
                         "children": [
                           {
-                            "functionName": "~defineProperties native ",
+                            "functionName": "~*defineProperties native ",
                             "url": "v8natives.js",
                             "lineNumber": "857",
                             "bailoutReason": "",
@@ -160,13 +160,13 @@
                             "scriptId": 3,
                             "hitCount": 1,
                             "children": [],
-                            "_stackFrame": "~defineProperties native v8natives.js:857"
+                            "_stackFrame": "~*defineProperties native v8natives.js:857"
                           }
                         ],
-                        "_stackFrame": "~create native v8natives.js:823"
+                        "_stackFrame": "~*create native v8natives.js:823"
                       },
                       {
-                        "functionName": "~NativeModule.require ",
+                        "functionName": "~*NativeModule.require ",
                         "url": "node.js",
                         "lineNumber": "752",
                         "bailoutReason": "",
@@ -175,7 +175,7 @@
                         "hitCount": 0,
                         "children": [
                           {
-                            "functionName": "~NativeModule.compile ",
+                            "functionName": "~*NativeModule.compile ",
                             "url": "node.js",
                             "lineNumber": "797",
                             "bailoutReason": "",
@@ -184,7 +184,7 @@
                             "hitCount": 0,
                             "children": [
                               {
-                                "functionName": "~runInThisContext ",
+                                "functionName": "~*runInThisContext ",
                                 "url": "node.js",
                                 "lineNumber": "737",
                                 "bailoutReason": "",
@@ -228,10 +228,10 @@
                                     "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
                                   }
                                 ],
-                                "_stackFrame": "~runInThisContext node.js:737"
+                                "_stackFrame": "~*runInThisContext node.js:737"
                               },
                               {
-                                "functionName": "~  <anonymous>",
+                                "functionName": "~* ",
                                 "url": "tracing.js",
                                 "lineNumber": "1",
                                 "bailoutReason": "",
@@ -251,10 +251,10 @@
                                     "_stackFrame": "[unknown]"
                                   }
                                 ],
-                                "_stackFrame": "~ tracing.js:1"
+                                "_stackFrame": "~* tracing.js:1"
                               },
                               {
-                                "functionName": "~  <anonymous>",
+                                "functionName": "~* ",
                                 "url": "module.js",
                                 "lineNumber": "1",
                                 "bailoutReason": "",
@@ -263,7 +263,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~NativeModule.require ",
+                                    "functionName": "~*NativeModule.require ",
                                     "url": "node.js",
                                     "lineNumber": "752",
                                     "bailoutReason": "",
@@ -272,7 +272,7 @@
                                     "hitCount": 0,
                                     "children": [
                                       {
-                                        "functionName": "~NativeModule.compile ",
+                                        "functionName": "~*NativeModule.compile ",
                                         "url": "node.js",
                                         "lineNumber": "797",
                                         "bailoutReason": "",
@@ -281,7 +281,7 @@
                                         "hitCount": 0,
                                         "children": [
                                           {
-                                            "functionName": "~  <anonymous>",
+                                            "functionName": "~* ",
                                             "url": "fs.js",
                                             "lineNumber": "1",
                                             "bailoutReason": "",
@@ -290,7 +290,7 @@
                                             "hitCount": 0,
                                             "children": [
                                               {
-                                                "functionName": "~NativeModule.require ",
+                                                "functionName": "~*NativeModule.require ",
                                                 "url": "node.js",
                                                 "lineNumber": "752",
                                                 "bailoutReason": "",
@@ -299,7 +299,7 @@
                                                 "hitCount": 0,
                                                 "children": [
                                                   {
-                                                    "functionName": "~NativeModule.compile ",
+                                                    "functionName": "~*NativeModule.compile ",
                                                     "url": "node.js",
                                                     "lineNumber": "797",
                                                     "bailoutReason": "",
@@ -308,7 +308,7 @@
                                                     "hitCount": 0,
                                                     "children": [
                                                       {
-                                                        "functionName": "~  <anonymous>",
+                                                        "functionName": "~* ",
                                                         "url": "stream.js",
                                                         "lineNumber": "1",
                                                         "bailoutReason": "",
@@ -317,7 +317,7 @@
                                                         "hitCount": 0,
                                                         "children": [
                                                           {
-                                                            "functionName": "~NativeModule.require ",
+                                                            "functionName": "~*NativeModule.require ",
                                                             "url": "node.js",
                                                             "lineNumber": "752",
                                                             "bailoutReason": "",
@@ -326,7 +326,7 @@
                                                             "hitCount": 0,
                                                             "children": [
                                                               {
-                                                                "functionName": "~NativeModule.compile ",
+                                                                "functionName": "~*NativeModule.compile ",
                                                                 "url": "node.js",
                                                                 "lineNumber": "797",
                                                                 "bailoutReason": "",
@@ -335,7 +335,7 @@
                                                                 "hitCount": 0,
                                                                 "children": [
                                                                   {
-                                                                    "functionName": "~runInThisContext ",
+                                                                    "functionName": "~*runInThisContext ",
                                                                     "url": "node.js",
                                                                     "lineNumber": "737",
                                                                     "bailoutReason": "",
@@ -367,43 +367,43 @@
                                                                         "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
                                                                       }
                                                                     ],
-                                                                    "_stackFrame": "~runInThisContext node.js:737"
+                                                                    "_stackFrame": "~*runInThisContext node.js:737"
                                                                   }
                                                                 ],
-                                                                "_stackFrame": "~NativeModule.compile node.js:797"
+                                                                "_stackFrame": "~*NativeModule.compile node.js:797"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~NativeModule.require node.js:752"
+                                                            "_stackFrame": "~*NativeModule.require node.js:752"
                                                           }
                                                         ],
-                                                        "_stackFrame": "~ stream.js:1"
+                                                        "_stackFrame": "~* stream.js:1"
                                                       }
                                                     ],
-                                                    "_stackFrame": "~NativeModule.compile node.js:797"
+                                                    "_stackFrame": "~*NativeModule.compile node.js:797"
                                                   }
                                                 ],
-                                                "_stackFrame": "~NativeModule.require node.js:752"
+                                                "_stackFrame": "~*NativeModule.require node.js:752"
                                               }
                                             ],
-                                            "_stackFrame": "~ fs.js:1"
+                                            "_stackFrame": "~* fs.js:1"
                                           }
                                         ],
-                                        "_stackFrame": "~NativeModule.compile node.js:797"
+                                        "_stackFrame": "~*NativeModule.compile node.js:797"
                                       }
                                     ],
-                                    "_stackFrame": "~NativeModule.require node.js:752"
+                                    "_stackFrame": "~*NativeModule.require node.js:752"
                                   }
                                 ],
-                                "_stackFrame": "~ module.js:1"
+                                "_stackFrame": "~* module.js:1"
                               }
                             ],
-                            "_stackFrame": "~NativeModule.compile node.js:797"
+                            "_stackFrame": "~*NativeModule.compile node.js:797"
                           }
                         ],
-                        "_stackFrame": "~NativeModule.require node.js:752"
+                        "_stackFrame": "~*NativeModule.require node.js:752"
                       },
                       {
-                        "functionName": "~Module.runMain ",
+                        "functionName": "~*Module.runMain ",
                         "url": "module.js",
                         "lineNumber": "499",
                         "bailoutReason": "",
@@ -421,7 +421,7 @@
                             "hitCount": 0,
                             "children": [
                               {
-                                "functionName": "~Module._resolveFilename ",
+                                "functionName": "~*Module._resolveFilename ",
                                 "url": "module.js",
                                 "lineNumber": "321",
                                 "bailoutReason": "",
@@ -430,7 +430,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~Module._findPath ",
+                                    "functionName": "~*Module._findPath ",
                                     "url": "module.js",
                                     "lineNumber": "153",
                                     "bailoutReason": "",
@@ -439,7 +439,7 @@
                                     "hitCount": 0,
                                     "children": [
                                       {
-                                        "functionName": "~tryFile ",
+                                        "functionName": "~*tryFile ",
                                         "url": "module.js",
                                         "lineNumber": "132",
                                         "bailoutReason": "",
@@ -457,7 +457,7 @@
                                             "hitCount": 0,
                                             "children": [
                                               {
-                                                "functionName": "~fs.statSync ",
+                                                "functionName": "~*fs.statSync ",
                                                 "url": "fs.js",
                                                 "lineNumber": "719",
                                                 "bailoutReason": "",
@@ -484,7 +484,7 @@
                                                         "hitCount": 0,
                                                         "children": [
                                                           {
-                                                            "functionName": "~fs.Stats ",
+                                                            "functionName": "~*fs.Stats ",
                                                             "url": "fs.js",
                                                             "lineNumber": "117",
                                                             "bailoutReason": "",
@@ -504,7 +504,7 @@
                                                                 "_stackFrame": "__vdso_gettimeofday"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~fs.Stats fs.js:117"
+                                                            "_stackFrame": "~*fs.Stats fs.js:117"
                                                           }
                                                         ],
                                                         "_stackFrame": "node::BuildStatsObject(node::Environment*, uv_stat_t const*)"
@@ -513,22 +513,22 @@
                                                     "_stackFrame": "node::Stat(v8::FunctionCallbackInfo<v8::Value> const&)"
                                                   }
                                                 ],
-                                                "_stackFrame": "~fs.statSync fs.js:719"
+                                                "_stackFrame": "~*fs.statSync fs.js:719"
                                               }
                                             ],
                                             "_stackFrame": "statPath module.js:84"
                                           }
                                         ],
-                                        "_stackFrame": "~tryFile module.js:132"
+                                        "_stackFrame": "~*tryFile module.js:132"
                                       }
                                     ],
-                                    "_stackFrame": "~Module._findPath module.js:153"
+                                    "_stackFrame": "~*Module._findPath module.js:153"
                                   }
                                 ],
-                                "_stackFrame": "~Module._resolveFilename module.js:321"
+                                "_stackFrame": "~*Module._resolveFilename module.js:321"
                               },
                               {
-                                "functionName": "~Module.load ",
+                                "functionName": "~*Module.load ",
                                 "url": "module.js",
                                 "lineNumber": "345",
                                 "bailoutReason": "",
@@ -537,7 +537,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~Module._extensions..js ",
+                                    "functionName": "~*Module._extensions..js ",
                                     "url": "module.js",
                                     "lineNumber": "476",
                                     "bailoutReason": "",
@@ -557,7 +557,7 @@
                                         "_stackFrame": "fs.readFileSync fs.js:300"
                                       },
                                       {
-                                        "functionName": "~Module._compile ",
+                                        "functionName": "~*Module._compile ",
                                         "url": "module.js",
                                         "lineNumber": "378",
                                         "bailoutReason": "",
@@ -566,7 +566,7 @@
                                         "hitCount": 0,
                                         "children": [
                                           {
-                                            "functionName": "~exports.runInThisContext ",
+                                            "functionName": "~*exports.runInThisContext ",
                                             "url": "vm.js",
                                             "lineNumber": "68",
                                             "bailoutReason": "",
@@ -598,10 +598,10 @@
                                                 "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
                                               }
                                             ],
-                                            "_stackFrame": "~exports.runInThisContext vm.js:68"
+                                            "_stackFrame": "~*exports.runInThisContext vm.js:68"
                                           },
                                           {
-                                            "functionName": "~  <anonymous>",
+                                            "functionName": "~* ",
                                             "url": "/home/vagrant/sources/node/benchmark/http_simple.js",
                                             "lineNumber": "1",
                                             "bailoutReason": "",
@@ -610,7 +610,7 @@
                                             "hitCount": 0,
                                             "children": [
                                               {
-                                                "functionName": "~require ",
+                                                "functionName": "~*require ",
                                                 "url": "module.js",
                                                 "lineNumber": "383",
                                                 "bailoutReason": "",
@@ -619,7 +619,7 @@
                                                 "hitCount": 0,
                                                 "children": [
                                                   {
-                                                    "functionName": "~Module.require ",
+                                                    "functionName": "~*Module.require ",
                                                     "url": "module.js",
                                                     "lineNumber": "362",
                                                     "bailoutReason": "",
@@ -637,7 +637,7 @@
                                                         "hitCount": 1,
                                                         "children": [
                                                           {
-                                                            "functionName": "~NativeModule.require ",
+                                                            "functionName": "~*NativeModule.require ",
                                                             "url": "node.js",
                                                             "lineNumber": "752",
                                                             "bailoutReason": "",
@@ -646,7 +646,7 @@
                                                             "hitCount": 0,
                                                             "children": [
                                                               {
-                                                                "functionName": "~NativeModule.compile ",
+                                                                "functionName": "~*NativeModule.compile ",
                                                                 "url": "node.js",
                                                                 "lineNumber": "797",
                                                                 "bailoutReason": "",
@@ -655,7 +655,7 @@
                                                                 "hitCount": 0,
                                                                 "children": [
                                                                   {
-                                                                    "functionName": "~  <anonymous>",
+                                                                    "functionName": "~* ",
                                                                     "url": "child_process.js",
                                                                     "lineNumber": "1",
                                                                     "bailoutReason": "",
@@ -664,7 +664,7 @@
                                                                     "hitCount": 0,
                                                                     "children": [
                                                                       {
-                                                                        "functionName": "~NativeModule.require ",
+                                                                        "functionName": "~*NativeModule.require ",
                                                                         "url": "node.js",
                                                                         "lineNumber": "752",
                                                                         "bailoutReason": "",
@@ -673,7 +673,7 @@
                                                                         "hitCount": 0,
                                                                         "children": [
                                                                           {
-                                                                            "functionName": "~NativeModule.compile ",
+                                                                            "functionName": "~*NativeModule.compile ",
                                                                             "url": "node.js",
                                                                             "lineNumber": "797",
                                                                             "bailoutReason": "",
@@ -682,7 +682,7 @@
                                                                             "hitCount": 0,
                                                                             "children": [
                                                                               {
-                                                                                "functionName": "~runInThisContext ",
+                                                                                "functionName": "~*runInThisContext ",
                                                                                 "url": "node.js",
                                                                                 "lineNumber": "737",
                                                                                 "bailoutReason": "",
@@ -714,19 +714,19 @@
                                                                                     "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
                                                                                   }
                                                                                 ],
-                                                                                "_stackFrame": "~runInThisContext node.js:737"
+                                                                                "_stackFrame": "~*runInThisContext node.js:737"
                                                                               }
                                                                             ],
-                                                                            "_stackFrame": "~NativeModule.compile node.js:797"
+                                                                            "_stackFrame": "~*NativeModule.compile node.js:797"
                                                                           }
                                                                         ],
-                                                                        "_stackFrame": "~NativeModule.require node.js:752"
+                                                                        "_stackFrame": "~*NativeModule.require node.js:752"
                                                                       }
                                                                     ],
-                                                                    "_stackFrame": "~ child_process.js:1"
+                                                                    "_stackFrame": "~* child_process.js:1"
                                                                   },
                                                                   {
-                                                                    "functionName": "~  <anonymous>",
+                                                                    "functionName": "~* ",
                                                                     "url": "http.js",
                                                                     "lineNumber": "1",
                                                                     "bailoutReason": "",
@@ -735,7 +735,7 @@
                                                                     "hitCount": 0,
                                                                     "children": [
                                                                       {
-                                                                        "functionName": "~NativeModule.require ",
+                                                                        "functionName": "~*NativeModule.require ",
                                                                         "url": "node.js",
                                                                         "lineNumber": "752",
                                                                         "bailoutReason": "",
@@ -744,7 +744,7 @@
                                                                         "hitCount": 0,
                                                                         "children": [
                                                                           {
-                                                                            "functionName": "~NativeModule.compile ",
+                                                                            "functionName": "~*NativeModule.compile ",
                                                                             "url": "node.js",
                                                                             "lineNumber": "797",
                                                                             "bailoutReason": "",
@@ -753,7 +753,7 @@
                                                                             "hitCount": 0,
                                                                             "children": [
                                                                               {
-                                                                                "functionName": "~runInThisContext ",
+                                                                                "functionName": "~*runInThisContext ",
                                                                                 "url": "node.js",
                                                                                 "lineNumber": "737",
                                                                                 "bailoutReason": "",
@@ -785,34 +785,34 @@
                                                                                     "_stackFrame": "node::ContextifyScript::New(v8::FunctionCallbackInfo<v8::Value> const&)"
                                                                                   }
                                                                                 ],
-                                                                                "_stackFrame": "~runInThisContext node.js:737"
+                                                                                "_stackFrame": "~*runInThisContext node.js:737"
                                                                               }
                                                                             ],
-                                                                            "_stackFrame": "~NativeModule.compile node.js:797"
+                                                                            "_stackFrame": "~*NativeModule.compile node.js:797"
                                                                           }
                                                                         ],
-                                                                        "_stackFrame": "~NativeModule.require node.js:752"
+                                                                        "_stackFrame": "~*NativeModule.require node.js:752"
                                                                       }
                                                                     ],
-                                                                    "_stackFrame": "~ http.js:1"
+                                                                    "_stackFrame": "~* http.js:1"
                                                                   }
                                                                 ],
-                                                                "_stackFrame": "~NativeModule.compile node.js:797"
+                                                                "_stackFrame": "~*NativeModule.compile node.js:797"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~NativeModule.require node.js:752"
+                                                            "_stackFrame": "~*NativeModule.require node.js:752"
                                                           }
                                                         ],
                                                         "_stackFrame": "Module._load module.js:273"
                                                       }
                                                     ],
-                                                    "_stackFrame": "~Module.require module.js:362"
+                                                    "_stackFrame": "~*Module.require module.js:362"
                                                   }
                                                 ],
-                                                "_stackFrame": "~require module.js:383"
+                                                "_stackFrame": "~*require module.js:383"
                                               },
                                               {
-                                                "functionName": "~makeString ",
+                                                "functionName": "~*makeString ",
                                                 "url": "/home/vagrant/sources/node/benchmark/http_simple.js",
                                                 "lineNumber": "109",
                                                 "bailoutReason": "",
@@ -832,10 +832,10 @@
                                                     "_stackFrame": "__vdso_gettimeofday"
                                                   }
                                                 ],
-                                                "_stackFrame": "~makeString /home/vagrant/sources/node/benchmark/http_simple.js:109"
+                                                "_stackFrame": "~*makeString /home/vagrant/sources/node/benchmark/http_simple.js:109"
                                               },
                                               {
-                                                "functionName": "~Server.listen ",
+                                                "functionName": "~*Server.listen ",
                                                 "url": "net.js",
                                                 "lineNumber": "1178",
                                                 "bailoutReason": "",
@@ -844,7 +844,7 @@
                                                 "hitCount": 0,
                                                 "children": [
                                                   {
-                                                    "functionName": "~listen ",
+                                                    "functionName": "~*listen ",
                                                     "url": "net.js",
                                                     "lineNumber": "1143",
                                                     "bailoutReason": "",
@@ -853,7 +853,7 @@
                                                     "hitCount": 1,
                                                     "children": [
                                                       {
-                                                        "functionName": "~NativeModule.require ",
+                                                        "functionName": "~*NativeModule.require ",
                                                         "url": "node.js",
                                                         "lineNumber": "752",
                                                         "bailoutReason": "",
@@ -862,7 +862,7 @@
                                                         "hitCount": 0,
                                                         "children": [
                                                           {
-                                                            "functionName": "~NativeModule.compile ",
+                                                            "functionName": "~*NativeModule.compile ",
                                                             "url": "node.js",
                                                             "lineNumber": "797",
                                                             "bailoutReason": "",
@@ -871,7 +871,7 @@
                                                             "hitCount": 0,
                                                             "children": [
                                                               {
-                                                                "functionName": "~runInThisContext ",
+                                                                "functionName": "~*runInThisContext ",
                                                                 "url": "node.js",
                                                                 "lineNumber": "737",
                                                                 "bailoutReason": "",
@@ -907,7 +907,7 @@
                                                                             "hitCount": 0,
                                                                             "children": [
                                                                               {
-                                                                                "functionName": "Script:~cluster.js",
+                                                                                "functionName": "~*cluster.js",
                                                                                 "url": "",
                                                                                 "lineNumber": 0,
                                                                                 "bailoutReason": "",
@@ -939,7 +939,7 @@
                                                                                     "_stackFrame": "__clock_gettime"
                                                                                   }
                                                                                 ],
-                                                                                "_stackFrame": "Script:~cluster.js"
+                                                                                "_stackFrame": "~*cluster.js"
                                                                               }
                                                                             ],
                                                                             "_stackFrame": "v8::Script::Run()"
@@ -951,31 +951,31 @@
                                                                     "_stackFrame": "node::ContextifyScript::RunInThisContext(v8::FunctionCallbackInfo<v8::Value> const&)"
                                                                   }
                                                                 ],
-                                                                "_stackFrame": "~runInThisContext node.js:737"
+                                                                "_stackFrame": "~*runInThisContext node.js:737"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~NativeModule.compile node.js:797"
+                                                            "_stackFrame": "~*NativeModule.compile node.js:797"
                                                           }
                                                         ],
-                                                        "_stackFrame": "~NativeModule.require node.js:752"
+                                                        "_stackFrame": "~*NativeModule.require node.js:752"
                                                       }
                                                     ],
-                                                    "_stackFrame": "~listen net.js:1143"
+                                                    "_stackFrame": "~*listen net.js:1143"
                                                   }
                                                 ],
-                                                "_stackFrame": "~Server.listen net.js:1178"
+                                                "_stackFrame": "~*Server.listen net.js:1178"
                                               }
                                             ],
-                                            "_stackFrame": "~ /home/vagrant/sources/node/benchmark/http_simple.js:1"
+                                            "_stackFrame": "~* /home/vagrant/sources/node/benchmark/http_simple.js:1"
                                           }
                                         ],
-                                        "_stackFrame": "~Module._compile module.js:378"
+                                        "_stackFrame": "~*Module._compile module.js:378"
                                       }
                                     ],
-                                    "_stackFrame": "~Module._extensions..js module.js:476"
+                                    "_stackFrame": "~*Module._extensions..js module.js:476"
                                   }
                                 ],
-                                "_stackFrame": "~Module.load module.js:345"
+                                "_stackFrame": "~*Module.load module.js:345"
                               }
                             ],
                             "_stackFrame": "Module._load module.js:273"
@@ -990,7 +990,7 @@
                             "hitCount": 0,
                             "children": [
                               {
-                                "functionName": "~  <anonymous>",
+                                "functionName": "~* ",
                                 "url": "net.js",
                                 "lineNumber": "1135",
                                 "bailoutReason": "",
@@ -999,7 +999,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~emit ",
+                                    "functionName": "~*emit ",
                                     "url": "events.js",
                                     "lineNumber": "68",
                                     "bailoutReason": "",
@@ -1008,7 +1008,7 @@
                                     "hitCount": 0,
                                     "children": [
                                       {
-                                        "functionName": "~g ",
+                                        "functionName": "~*g ",
                                         "url": "events.js",
                                         "lineNumber": "194",
                                         "bailoutReason": "",
@@ -1017,7 +1017,7 @@
                                         "hitCount": 0,
                                         "children": [
                                           {
-                                            "functionName": "~  <anonymous>",
+                                            "functionName": "~* ",
                                             "url": "/home/vagrant/sources/node/benchmark/http_simple.js",
                                             "lineNumber": "117",
                                             "bailoutReason": "",
@@ -1026,7 +1026,7 @@
                                             "hitCount": 1,
                                             "children": [
                                               {
-                                                "functionName": "~  <anonymous>",
+                                                "functionName": "~* ",
                                                 "url": "node.js",
                                                 "lineNumber": "208",
                                                 "bailoutReason": "",
@@ -1035,7 +1035,7 @@
                                                 "hitCount": 0,
                                                 "children": [
                                                   {
-                                                    "functionName": "~NativeModule.require ",
+                                                    "functionName": "~*NativeModule.require ",
                                                     "url": "node.js",
                                                     "lineNumber": "752",
                                                     "bailoutReason": "",
@@ -1044,7 +1044,7 @@
                                                     "hitCount": 0,
                                                     "children": [
                                                       {
-                                                        "functionName": "~NativeModule.compile ",
+                                                        "functionName": "~*NativeModule.compile ",
                                                         "url": "node.js",
                                                         "lineNumber": "797",
                                                         "bailoutReason": "",
@@ -1053,7 +1053,7 @@
                                                         "hitCount": 0,
                                                         "children": [
                                                           {
-                                                            "functionName": "~  <anonymous>",
+                                                            "functionName": "~* ",
                                                             "url": "console.js",
                                                             "lineNumber": "1",
                                                             "bailoutReason": "",
@@ -1062,7 +1062,7 @@
                                                             "hitCount": 0,
                                                             "children": [
                                                               {
-                                                                "functionName": "~  <anonymous>",
+                                                                "functionName": "~* ",
                                                                 "url": "node.js",
                                                                 "lineNumber": "512",
                                                                 "bailoutReason": "",
@@ -1071,7 +1071,7 @@
                                                                 "hitCount": 0,
                                                                 "children": [
                                                                   {
-                                                                    "functionName": "~createWritableStdioStream ",
+                                                                    "functionName": "~*createWritableStdioStream ",
                                                                     "url": "node.js",
                                                                     "lineNumber": "432",
                                                                     "bailoutReason": "",
@@ -1080,7 +1080,7 @@
                                                                     "hitCount": 0,
                                                                     "children": [
                                                                       {
-                                                                        "functionName": "~WriteStream ",
+                                                                        "functionName": "~*WriteStream ",
                                                                         "url": "tty.js",
                                                                         "lineNumber": "73",
                                                                         "bailoutReason": "",
@@ -1088,16 +1088,16 @@
                                                                         "scriptId": 15,
                                                                         "hitCount": 1,
                                                                         "children": [],
-                                                                        "_stackFrame": "~WriteStream tty.js:73"
+                                                                        "_stackFrame": "~*WriteStream tty.js:73"
                                                                       }
                                                                     ],
-                                                                    "_stackFrame": "~createWritableStdioStream node.js:432"
+                                                                    "_stackFrame": "~*createWritableStdioStream node.js:432"
                                                                   }
                                                                 ],
-                                                                "_stackFrame": "~ node.js:512"
+                                                                "_stackFrame": "~* node.js:512"
                                                               },
                                                               {
-                                                                "functionName": "~Console ",
+                                                                "functionName": "~*Console ",
                                                                 "url": "console.js",
                                                                 "lineNumber": "24",
                                                                 "bailoutReason": "",
@@ -1106,7 +1106,7 @@
                                                                 "hitCount": 1,
                                                                 "children": [
                                                                   {
-                                                                    "functionName": "~forEach native ",
+                                                                    "functionName": "~*forEach native ",
                                                                     "url": "array.js",
                                                                     "lineNumber": "857",
                                                                     "bailoutReason": "",
@@ -1115,7 +1115,7 @@
                                                                     "hitCount": 1,
                                                                     "children": [
                                                                       {
-                                                                        "functionName": "~  <anonymous>",
+                                                                        "functionName": "~* ",
                                                                         "url": "console.js",
                                                                         "lineNumber": "47",
                                                                         "bailoutReason": "",
@@ -1124,7 +1124,7 @@
                                                                         "hitCount": 1,
                                                                         "children": [
                                                                           {
-                                                                            "functionName": "~bind native ",
+                                                                            "functionName": "~*bind native ",
                                                                             "url": "v8natives.js",
                                                                             "lineNumber": "1259",
                                                                             "bailoutReason": "",
@@ -1132,31 +1132,31 @@
                                                                             "scriptId": 3,
                                                                             "hitCount": 1,
                                                                             "children": [],
-                                                                            "_stackFrame": "~bind native v8natives.js:1259"
+                                                                            "_stackFrame": "~*bind native v8natives.js:1259"
                                                                           }
                                                                         ],
-                                                                        "_stackFrame": "~ console.js:47"
+                                                                        "_stackFrame": "~* console.js:47"
                                                                       }
                                                                     ],
-                                                                    "_stackFrame": "~forEach native array.js:857"
+                                                                    "_stackFrame": "~*forEach native array.js:857"
                                                                   }
                                                                 ],
-                                                                "_stackFrame": "~Console console.js:24"
+                                                                "_stackFrame": "~*Console console.js:24"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~ console.js:1"
+                                                            "_stackFrame": "~* console.js:1"
                                                           }
                                                         ],
-                                                        "_stackFrame": "~NativeModule.compile node.js:797"
+                                                        "_stackFrame": "~*NativeModule.compile node.js:797"
                                                       }
                                                     ],
-                                                    "_stackFrame": "~NativeModule.require node.js:752"
+                                                    "_stackFrame": "~*NativeModule.require node.js:752"
                                                   }
                                                 ],
-                                                "_stackFrame": "~ node.js:208"
+                                                "_stackFrame": "~* node.js:208"
                                               },
                                               {
-                                                "functionName": "~b native ",
+                                                "functionName": "~*b native ",
                                                 "url": "v8natives.js",
                                                 "lineNumber": "1263",
                                                 "bailoutReason": "",
@@ -1165,7 +1165,7 @@
                                                 "hitCount": 0,
                                                 "children": [
                                                   {
-                                                    "functionName": "~Console.warn ",
+                                                    "functionName": "~*Console.warn ",
                                                     "url": "console.js",
                                                     "lineNumber": "60",
                                                     "bailoutReason": "",
@@ -1174,7 +1174,7 @@
                                                     "hitCount": 0,
                                                     "children": [
                                                       {
-                                                        "functionName": "~exports.format ",
+                                                        "functionName": "~*exports.format ",
                                                         "url": "util.js",
                                                         "lineNumber": "23",
                                                         "bailoutReason": "",
@@ -1183,7 +1183,7 @@
                                                         "hitCount": 0,
                                                         "children": [
                                                           {
-                                                            "functionName": "~replace native ",
+                                                            "functionName": "~*replace native ",
                                                             "url": "string.js",
                                                             "lineNumber": "123",
                                                             "bailoutReason": "",
@@ -1192,7 +1192,7 @@
                                                             "hitCount": 1,
                                                             "children": [
                                                               {
-                                                                "functionName": "~StringReplaceGlobalRegExpWithFunction native ",
+                                                                "functionName": "~*StringReplaceGlobalRegExpWithFunction native ",
                                                                 "url": "string.js",
                                                                 "lineNumber": "268",
                                                                 "bailoutReason": "",
@@ -1200,16 +1200,16 @@
                                                                 "scriptId": 18,
                                                                 "hitCount": 1,
                                                                 "children": [],
-                                                                "_stackFrame": "~StringReplaceGlobalRegExpWithFunction native string.js:268"
+                                                                "_stackFrame": "~*StringReplaceGlobalRegExpWithFunction native string.js:268"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~replace native string.js:123"
+                                                            "_stackFrame": "~*replace native string.js:123"
                                                           }
                                                         ],
-                                                        "_stackFrame": "~exports.format util.js:23"
+                                                        "_stackFrame": "~*exports.format util.js:23"
                                                       },
                                                       {
-                                                        "functionName": "~Socket.write ",
+                                                        "functionName": "~*Socket.write ",
                                                         "url": "net.js",
                                                         "lineNumber": "606",
                                                         "bailoutReason": "",
@@ -1218,7 +1218,7 @@
                                                         "hitCount": 0,
                                                         "children": [
                                                           {
-                                                            "functionName": "~Writable.write ",
+                                                            "functionName": "~*Writable.write ",
                                                             "url": "_stream_writable.js",
                                                             "lineNumber": "176",
                                                             "bailoutReason": "",
@@ -1227,7 +1227,7 @@
                                                             "hitCount": 1,
                                                             "children": [
                                                               {
-                                                                "functionName": "~writeOrBuffer ",
+                                                                "functionName": "~*writeOrBuffer ",
                                                                 "url": "_stream_writable.js",
                                                                 "lineNumber": "236",
                                                                 "bailoutReason": "",
@@ -1236,7 +1236,7 @@
                                                                 "hitCount": 1,
                                                                 "children": [
                                                                   {
-                                                                    "functionName": "~doWrite ",
+                                                                    "functionName": "~*doWrite ",
                                                                     "url": "_stream_writable.js",
                                                                     "lineNumber": "257",
                                                                     "bailoutReason": "",
@@ -1245,7 +1245,7 @@
                                                                     "hitCount": 0,
                                                                     "children": [
                                                                       {
-                                                                        "functionName": "~Socket._write ",
+                                                                        "functionName": "~*Socket._write ",
                                                                         "url": "net.js",
                                                                         "lineNumber": "681",
                                                                         "bailoutReason": "",
@@ -1254,7 +1254,7 @@
                                                                         "hitCount": 1,
                                                                         "children": [
                                                                           {
-                                                                            "functionName": "~Socket._writeGeneric ",
+                                                                            "functionName": "~*Socket._writeGeneric ",
                                                                             "url": "net.js",
                                                                             "lineNumber": "613",
                                                                             "bailoutReason": "",
@@ -1263,7 +1263,7 @@
                                                                             "hitCount": 0,
                                                                             "children": [
                                                                               {
-                                                                                "functionName": "~createWriteReq ",
+                                                                                "functionName": "~*createWriteReq ",
                                                                                 "url": "net.js",
                                                                                 "lineNumber": "685",
                                                                                 "bailoutReason": "",
@@ -1271,10 +1271,10 @@
                                                                                 "scriptId": 12,
                                                                                 "hitCount": 1,
                                                                                 "children": [],
-                                                                                "_stackFrame": "~createWriteReq net.js:685"
+                                                                                "_stackFrame": "~*createWriteReq net.js:685"
                                                                               },
                                                                               {
-                                                                                "functionName": "~WritableState.onwrite ",
+                                                                                "functionName": "~*WritableState.onwrite ",
                                                                                 "url": "_stream_writable.js",
                                                                                 "lineNumber": "102",
                                                                                 "bailoutReason": "",
@@ -1283,7 +1283,7 @@
                                                                                 "hitCount": 0,
                                                                                 "children": [
                                                                                   {
-                                                                                    "functionName": "~onwrite ",
+                                                                                    "functionName": "~*onwrite ",
                                                                                     "url": "_stream_writable.js",
                                                                                     "lineNumber": "291",
                                                                                     "bailoutReason": "",
@@ -1291,49 +1291,49 @@
                                                                                     "scriptId": 19,
                                                                                     "hitCount": 1,
                                                                                     "children": [],
-                                                                                    "_stackFrame": "~onwrite _stream_writable.js:291"
+                                                                                    "_stackFrame": "~*onwrite _stream_writable.js:291"
                                                                                   }
                                                                                 ],
-                                                                                "_stackFrame": "~WritableState.onwrite _stream_writable.js:102"
+                                                                                "_stackFrame": "~*WritableState.onwrite _stream_writable.js:102"
                                                                               }
                                                                             ],
-                                                                            "_stackFrame": "~Socket._writeGeneric net.js:613"
+                                                                            "_stackFrame": "~*Socket._writeGeneric net.js:613"
                                                                           }
                                                                         ],
-                                                                        "_stackFrame": "~Socket._write net.js:681"
+                                                                        "_stackFrame": "~*Socket._write net.js:681"
                                                                       }
                                                                     ],
-                                                                    "_stackFrame": "~doWrite _stream_writable.js:257"
+                                                                    "_stackFrame": "~*doWrite _stream_writable.js:257"
                                                                   }
                                                                 ],
-                                                                "_stackFrame": "~writeOrBuffer _stream_writable.js:236"
+                                                                "_stackFrame": "~*writeOrBuffer _stream_writable.js:236"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~Writable.write _stream_writable.js:176"
+                                                            "_stackFrame": "~*Writable.write _stream_writable.js:176"
                                                           }
                                                         ],
-                                                        "_stackFrame": "~Socket.write net.js:606"
+                                                        "_stackFrame": "~*Socket.write net.js:606"
                                                       }
                                                     ],
-                                                    "_stackFrame": "~Console.warn console.js:60"
+                                                    "_stackFrame": "~*Console.warn console.js:60"
                                                   }
                                                 ],
-                                                "_stackFrame": "~b native v8natives.js:1263"
+                                                "_stackFrame": "~*b native v8natives.js:1263"
                                               }
                                             ],
-                                            "_stackFrame": "~ /home/vagrant/sources/node/benchmark/http_simple.js:117"
+                                            "_stackFrame": "~* /home/vagrant/sources/node/benchmark/http_simple.js:117"
                                           }
                                         ],
-                                        "_stackFrame": "~g events.js:194"
+                                        "_stackFrame": "~*g events.js:194"
                                       }
                                     ],
-                                    "_stackFrame": "~emit events.js:68"
+                                    "_stackFrame": "~*emit events.js:68"
                                   }
                                 ],
-                                "_stackFrame": "~ net.js:1135"
+                                "_stackFrame": "~* net.js:1135"
                               },
                               {
-                                "functionName": "~  <anonymous>",
+                                "functionName": "~* ",
                                 "url": "_stream_writable.js",
                                 "lineNumber": "312",
                                 "bailoutReason": "",
@@ -1342,7 +1342,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~afterWrite ",
+                                    "functionName": "~*afterWrite ",
                                     "url": "_stream_writable.js",
                                     "lineNumber": "321",
                                     "bailoutReason": "",
@@ -1350,22 +1350,22 @@
                                     "scriptId": 19,
                                     "hitCount": 1,
                                     "children": [],
-                                    "_stackFrame": "~afterWrite _stream_writable.js:321"
+                                    "_stackFrame": "~*afterWrite _stream_writable.js:321"
                                   }
                                 ],
-                                "_stackFrame": "~ _stream_writable.js:312"
+                                "_stackFrame": "~* _stream_writable.js:312"
                               }
                             ],
                             "_stackFrame": "_tickCallback node.js:332"
                           }
                         ],
-                        "_stackFrame": "~Module.runMain module.js:499"
+                        "_stackFrame": "~*Module.runMain module.js:499"
                       }
                     ],
-                    "_stackFrame": "~startup node.js:30"
+                    "_stackFrame": "~*startup node.js:30"
                   }
                 ],
-                "_stackFrame": "~ node.js:27"
+                "_stackFrame": "~* node.js:27"
               }
             ],
             "_stackFrame": "node::Load(node::Environment*)"
@@ -1454,7 +1454,7 @@
                         "hitCount": 1,
                         "children": [
                           {
-                            "functionName": "~onconnection ",
+                            "functionName": "~*onconnection ",
                             "url": "net.js",
                             "lineNumber": "1250",
                             "bailoutReason": "",
@@ -1463,7 +1463,7 @@
                             "hitCount": 0,
                             "children": [
                               {
-                                "functionName": "~Socket ",
+                                "functionName": "~*Socket ",
                                 "url": "net.js",
                                 "lineNumber": "131",
                                 "bailoutReason": "",
@@ -1472,7 +1472,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~Duplex ",
+                                    "functionName": "~*Duplex ",
                                     "url": "_stream_duplex.js",
                                     "lineNumber": "39",
                                     "bailoutReason": "",
@@ -1481,7 +1481,7 @@
                                     "hitCount": 0,
                                     "children": [
                                       {
-                                        "functionName": "~Readable ",
+                                        "functionName": "~*Readable ",
                                         "url": "_stream_readable.js",
                                         "lineNumber": "98",
                                         "bailoutReason": "",
@@ -1490,7 +1490,7 @@
                                         "hitCount": 0,
                                         "children": [
                                           {
-                                            "functionName": "~Stream ",
+                                            "functionName": "~*Stream ",
                                             "url": "stream.js",
                                             "lineNumber": "42",
                                             "bailoutReason": "",
@@ -1499,7 +1499,7 @@
                                             "hitCount": 0,
                                             "children": [
                                               {
-                                                "functionName": "~EventEmitter ",
+                                                "functionName": "~*EventEmitter ",
                                                 "url": "events.js",
                                                 "lineNumber": "25",
                                                 "bailoutReason": "",
@@ -1508,7 +1508,7 @@
                                                 "hitCount": 0,
                                                 "children": [
                                                   {
-                                                    "functionName": "~EventEmitter.init ",
+                                                    "functionName": "~*EventEmitter.init ",
                                                     "url": "events.js",
                                                     "lineNumber": "43",
                                                     "bailoutReason": "",
@@ -1516,19 +1516,19 @@
                                                     "scriptId": 13,
                                                     "hitCount": 1,
                                                     "children": [],
-                                                    "_stackFrame": "~EventEmitter.init events.js:43"
+                                                    "_stackFrame": "~*EventEmitter.init events.js:43"
                                                   }
                                                 ],
-                                                "_stackFrame": "~EventEmitter events.js:25"
+                                                "_stackFrame": "~*EventEmitter events.js:25"
                                               }
                                             ],
-                                            "_stackFrame": "~Stream stream.js:42"
+                                            "_stackFrame": "~*Stream stream.js:42"
                                           }
                                         ],
-                                        "_stackFrame": "~Readable _stream_readable.js:98"
+                                        "_stackFrame": "~*Readable _stream_readable.js:98"
                                       },
                                       {
-                                        "functionName": "~Writable ",
+                                        "functionName": "~*Writable ",
                                         "url": "_stream_writable.js",
                                         "lineNumber": "126",
                                         "bailoutReason": "",
@@ -1537,7 +1537,7 @@
                                         "hitCount": 0,
                                         "children": [
                                           {
-                                            "functionName": "~Stream ",
+                                            "functionName": "~*Stream ",
                                             "url": "stream.js",
                                             "lineNumber": "42",
                                             "bailoutReason": "",
@@ -1546,7 +1546,7 @@
                                             "hitCount": 0,
                                             "children": [
                                               {
-                                                "functionName": "~EventEmitter ",
+                                                "functionName": "~*EventEmitter ",
                                                 "url": "events.js",
                                                 "lineNumber": "25",
                                                 "bailoutReason": "",
@@ -1555,7 +1555,7 @@
                                                 "hitCount": 0,
                                                 "children": [
                                                   {
-                                                    "functionName": "~EventEmitter.init ",
+                                                    "functionName": "~*EventEmitter.init ",
                                                     "url": "events.js",
                                                     "lineNumber": "43",
                                                     "bailoutReason": "",
@@ -1563,25 +1563,25 @@
                                                     "scriptId": 13,
                                                     "hitCount": 1,
                                                     "children": [],
-                                                    "_stackFrame": "~EventEmitter.init events.js:43"
+                                                    "_stackFrame": "~*EventEmitter.init events.js:43"
                                                   }
                                                 ],
-                                                "_stackFrame": "~EventEmitter events.js:25"
+                                                "_stackFrame": "~*EventEmitter events.js:25"
                                               }
                                             ],
-                                            "_stackFrame": "~Stream stream.js:42"
+                                            "_stackFrame": "~*Stream stream.js:42"
                                           }
                                         ],
-                                        "_stackFrame": "~Writable _stream_writable.js:126"
+                                        "_stackFrame": "~*Writable _stream_writable.js:126"
                                       }
                                     ],
-                                    "_stackFrame": "~Duplex _stream_duplex.js:39"
+                                    "_stackFrame": "~*Duplex _stream_duplex.js:39"
                                   }
                                 ],
-                                "_stackFrame": "~Socket net.js:131"
+                                "_stackFrame": "~*Socket net.js:131"
                               },
                               {
-                                "functionName": "~emit ",
+                                "functionName": "~*emit ",
                                 "url": "events.js",
                                 "lineNumber": "68",
                                 "bailoutReason": "",
@@ -1590,7 +1590,7 @@
                                 "hitCount": 1,
                                 "children": [
                                   {
-                                    "functionName": "~connectionListener ",
+                                    "functionName": "~*connectionListener ",
                                     "url": "_http_server.js",
                                     "lineNumber": "272",
                                     "bailoutReason": "",
@@ -1599,7 +1599,7 @@
                                     "hitCount": 1,
                                     "children": [
                                       {
-                                        "functionName": "~httpSocketSetup ",
+                                        "functionName": "~*httpSocketSetup ",
                                         "url": "_http_common.js",
                                         "lineNumber": "218",
                                         "bailoutReason": "",
@@ -1608,7 +1608,7 @@
                                         "hitCount": 0,
                                         "children": [
                                           {
-                                            "functionName": "~removeListener ",
+                                            "functionName": "~*removeListener ",
                                             "url": "events.js",
                                             "lineNumber": "211",
                                             "bailoutReason": "",
@@ -1616,13 +1616,13 @@
                                             "scriptId": 13,
                                             "hitCount": 1,
                                             "children": [],
-                                            "_stackFrame": "~removeListener events.js:211"
+                                            "_stackFrame": "~*removeListener events.js:211"
                                           }
                                         ],
-                                        "_stackFrame": "~httpSocketSetup _http_common.js:218"
+                                        "_stackFrame": "~*httpSocketSetup _http_common.js:218"
                                       },
                                       {
-                                        "functionName": "~Socket.setTimeout ",
+                                        "functionName": "~*Socket.setTimeout ",
                                         "url": "net.js",
                                         "lineNumber": "307",
                                         "bailoutReason": "",
@@ -1631,7 +1631,7 @@
                                         "hitCount": 0,
                                         "children": [
                                           {
-                                            "functionName": "~exports._unrefActive ",
+                                            "functionName": "~*exports._unrefActive ",
                                             "url": "timers.js",
                                             "lineNumber": "517",
                                             "bailoutReason": "",
@@ -1687,19 +1687,19 @@
                                                 "_stackFrame": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)"
                                               }
                                             ],
-                                            "_stackFrame": "~exports._unrefActive timers.js:517"
+                                            "_stackFrame": "~*exports._unrefActive timers.js:517"
                                           }
                                         ],
-                                        "_stackFrame": "~Socket.setTimeout net.js:307"
+                                        "_stackFrame": "~*Socket.setTimeout net.js:307"
                                       }
                                     ],
-                                    "_stackFrame": "~connectionListener _http_server.js:272"
+                                    "_stackFrame": "~*connectionListener _http_server.js:272"
                                   }
                                 ],
-                                "_stackFrame": "~emit events.js:68"
+                                "_stackFrame": "~*emit events.js:68"
                               }
                             ],
-                            "_stackFrame": "~onconnection net.js:1250"
+                            "_stackFrame": "~*onconnection net.js:1250"
                           },
                           {
                             "functionName": "_tickCallback ",
@@ -1711,7 +1711,7 @@
                             "hitCount": 0,
                             "children": [
                               {
-                                "functionName": "~  <anonymous>",
+                                "functionName": "~* ",
                                 "url": "_stream_readable.js",
                                 "lineNumber": "711",
                                 "bailoutReason": "",
@@ -1720,7 +1720,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~resume_ ",
+                                    "functionName": "~*resume_ ",
                                     "url": "_stream_readable.js",
                                     "lineNumber": "717",
                                     "bailoutReason": "",
@@ -1729,7 +1729,7 @@
                                     "hitCount": 0,
                                     "children": [
                                       {
-                                        "functionName": "~flow ",
+                                        "functionName": "~*flow ",
                                         "url": "_stream_readable.js",
                                         "lineNumber": "740",
                                         "bailoutReason": "",
@@ -1737,13 +1737,13 @@
                                         "scriptId": 21,
                                         "hitCount": 1,
                                         "children": [],
-                                        "_stackFrame": "~flow _stream_readable.js:740"
+                                        "_stackFrame": "~*flow _stream_readable.js:740"
                                       }
                                     ],
-                                    "_stackFrame": "~resume_ _stream_readable.js:717"
+                                    "_stackFrame": "~*resume_ _stream_readable.js:717"
                                   }
                                 ],
-                                "_stackFrame": "~ _stream_readable.js:711"
+                                "_stackFrame": "~* _stream_readable.js:711"
                               }
                             ],
                             "_stackFrame": "_tickCallback node.js:332"
@@ -1785,7 +1785,7 @@
                         "hitCount": 0,
                         "children": [
                           {
-                            "functionName": "~onread ",
+                            "functionName": "~*onread ",
                             "url": "net.js",
                             "lineNumber": "492",
                             "bailoutReason": "",
@@ -1794,7 +1794,7 @@
                             "hitCount": 0,
                             "children": [
                               {
-                                "functionName": "~exports._unrefActive ",
+                                "functionName": "~*exports._unrefActive ",
                                 "url": "timers.js",
                                 "lineNumber": "517",
                                 "bailoutReason": "",
@@ -1850,10 +1850,10 @@
                                     "_stackFrame": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)"
                                   }
                                 ],
-                                "_stackFrame": "~exports._unrefActive timers.js:517"
+                                "_stackFrame": "~*exports._unrefActive timers.js:517"
                               },
                               {
-                                "functionName": "~Readable.push ",
+                                "functionName": "~*Readable.push ",
                                 "url": "_stream_readable.js",
                                 "lineNumber": "114",
                                 "bailoutReason": "",
@@ -1862,7 +1862,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~readableAddChunk ",
+                                    "functionName": "~*readableAddChunk ",
                                     "url": "_stream_readable.js",
                                     "lineNumber": "134",
                                     "bailoutReason": "",
@@ -1871,7 +1871,7 @@
                                     "hitCount": 0,
                                     "children": [
                                       {
-                                        "functionName": "~emit ",
+                                        "functionName": "~*emit ",
                                         "url": "events.js",
                                         "lineNumber": "68",
                                         "bailoutReason": "",
@@ -1880,7 +1880,7 @@
                                         "hitCount": 1,
                                         "children": [
                                           {
-                                            "functionName": "~socketOnData ",
+                                            "functionName": "~*socketOnData ",
                                             "url": "_http_server.js",
                                             "lineNumber": "340",
                                             "bailoutReason": "",
@@ -1916,7 +1916,7 @@
                                                         "hitCount": 0,
                                                         "children": [
                                                           {
-                                                            "functionName": "~parserOnHeadersComplete ",
+                                                            "functionName": "~*parserOnHeadersComplete ",
                                                             "url": "_http_common.js",
                                                             "lineNumber": "63",
                                                             "bailoutReason": "",
@@ -1925,7 +1925,7 @@
                                                             "hitCount": 0,
                                                             "children": [
                                                               {
-                                                                "functionName": "~parserOnIncoming ",
+                                                                "functionName": "~*parserOnIncoming ",
                                                                 "url": "_http_server.js",
                                                                 "lineNumber": "419",
                                                                 "bailoutReason": "",
@@ -1934,7 +1934,7 @@
                                                                 "hitCount": 0,
                                                                 "children": [
                                                                   {
-                                                                    "functionName": "~emit ",
+                                                                    "functionName": "~*emit ",
                                                                     "url": "events.js",
                                                                     "lineNumber": "68",
                                                                     "bailoutReason": "",
@@ -1943,7 +1943,7 @@
                                                                     "hitCount": 1,
                                                                     "children": [
                                                                       {
-                                                                        "functionName": "~  <anonymous>",
+                                                                        "functionName": "~* ",
                                                                         "url": "/home/vagrant/sources/node/benchmark/http_simple.js",
                                                                         "lineNumber": "25",
                                                                         "bailoutReason": "",
@@ -1952,7 +1952,7 @@
                                                                         "hitCount": 0,
                                                                         "children": [
                                                                           {
-                                                                            "functionName": "~ServerResponse.writeHead ",
+                                                                            "functionName": "~*ServerResponse.writeHead ",
                                                                             "url": "_http_server.js",
                                                                             "lineNumber": "175",
                                                                             "bailoutReason": "",
@@ -1961,7 +1961,7 @@
                                                                             "hitCount": 0,
                                                                             "children": [
                                                                               {
-                                                                                "functionName": "~OutgoingMessage._storeHeader ",
+                                                                                "functionName": "~*OutgoingMessage._storeHeader ",
                                                                                 "url": "_http_outgoing.js",
                                                                                 "lineNumber": "191",
                                                                                 "bailoutReason": "",
@@ -1970,7 +1970,7 @@
                                                                                 "hitCount": 0,
                                                                                 "children": [
                                                                                   {
-                                                                                    "functionName": "~utcDate ",
+                                                                                    "functionName": "~*utcDate ",
                                                                                     "url": "_http_outgoing.js",
                                                                                     "lineNumber": "50",
                                                                                     "bailoutReason": "",
@@ -1979,7 +1979,7 @@
                                                                                     "hitCount": 0,
                                                                                     "children": [
                                                                                       {
-                                                                                        "functionName": "~DateConstructor native ",
+                                                                                        "functionName": "~*DateConstructor native ",
                                                                                         "url": "date.js",
                                                                                         "lineNumber": "61",
                                                                                         "bailoutReason": "",
@@ -1999,19 +1999,19 @@
                                                                                             "_stackFrame": "__vdso_gettimeofday"
                                                                                           }
                                                                                         ],
-                                                                                        "_stackFrame": "~DateConstructor native date.js:61"
+                                                                                        "_stackFrame": "~*DateConstructor native date.js:61"
                                                                                       }
                                                                                     ],
-                                                                                    "_stackFrame": "~utcDate _http_outgoing.js:50"
+                                                                                    "_stackFrame": "~*utcDate _http_outgoing.js:50"
                                                                                   }
                                                                                 ],
-                                                                                "_stackFrame": "~OutgoingMessage._storeHeader _http_outgoing.js:191"
+                                                                                "_stackFrame": "~*OutgoingMessage._storeHeader _http_outgoing.js:191"
                                                                               }
                                                                             ],
-                                                                            "_stackFrame": "~ServerResponse.writeHead _http_server.js:175"
+                                                                            "_stackFrame": "~*ServerResponse.writeHead _http_server.js:175"
                                                                           },
                                                                           {
-                                                                            "functionName": "~OutgoingMessage.end ",
+                                                                            "functionName": "~*OutgoingMessage.end ",
                                                                             "url": "_http_outgoing.js",
                                                                             "lineNumber": "486",
                                                                             "bailoutReason": "",
@@ -2020,7 +2020,7 @@
                                                                             "hitCount": 0,
                                                                             "children": [
                                                                               {
-                                                                                "functionName": "~Writable.uncork ",
+                                                                                "functionName": "~*Writable.uncork ",
                                                                                 "url": "_stream_writable.js",
                                                                                 "lineNumber": "209",
                                                                                 "bailoutReason": "",
@@ -2029,7 +2029,7 @@
                                                                                 "hitCount": 0,
                                                                                 "children": [
                                                                                   {
-                                                                                    "functionName": "~clearBuffer ",
+                                                                                    "functionName": "~*clearBuffer ",
                                                                                     "url": "_stream_writable.js",
                                                                                     "lineNumber": "341",
                                                                                     "bailoutReason": "",
@@ -2038,7 +2038,7 @@
                                                                                     "hitCount": 0,
                                                                                     "children": [
                                                                                       {
-                                                                                        "functionName": "~doWrite ",
+                                                                                        "functionName": "~*doWrite ",
                                                                                         "url": "_stream_writable.js",
                                                                                         "lineNumber": "257",
                                                                                         "bailoutReason": "",
@@ -2047,7 +2047,7 @@
                                                                                         "hitCount": 0,
                                                                                         "children": [
                                                                                           {
-                                                                                            "functionName": "~Socket._writev ",
+                                                                                            "functionName": "~*Socket._writev ",
                                                                                             "url": "net.js",
                                                                                             "lineNumber": "676",
                                                                                             "bailoutReason": "",
@@ -2056,7 +2056,7 @@
                                                                                             "hitCount": 0,
                                                                                             "children": [
                                                                                               {
-                                                                                                "functionName": "~Socket._writeGeneric ",
+                                                                                                "functionName": "~*Socket._writeGeneric ",
                                                                                                 "url": "net.js",
                                                                                                 "lineNumber": "613",
                                                                                                 "bailoutReason": "",
@@ -2065,7 +2065,7 @@
                                                                                                 "hitCount": 0,
                                                                                                 "children": [
                                                                                                   {
-                                                                                                    "functionName": "~exports._unrefActive ",
+                                                                                                    "functionName": "~*exports._unrefActive ",
                                                                                                     "url": "timers.js",
                                                                                                     "lineNumber": "517",
                                                                                                     "bailoutReason": "",
@@ -2121,28 +2121,28 @@
                                                                                                         "_stackFrame": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)"
                                                                                                       }
                                                                                                     ],
-                                                                                                    "_stackFrame": "~exports._unrefActive timers.js:517"
+                                                                                                    "_stackFrame": "~*exports._unrefActive timers.js:517"
                                                                                                   }
                                                                                                 ],
-                                                                                                "_stackFrame": "~Socket._writeGeneric net.js:613"
+                                                                                                "_stackFrame": "~*Socket._writeGeneric net.js:613"
                                                                                               }
                                                                                             ],
-                                                                                            "_stackFrame": "~Socket._writev net.js:676"
+                                                                                            "_stackFrame": "~*Socket._writev net.js:676"
                                                                                           }
                                                                                         ],
-                                                                                        "_stackFrame": "~doWrite _stream_writable.js:257"
+                                                                                        "_stackFrame": "~*doWrite _stream_writable.js:257"
                                                                                       }
                                                                                     ],
-                                                                                    "_stackFrame": "~clearBuffer _stream_writable.js:341"
+                                                                                    "_stackFrame": "~*clearBuffer _stream_writable.js:341"
                                                                                   }
                                                                                 ],
-                                                                                "_stackFrame": "~Writable.uncork _stream_writable.js:209"
+                                                                                "_stackFrame": "~*Writable.uncork _stream_writable.js:209"
                                                                               }
                                                                             ],
-                                                                            "_stackFrame": "~OutgoingMessage.end _http_outgoing.js:486"
+                                                                            "_stackFrame": "~*OutgoingMessage.end _http_outgoing.js:486"
                                                                           },
                                                                           {
-                                                                            "functionName": "~OutgoingMessage.write ",
+                                                                            "functionName": "~*OutgoingMessage.write ",
                                                                             "url": "_http_outgoing.js",
                                                                             "lineNumber": "405",
                                                                             "bailoutReason": "",
@@ -2151,7 +2151,7 @@
                                                                             "hitCount": 0,
                                                                             "children": [
                                                                               {
-                                                                                "functionName": "~OutgoingMessage._send ",
+                                                                                "functionName": "~*OutgoingMessage._send ",
                                                                                 "url": "_http_outgoing.js",
                                                                                 "lineNumber": "121",
                                                                                 "bailoutReason": "",
@@ -2160,7 +2160,7 @@
                                                                                 "hitCount": 0,
                                                                                 "children": [
                                                                                   {
-                                                                                    "functionName": "~OutgoingMessage._writeRaw ",
+                                                                                    "functionName": "~*OutgoingMessage._writeRaw ",
                                                                                     "url": "_http_outgoing.js",
                                                                                     "lineNumber": "141",
                                                                                     "bailoutReason": "",
@@ -2169,7 +2169,7 @@
                                                                                     "hitCount": 0,
                                                                                     "children": [
                                                                                       {
-                                                                                        "functionName": "~Socket.write ",
+                                                                                        "functionName": "~*Socket.write ",
                                                                                         "url": "net.js",
                                                                                         "lineNumber": "606",
                                                                                         "bailoutReason": "",
@@ -2178,7 +2178,7 @@
                                                                                         "hitCount": 0,
                                                                                         "children": [
                                                                                           {
-                                                                                            "functionName": "~Writable.write ",
+                                                                                            "functionName": "~*Writable.write ",
                                                                                             "url": "_stream_writable.js",
                                                                                             "lineNumber": "176",
                                                                                             "bailoutReason": "",
@@ -2187,7 +2187,7 @@
                                                                                             "hitCount": 0,
                                                                                             "children": [
                                                                                               {
-                                                                                                "functionName": "~writeOrBuffer ",
+                                                                                                "functionName": "~*writeOrBuffer ",
                                                                                                 "url": "_stream_writable.js",
                                                                                                 "lineNumber": "236",
                                                                                                 "bailoutReason": "",
@@ -2196,7 +2196,7 @@
                                                                                                 "hitCount": 0,
                                                                                                 "children": [
                                                                                                   {
-                                                                                                    "functionName": "~doWrite ",
+                                                                                                    "functionName": "~*doWrite ",
                                                                                                     "url": "_stream_writable.js",
                                                                                                     "lineNumber": "257",
                                                                                                     "bailoutReason": "",
@@ -2205,7 +2205,7 @@
                                                                                                     "hitCount": 0,
                                                                                                     "children": [
                                                                                                       {
-                                                                                                        "functionName": "~Socket._write ",
+                                                                                                        "functionName": "~*Socket._write ",
                                                                                                         "url": "net.js",
                                                                                                         "lineNumber": "681",
                                                                                                         "bailoutReason": "",
@@ -2214,7 +2214,7 @@
                                                                                                         "hitCount": 0,
                                                                                                         "children": [
                                                                                                           {
-                                                                                                            "functionName": "~Socket._writeGeneric ",
+                                                                                                            "functionName": "~*Socket._writeGeneric ",
                                                                                                             "url": "net.js",
                                                                                                             "lineNumber": "613",
                                                                                                             "bailoutReason": "",
@@ -2223,7 +2223,7 @@
                                                                                                             "hitCount": 0,
                                                                                                             "children": [
                                                                                                               {
-                                                                                                                "functionName": "~exports._unrefActive ",
+                                                                                                                "functionName": "~*exports._unrefActive ",
                                                                                                                 "url": "timers.js",
                                                                                                                 "lineNumber": "517",
                                                                                                                 "bailoutReason": "",
@@ -2279,46 +2279,46 @@
                                                                                                                     "_stackFrame": "node::TimerWrap::Now(v8::FunctionCallbackInfo<v8::Value> const&)"
                                                                                                                   }
                                                                                                                 ],
-                                                                                                                "_stackFrame": "~exports._unrefActive timers.js:517"
+                                                                                                                "_stackFrame": "~*exports._unrefActive timers.js:517"
                                                                                                               }
                                                                                                             ],
-                                                                                                            "_stackFrame": "~Socket._writeGeneric net.js:613"
+                                                                                                            "_stackFrame": "~*Socket._writeGeneric net.js:613"
                                                                                                           }
                                                                                                         ],
-                                                                                                        "_stackFrame": "~Socket._write net.js:681"
+                                                                                                        "_stackFrame": "~*Socket._write net.js:681"
                                                                                                       }
                                                                                                     ],
-                                                                                                    "_stackFrame": "~doWrite _stream_writable.js:257"
+                                                                                                    "_stackFrame": "~*doWrite _stream_writable.js:257"
                                                                                                   }
                                                                                                 ],
-                                                                                                "_stackFrame": "~writeOrBuffer _stream_writable.js:236"
+                                                                                                "_stackFrame": "~*writeOrBuffer _stream_writable.js:236"
                                                                                               }
                                                                                             ],
-                                                                                            "_stackFrame": "~Writable.write _stream_writable.js:176"
+                                                                                            "_stackFrame": "~*Writable.write _stream_writable.js:176"
                                                                                           }
                                                                                         ],
-                                                                                        "_stackFrame": "~Socket.write net.js:606"
+                                                                                        "_stackFrame": "~*Socket.write net.js:606"
                                                                                       }
                                                                                     ],
-                                                                                    "_stackFrame": "~OutgoingMessage._writeRaw _http_outgoing.js:141"
+                                                                                    "_stackFrame": "~*OutgoingMessage._writeRaw _http_outgoing.js:141"
                                                                                   }
                                                                                 ],
-                                                                                "_stackFrame": "~OutgoingMessage._send _http_outgoing.js:121"
+                                                                                "_stackFrame": "~*OutgoingMessage._send _http_outgoing.js:121"
                                                                               }
                                                                             ],
-                                                                            "_stackFrame": "~OutgoingMessage.write _http_outgoing.js:405"
+                                                                            "_stackFrame": "~*OutgoingMessage.write _http_outgoing.js:405"
                                                                           }
                                                                         ],
-                                                                        "_stackFrame": "~ /home/vagrant/sources/node/benchmark/http_simple.js:25"
+                                                                        "_stackFrame": "~* /home/vagrant/sources/node/benchmark/http_simple.js:25"
                                                                       }
                                                                     ],
-                                                                    "_stackFrame": "~emit events.js:68"
+                                                                    "_stackFrame": "~*emit events.js:68"
                                                                   }
                                                                 ],
-                                                                "_stackFrame": "~parserOnIncoming _http_server.js:419"
+                                                                "_stackFrame": "~*parserOnIncoming _http_server.js:419"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~parserOnHeadersComplete _http_common.js:63"
+                                                            "_stackFrame": "~*parserOnHeadersComplete _http_common.js:63"
                                                           }
                                                         ],
                                                         "_stackFrame": "node::Parser::on_headers_complete_()"
@@ -2330,19 +2330,19 @@
                                                 "_stackFrame": "node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)"
                                               }
                                             ],
-                                            "_stackFrame": "~socketOnData _http_server.js:340"
+                                            "_stackFrame": "~*socketOnData _http_server.js:340"
                                           }
                                         ],
-                                        "_stackFrame": "~emit events.js:68"
+                                        "_stackFrame": "~*emit events.js:68"
                                       }
                                     ],
-                                    "_stackFrame": "~readableAddChunk _stream_readable.js:134"
+                                    "_stackFrame": "~*readableAddChunk _stream_readable.js:134"
                                   }
                                 ],
-                                "_stackFrame": "~Readable.push _stream_readable.js:114"
+                                "_stackFrame": "~*Readable.push _stream_readable.js:114"
                               }
                             ],
-                            "_stackFrame": "~onread net.js:492"
+                            "_stackFrame": "~*onread net.js:492"
                           }
                         ],
                         "_stackFrame": "node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)"
@@ -2357,7 +2357,7 @@
                         "hitCount": 0,
                         "children": [
                           {
-                            "functionName": "*NativeBuffer ",
+                            "functionName": "~*NativeBuffer ",
                             "url": "buffer.js",
                             "lineNumber": "119",
                             "bailoutReason": "",
@@ -2365,7 +2365,7 @@
                             "scriptId": 27,
                             "hitCount": 1,
                             "children": [],
-                            "_stackFrame": "*NativeBuffer buffer.js:119"
+                            "_stackFrame": "~*NativeBuffer buffer.js:119"
                           }
                         ],
                         "_stackFrame": "node::Buffer::Use(node::Environment*, char*, unsigned int)"

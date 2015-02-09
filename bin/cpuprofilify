@@ -24,7 +24,7 @@ function usage() {
   fs.createReadStream(usageFile).pipe(process.stdout);
 }
 
-var flags = [ 'shortStack' , 'unresolveds' , 'sysinternals' , 'v8internals' , 'v8gc' ]
+var flags = [ 'shortStack' , 'unresolveds' , 'sysinternals' , 'v8internals' , 'v8gc', 'optimizationinfo' ]
   , negatedFlags = flags.map(function negate(x) { return 'no' + x })
 
 var argv = minimist(process.argv.slice(2)

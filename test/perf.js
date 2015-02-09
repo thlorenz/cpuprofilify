@@ -41,9 +41,9 @@ test('\nwhen converting a perf stack containing C++ and resolved JavaScript with
     names :
     [ 'node',
       'v8::Context::New(v8::Isolate*, v8::ExtensionConfiguration*, v8::Handle<v8::ObjectTemplate>, v8::Handle<v8::Value>)',
-      'Script:~native messages.js',
-      '~SetUpError native ',
-      '~SetUpError.a native ',
+      '~*native messages.js',
+      '~*SetUpError native ',
+      '~*SetUpError.a native ',
       'strlen' ] }
 
   check(t, stack1, null, opts)
@@ -68,9 +68,9 @@ test('\nwhen converting a perf stack containing C++ and resolved JavaScript keep
       'v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',
       'Stub:JSEntryStub',
       'Builtin:JSEntryTrampoline',
-      'Script:~native messages.js',
-      '~SetUpError native ',
-      '~SetUpError.a native ',
+      '~*native messages.js',
+      '~*SetUpError native ',
+      '~*SetUpError.a native ',
       'Stub:CEntryStub',
       'v8::internal::LoadIC_Miss(int, v8::internal::Object**, v8::internal::Isolate*)',
       'v8::internal::LoadIC::Load(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::String>)',
@@ -95,9 +95,9 @@ test('\nwhen converting a perf stack containing C++ and resolved JavaScript keep
     [ 'node',
       '__libc_start_main',
       'v8::Context::New(v8::Isolate*, v8::ExtensionConfiguration*, v8::Handle<v8::ObjectTemplate>, v8::Handle<v8::Value>)',
-      'Script:~native messages.js',
-      '~SetUpError native ',
-      '~SetUpError.a native ',
+      '~*native messages.js',
+      '~*SetUpError native ',
+      '~*SetUpError.a native ',
       'strlen' ] } 
 
   check(t, stack1, { sysinternals: true }, opts)

@@ -43,6 +43,7 @@ proto.convert =
  * @param {string} opts.map a map containing symbols information, if not given it will be read from /tmp/perf-<pid>.map. 
  * @param {string} opts.type type of input `perf|dtrace|instruments`. If not supplied it will be detected. 
  * @param {Boolean} opts.shortStack stacks that have only one line are ignored unless this flag is set
+ * @param {Boolean} opts.optimizationinfo JS optimization info is removed unless this flag is set (default: false)
  * @param {Boolean} opts.unresolveds unresolved addresses like `0x1a23c` are filtered from the trace unless this flag is set (default: false)
  * @param {Boolean} opts.sysinternals sysinternals like `__lib_c_start...` are filtered from the trace unless this flag is set (default: false)
  * @param {Boolean} opts.v8internals v8internals like `v8::internal::...` are filtered from the trace unless this flag is set (default: false)

@@ -72,11 +72,14 @@ cat trace.txt | cpuprofilify <options> > my.cpuprofile
 
 OPTIONS:
 
---shortStack   , --noshortStack     stacks that have only one line are ignored unless this flag is set (default: false)
 --unresolveds  , --nounresolveds    unresolved addresses like `0x1a23c` are filtered from the trace unless this flag is set (default: false)
 --sysinternals , --nosysinternals   sysinternals like `__lib_c_start...` are filtered from the trace unless this flag is set (default: false)
 --v8internals  , --nov8internals    v8internals like `v8::internal::...` are filtered from the trace unless this flag is set (default: false)
 --v8gc         , --nov8gc           when v8internals are filtered, garbage collection info is as well unless this flag set  (default: true)
+
+--shortStack      , --noshortStack        stacks that have only one line are ignored unless this flag is set (default: false)
+--optimizationinfo, --nooptimizationinfo  JS optimization info is removed unless this flag is set (default: false)
+
 
 --type                              type of input `perf|dtrace|instruments`. If not supplied it will be detected. 
 --help                              print this help
@@ -207,6 +210,13 @@ fs.writeFileSync('/tmp/my.cpuprofile', JSON.stringify(cpuprofile));</code></pre>
 <span class="param-type">Boolean</span>
 </td>
 <td class="description last"><p>stacks that have only one line are ignored unless this flag is set</p></td>
+</tr>
+<tr>
+<td class="name"><code>optimizationinfo</code></td>
+<td class="type">
+<span class="param-type">Boolean</span>
+</td>
+<td class="description last"><p>JS optimization info is removed unless this flag is set (default: false)</p></td>
 </tr>
 <tr>
 <td class="name"><code>unresolveds</code></td>

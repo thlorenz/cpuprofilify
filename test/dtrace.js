@@ -70,6 +70,40 @@ function inspect(obj, depth) {
 }
 
 test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript with the default settings', function (t) {
+  var opts = { 
+    fns: 22,
+    hits: 1,
+    id: 20,
+    fn: '~*ArrayConcatJS',
+    url: 'native array.js',
+    names:
+    [ 'iojs',
+      'uv_run',
+      'uv__io_poll',
+      'uv__stream_io',
+      'node::StreamWrapCallbacks::DoRead(uv_stream_s*, long, uv_buf_t const*, uv_handle_type)',
+      'node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)',
+      '~*onread',
+      '~*Readable.push',
+      '~*readableAddChunk',
+      '~*emit',
+      '~*socketOnData',
+      'node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)',
+      'http_parser_execute',
+      'node::Parser::on_headers_complete_()',
+      '~*parserOnHeadersComplete',
+      '~*parserOnIncoming',
+      '~*emit',
+      '~*onRequest',
+      '~*cal_arrayConcat',
+      '~*reduce',
+      '~*toFib',
+      '~*ArrayConcatJS' ] }
+
+  check(t, stack1, null, opts)
+})
+
+test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping optimization info', function (t) {
   var opts = {
       fns  : 22
     , hits : 1
@@ -100,18 +134,18 @@ test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript wi
           '*toFib',
           '*ArrayConcatJS' ] }
 
-  check(t, stack1, null, opts)
+  check(t, stack1, { optimizationinfo: true }, opts)
 })
 
 test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping v8internals', function (t) {
   var opts = { 
-    fns  : 48,
-    hits : 1,
-    id   : 46,
-    fn   : 'v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)',
-    url  : '',
-    names: [ 
-      'iojs',
+    fns: 48,
+    hits: 1,
+    id: 46,
+    fn: 'v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)',
+    url: '',
+    names:
+    [ 'iojs',
       'start',
       'node::Start(int, char**)',
       'uv_run',
@@ -124,13 +158,13 @@ test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript ke
       ' Stub:JSEntryStub',
       ' Builtin:JSEntryTrampoline',
       ' Builtin:ArgumentsAdaptorTrampoline',
-      '~onread',
+      '~*onread',
       ' Builtin:ArgumentsAdaptorTrampoline',
-      '~Readable.push',
-      '~readableAddChunk',
+      '~*Readable.push',
+      '~*readableAddChunk',
       ' Builtin:ArgumentsAdaptorTrampoline',
-      '~emit',
-      '~socketOnData',
+      '~*emit',
+      '~*socketOnData',
       ' Stub:CEntryStub',
       'v8::internal::Builtin_HandleApiCall(int, v8::internal::Object**, v8::internal::Isolate*)',
       'v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))',
@@ -141,24 +175,26 @@ test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript ke
       'v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',
       ' Stub:JSEntryStub',
       ' Builtin:JSEntryTrampoline',
-      '~parserOnHeadersComplete',
-      '~parserOnIncoming',
+      '~*parserOnHeadersComplete',
+      '~*parserOnIncoming',
       ' Builtin:ArgumentsAdaptorTrampoline',
-      '~emit',
-      '~onRequest',
-      '~cal_arrayConcat',
-      '~reduce',
+      '~*emit',
+      '~*onRequest',
+      '~*cal_arrayConcat',
+      '~*reduce',
       ' Builtin:ArgumentsAdaptorTrampoline',
-      '*toFib',
+      '~*toFib',
       ' Stub:CEntryStub',
       'v8::internal::Builtin_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)',
       'v8::internal::CallJsBuiltin(v8::internal::Isolate*, char const*, v8::internal::(anonymous namespace)::BuiltinArguments<(v8::internal::BuiltinExtraArguments)0>)',
       'v8::internal::Invoke(bool, v8::internal::Handle<v8::internal::JSFunction>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',
       ' Stub:JSEntryStub',
       ' Builtin:JSEntryTrampoline',
-      '*ArrayConcatJS',
+      '~*ArrayConcatJS',
       ' Stub:CEntryStub',
       'v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)' ] }
+
+ 
 
   check(t, stack1, { v8internals: true }, opts)
 })

@@ -58,7 +58,7 @@
                         "hitCount": 0,
                         "children": [
                           {
-                            "functionName": "~onread",
+                            "functionName": "~*onread",
                             "url": "net.js",
                             "lineNumber": "487",
                             "bailoutReason": "",
@@ -67,7 +67,7 @@
                             "hitCount": 0,
                             "children": [
                               {
-                                "functionName": "~Readable.push",
+                                "functionName": "~*Readable.push",
                                 "url": "_stream_readable.js",
                                 "lineNumber": "95",
                                 "bailoutReason": "",
@@ -76,7 +76,7 @@
                                 "hitCount": 0,
                                 "children": [
                                   {
-                                    "functionName": "~readableAddChunk",
+                                    "functionName": "~*readableAddChunk",
                                     "url": "_stream_readable.js",
                                     "lineNumber": "119",
                                     "bailoutReason": "",
@@ -85,7 +85,7 @@
                                     "hitCount": 0,
                                     "children": [
                                       {
-                                        "functionName": "~emit",
+                                        "functionName": "~*emit",
                                         "url": "events.js",
                                         "lineNumber": "56",
                                         "bailoutReason": "",
@@ -94,7 +94,7 @@
                                         "hitCount": 0,
                                         "children": [
                                           {
-                                            "functionName": "~socketOnData",
+                                            "functionName": "~*socketOnData",
                                             "url": "_http_server.js",
                                             "lineNumber": "321",
                                             "bailoutReason": "",
@@ -130,7 +130,7 @@
                                                         "hitCount": 0,
                                                         "children": [
                                                           {
-                                                            "functionName": "~parserOnHeadersComplete",
+                                                            "functionName": "~*parserOnHeadersComplete",
                                                             "url": "_http_common.js",
                                                             "lineNumber": "43",
                                                             "bailoutReason": "",
@@ -139,7 +139,7 @@
                                                             "hitCount": 0,
                                                             "children": [
                                                               {
-                                                                "functionName": "~parserOnIncoming",
+                                                                "functionName": "~*parserOnIncoming",
                                                                 "url": "_http_server.js",
                                                                 "lineNumber": "401",
                                                                 "bailoutReason": "",
@@ -148,7 +148,7 @@
                                                                 "hitCount": 0,
                                                                 "children": [
                                                                   {
-                                                                    "functionName": "~emit",
+                                                                    "functionName": "~*emit",
                                                                     "url": "events.js",
                                                                     "lineNumber": "56",
                                                                     "bailoutReason": "",
@@ -157,7 +157,7 @@
                                                                     "hitCount": 0,
                                                                     "children": [
                                                                       {
-                                                                        "functionName": "~onRequest",
+                                                                        "functionName": "~*onRequest",
                                                                         "url": "/Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js",
                                                                         "lineNumber": "27",
                                                                         "bailoutReason": "",
@@ -166,7 +166,7 @@
                                                                         "hitCount": 0,
                                                                         "children": [
                                                                           {
-                                                                            "functionName": "~cal_arrayConcat",
+                                                                            "functionName": "~*cal_arrayConcat",
                                                                             "url": "/Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js",
                                                                             "lineNumber": "41",
                                                                             "bailoutReason": "",
@@ -175,7 +175,7 @@
                                                                             "hitCount": 2,
                                                                             "children": [
                                                                               {
-                                                                                "functionName": "~reduce",
+                                                                                "functionName": "~*reduce",
                                                                                 "url": "native array.js",
                                                                                 "lineNumber": "1082",
                                                                                 "bailoutReason": "",
@@ -184,7 +184,7 @@
                                                                                 "hitCount": 0,
                                                                                 "children": [
                                                                                   {
-                                                                                    "functionName": "*toFib",
+                                                                                    "functionName": "~*toFib",
                                                                                     "url": "/Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js",
                                                                                     "lineNumber": "43",
                                                                                     "bailoutReason": "",
@@ -193,7 +193,7 @@
                                                                                     "hitCount": 0,
                                                                                     "children": [
                                                                                       {
-                                                                                        "functionName": "*ArrayConcatJS",
+                                                                                        "functionName": "~*ArrayConcatJS",
                                                                                         "url": "native array.js",
                                                                                         "lineNumber": "366",
                                                                                         "bailoutReason": "",
@@ -213,28 +213,28 @@
                                                                                             "_stackFrame": "v8::internal::Heap::Scavenge()"
                                                                                           }
                                                                                         ],
-                                                                                        "_stackFrame": "*ArrayConcatJS native array.js:366"
+                                                                                        "_stackFrame": "~*ArrayConcatJS native array.js:366"
                                                                                       }
                                                                                     ],
-                                                                                    "_stackFrame": "*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43"
+                                                                                    "_stackFrame": "~*toFib /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:43"
                                                                                   }
                                                                                 ],
-                                                                                "_stackFrame": "~reduce native array.js:1082"
+                                                                                "_stackFrame": "~*reduce native array.js:1082"
                                                                               }
                                                                             ],
-                                                                            "_stackFrame": "~cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41"
+                                                                            "_stackFrame": "~*cal_arrayConcat /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:41"
                                                                           }
                                                                         ],
-                                                                        "_stackFrame": "~onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27"
+                                                                        "_stackFrame": "~*onRequest /Volumes/d/dev/js/projects/cpuprofilify/example/fibonacci.js:27"
                                                                       }
                                                                     ],
-                                                                    "_stackFrame": "~emit events.js:56"
+                                                                    "_stackFrame": "~*emit events.js:56"
                                                                   }
                                                                 ],
-                                                                "_stackFrame": "~parserOnIncoming _http_server.js:401"
+                                                                "_stackFrame": "~*parserOnIncoming _http_server.js:401"
                                                               }
                                                             ],
-                                                            "_stackFrame": "~parserOnHeadersComplete _http_common.js:43"
+                                                            "_stackFrame": "~*parserOnHeadersComplete _http_common.js:43"
                                                           }
                                                         ],
                                                         "_stackFrame": "node::Parser::on_headers_complete_()"
@@ -246,19 +246,19 @@
                                                 "_stackFrame": "node::Parser::Execute(v8::FunctionCallbackInfo<v8::Value> const&)"
                                               }
                                             ],
-                                            "_stackFrame": "~socketOnData _http_server.js:321"
+                                            "_stackFrame": "~*socketOnData _http_server.js:321"
                                           }
                                         ],
-                                        "_stackFrame": "~emit events.js:56"
+                                        "_stackFrame": "~*emit events.js:56"
                                       }
                                     ],
-                                    "_stackFrame": "~readableAddChunk _stream_readable.js:119"
+                                    "_stackFrame": "~*readableAddChunk _stream_readable.js:119"
                                   }
                                 ],
-                                "_stackFrame": "~Readable.push _stream_readable.js:95"
+                                "_stackFrame": "~*Readable.push _stream_readable.js:95"
                               }
                             ],
-                            "_stackFrame": "~onread net.js:487"
+                            "_stackFrame": "~*onread net.js:487"
                           }
                         ],
                         "_stackFrame": "node::AsyncWrap::MakeCallback(v8::Handle<v8::Function>, int, v8::Handle<v8::Value>*)"
