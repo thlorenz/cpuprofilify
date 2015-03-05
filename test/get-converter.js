@@ -10,6 +10,14 @@ test('\ngiven a perf stack info line', function (t) {
   t.end()
 })
 
+test('\ngiven a perf stack info line (v3.18.7-200)', function (t) {
+  var fn = getConverter([ 'node 24009 946268.827234:          1 cycles:u: '], 0);
+  t.equal(fn.name, 'PerfConverter', 'returns perf converter')
+  t.equal(fn.proto.type, 'perf', 'type is perf')
+  t.end()
+})
+
+
 test('\ngiven a dtrace stack info line', function (t) {
   var fn = getConverter([ 'iojs 86454 181016967: profile-1ms:'], 0);
   t.equal(fn.name, 'DTraceConverter', 'returns dtrace converter')
