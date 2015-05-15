@@ -1,0 +1,2677 @@
+3c1f06006060 f5 Stub:CEntryStub
+3c1f060061c0 1a5 Stub:CEntryStub
+3c1f060063e0 42 Stub:StoreBufferOverflowStub
+3c1f060064a0 11e Stub:StoreBufferOverflowStub
+3c1f06006620 14 Stub:StubFailureTrampolineStub
+3c1f060066a0 15 Stub:StubFailureTrampolineStub
+3c1f06006720 162 Stub:ArrayNoArgumentConstructorStub_FAST_SMI_ELEMENTS
+3c1f06006900 13e Stub:ArrayNoArgumentConstructorStub_FAST_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+3c1f06006aa0 176 Stub:ArrayNoArgumentConstructorStub_FAST_HOLEY_SMI_ELEMENTS
+3c1f06006c80 152 Stub:ArrayNoArgumentConstructorStub_FAST_HOLEY_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+3c1f06006e40 13a Stub:ArrayNoArgumentConstructorStub_FAST_DOUBLE_ELEMENTS
+3c1f06006fe0 13a Stub:ArrayNoArgumentConstructorStub_FAST_HOLEY_DOUBLE_ELEMENTS
+3c1f06007180 152 Stub:ArrayNoArgumentConstructorStub_FAST_ELEMENTS
+3c1f06007340 152 Stub:ArrayNoArgumentConstructorStub_FAST_HOLEY_ELEMENTS
+3c1f06007500 1d6 Stub:ArraySingleArgumentConstructorStub_FAST_SMI_ELEMENTS
+3c1f06007740 1ae Stub:ArraySingleArgumentConstructorStub_FAST_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+3c1f06007960 1ea Stub:ArraySingleArgumentConstructorStub_FAST_HOLEY_SMI_ELEMENTS
+3c1f06007bc0 1c2 Stub:ArraySingleArgumentConstructorStub_FAST_HOLEY_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+3c1f06007e00 1ca Stub:ArraySingleArgumentConstructorStub_FAST_DOUBLE_ELEMENTS
+3c1f06008040 1ca Stub:ArraySingleArgumentConstructorStub_FAST_HOLEY_DOUBLE_ELEMENTS
+3c1f06008280 1c2 Stub:ArraySingleArgumentConstructorStub_FAST_ELEMENTS
+3c1f060084c0 1c2 Stub:ArraySingleArgumentConstructorStub_FAST_HOLEY_ELEMENTS
+3c1f06008700 1be Stub:ArrayNArgumentsConstructorStub_FAST_SMI_ELEMENTS
+3c1f06008920 196 Stub:ArrayNArgumentsConstructorStub_FAST_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+3c1f06008b20 1d2 Stub:ArrayNArgumentsConstructorStub_FAST_HOLEY_SMI_ELEMENTS
+3c1f06008d60 1aa Stub:ArrayNArgumentsConstructorStub_FAST_HOLEY_SMI_ELEMENTS_DISABLE_ALLOCATION_SITES
+3c1f06008f80 1c2 Stub:ArrayNArgumentsConstructorStub_FAST_DOUBLE_ELEMENTS
+3c1f060091c0 1c2 Stub:ArrayNArgumentsConstructorStub_FAST_HOLEY_DOUBLE_ELEMENTS
+3c1f06009400 176 Stub:ArrayNArgumentsConstructorStub_FAST_ELEMENTS
+3c1f060095e0 176 Stub:ArrayNArgumentsConstructorStub_FAST_HOLEY_ELEMENTS
+3c1f060097c0 a1d Stub:RecordWriteStub
+3c1f0600a240 9f4 Stub:RecordWriteStub
+3c1f0600aca0 1ca Stub:CreateAllocationSiteStub
+3c1f0600aee0 32 Stub:BinaryOpICStub(BIT_OR:None*None->None)
+3c1f0600af80 32 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:None*None->None)
+3c1f0600b020 32 Stub:BinaryOpICStub(BIT_OR_ReuseRight:None*None->None)
+3c1f0600b0c0 32 Stub:BinaryOpICStub(BIT_XOR:None*None->None)
+3c1f0600b160 32 Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:None*None->None)
+3c1f0600b200 32 Stub:BinaryOpICStub(BIT_XOR_ReuseRight:None*None->None)
+3c1f0600b2a0 32 Stub:BinaryOpICStub(BIT_AND:None*None->None)
+3c1f0600b340 32 Stub:BinaryOpICStub(BIT_AND_ReuseLeft:None*None->None)
+3c1f0600b3e0 32 Stub:BinaryOpICStub(BIT_AND_ReuseRight:None*None->None)
+3c1f0600b480 32 Stub:BinaryOpICStub(SHL:None*None->None)
+3c1f0600b520 32 Stub:BinaryOpICStub(SHL_ReuseLeft:None*None->None)
+3c1f0600b5c0 32 Stub:BinaryOpICStub(SHL_ReuseRight:None*None->None)
+3c1f0600b660 32 Stub:BinaryOpICStub(SAR:None*None->None)
+3c1f0600b700 32 Stub:BinaryOpICStub(SAR_ReuseLeft:None*None->None)
+3c1f0600b7a0 32 Stub:BinaryOpICStub(SAR_ReuseRight:None*None->None)
+3c1f0600b840 32 Stub:BinaryOpICStub(SHR:None*None->None)
+3c1f0600b8e0 32 Stub:BinaryOpICStub(SHR_ReuseLeft:None*None->None)
+3c1f0600b980 32 Stub:BinaryOpICStub(SHR_ReuseRight:None*None->None)
+3c1f0600ba20 32 Stub:BinaryOpICStub(ROR:None*None->None)
+3c1f0600bac0 32 Stub:BinaryOpICStub(ROR_ReuseLeft:None*None->None)
+3c1f0600bb60 32 Stub:BinaryOpICStub(ROR_ReuseRight:None*None->None)
+3c1f0600bc00 32 Stub:BinaryOpICStub(ADD:None*None->None)
+3c1f0600bca0 32 Stub:BinaryOpICStub(ADD_ReuseLeft:None*None->None)
+3c1f0600bd40 32 Stub:BinaryOpICStub(ADD_ReuseRight:None*None->None)
+3c1f0600bde0 32 Stub:BinaryOpICStub(SUB:None*None->None)
+3c1f0600be80 32 Stub:BinaryOpICStub(SUB_ReuseLeft:None*None->None)
+3c1f0600bf20 32 Stub:BinaryOpICStub(SUB_ReuseRight:None*None->None)
+3c1f0600bfc0 32 Stub:BinaryOpICStub(MUL:None*None->None)
+3c1f0600c060 32 Stub:BinaryOpICStub(MUL_ReuseLeft:None*None->None)
+3c1f0600c100 32 Stub:BinaryOpICStub(MUL_ReuseRight:None*None->None)
+3c1f0600c1a0 32 Stub:BinaryOpICStub(DIV:None*None->None)
+3c1f0600c240 32 Stub:BinaryOpICStub(DIV_ReuseLeft:None*None->None)
+3c1f0600c2e0 32 Stub:BinaryOpICStub(DIV_ReuseRight:None*None->None)
+3c1f0600c380 32 Stub:BinaryOpICStub(MOD:None*None->None)
+3c1f0600c420 32 Stub:BinaryOpICStub(MOD_ReuseLeft:None*None->None)
+3c1f0600c4c0 32 Stub:BinaryOpICStub(MOD_ReuseRight:None*None->None)
+3c1f0600c560 fc Stub:BinaryOpICStub(ADD:Int32*Int32->Int32)
+3c1f0600c6c0 12c Stub:BinaryOpICStub(ADD_ReuseLeft:Int32*Int32->Int32)
+3c1f0600c860 192 Stub:BinaryOpICStub(ADD:Int32*Int32->Number)
+3c1f0600ca60 1b6 Stub:BinaryOpICStub(ADD_ReuseLeft:Int32*Int32->Number)
+3c1f0600cc80 182 Stub:BinaryOpICStub(ADD:Int32*Number->Number)
+3c1f0600ce80 1a6 Stub:BinaryOpICStub(ADD_ReuseLeft:Int32*Number->Number)
+3c1f0600d0a0 1a6 Stub:BinaryOpICStub(ADD_ReuseRight:Int32*Number->Number)
+3c1f0600d2c0 c0 Stub:BinaryOpICStub(ADD:Int32*Smi->Int32)
+3c1f0600d3e0 ec Stub:BinaryOpICStub(ADD_ReuseLeft:Int32*Smi->Int32)
+3c1f0600d540 c0 Stub:BinaryOpICStub(ADD_ReuseRight:Int32*Smi->Int32)
+3c1f0600d660 182 Stub:BinaryOpICStub(ADD:Number*Int32->Number)
+3c1f0600d860 1a6 Stub:BinaryOpICStub(ADD_ReuseLeft:Number*Int32->Number)
+3c1f0600da80 1a6 Stub:BinaryOpICStub(ADD_ReuseRight:Number*Int32->Number)
+3c1f0600dca0 152 Stub:BinaryOpICStub(ADD:Number*Number->Number)
+3c1f0600de60 17a Stub:BinaryOpICStub(ADD_ReuseLeft:Number*Number->Number)
+3c1f0600e040 176 Stub:BinaryOpICStub(ADD_ReuseRight:Number*Number->Number)
+3c1f0600e220 136 Stub:BinaryOpICStub(ADD:Number*Smi->Number)
+3c1f0600e3c0 15e Stub:BinaryOpICStub(ADD_ReuseLeft:Number*Smi->Number)
+3c1f0600e580 136 Stub:BinaryOpICStub(ADD_ReuseRight:Number*Smi->Number)
+3c1f0600e720 b0 Stub:BinaryOpICStub(ADD:Smi*Int32->Int32)
+3c1f0600e840 b0 Stub:BinaryOpICStub(ADD_ReuseLeft:Smi*Int32->Int32)
+3c1f0600e960 166 Stub:BinaryOpICStub(ADD:Smi*Int32->Number)
+3c1f0600eb40 136 Stub:BinaryOpICStub(ADD:Smi*Number->Number)
+3c1f0600ece0 136 Stub:BinaryOpICStub(ADD_ReuseLeft:Smi*Number->Number)
+3c1f0600ee80 15a Stub:BinaryOpICStub(ADD_ReuseRight:Smi*Number->Number)
+3c1f0600f040 78 Stub:BinaryOpICStub(ADD_ReuseLeft:Smi*Smi->Int32)
+3c1f0600f120 6c Stub:BinaryOpICStub(ADD_ReuseRight:Smi*Smi->Smi)
+3c1f0600f200 56 Stub:DoubleToIStub
+3c1f0600f2c0 58 Stub:DoubleToIStub
+3c1f0600f380 13c Stub:BinaryOpICStub(BIT_AND:Int32*Int32->Int32)
+3c1f0600f520 168 Stub:BinaryOpICStub(BIT_AND_ReuseLeft:Int32*Int32->Int32)
+3c1f0600f700 164 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Int32*Int32->Int32)
+3c1f0600f8e0 13c Stub:BinaryOpICStub(BIT_AND:Int32*Int32->Smi)
+3c1f0600fa80 13c Stub:BinaryOpICStub(BIT_AND_ReuseRight:Int32*Int32->Smi)
+3c1f0600fc20 dc Stub:BinaryOpICStub(BIT_AND:Int32*Smi->Int32)
+3c1f0600fd60 dc Stub:BinaryOpICStub(BIT_AND_ReuseRight:Int32*Smi->Int32)
+3c1f0600fea0 dc Stub:BinaryOpICStub(BIT_AND:Int32*Smi->Smi)
+3c1f0600ffe0 dc Stub:BinaryOpICStub(BIT_AND_ReuseLeft:Int32*Smi->Smi)
+3c1f06010120 dc Stub:BinaryOpICStub(BIT_AND_ReuseRight:Int32*Smi->Smi)
+3c1f06010260 164 Stub:BinaryOpICStub(BIT_AND_ReuseRight:Number*Int32->Int32)
+3c1f06010440 dc Stub:BinaryOpICStub(BIT_AND:Number*Smi->Smi)
+3c1f06010580 dc Stub:BinaryOpICStub(BIT_AND_ReuseRight:Number*Smi->Smi)
+3c1f060106c0 dc Stub:BinaryOpICStub(BIT_AND:Smi*Int32->Int32)
+3c1f06010800 dc Stub:BinaryOpICStub(BIT_AND_ReuseRight:Smi*Int32->Smi)
+3c1f06010940 dc Stub:BinaryOpICStub(BIT_AND_ReuseRight:Smi*Number->Smi)
+3c1f06010a80 5c Stub:BinaryOpICStub(BIT_AND:Smi*Smi->Smi)
+3c1f06010b40 5c Stub:BinaryOpICStub(BIT_AND_ReuseLeft:Smi*Smi->Smi)
+3c1f06010c00 5c Stub:BinaryOpICStub(BIT_AND_ReuseRight:Smi*Smi->Smi)
+3c1f06010cc0 168 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Int32*Int32->Int32)
+3c1f06010ea0 164 Stub:BinaryOpICStub(BIT_OR_ReuseRight:Int32*Int32->Int32)
+3c1f06011080 13c Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Int32*Int32->Smi)
+3c1f06011220 dc Stub:BinaryOpICStub(BIT_OR:Int32*Smi->Int32)
+3c1f06011360 108 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Int32*Smi->Int32)
+3c1f060114e0 dc Stub:BinaryOpICStub(BIT_OR_ReuseRight:Int32*Smi->Int32)
+3c1f06011620 dc Stub:BinaryOpICStub(BIT_OR:Int32*Smi->Smi)
+3c1f06011760 dc Stub:BinaryOpICStub(BIT_OR_ReuseRight:Int32*Smi->Smi)
+3c1f060118a0 dc Stub:BinaryOpICStub(BIT_OR:Number*Smi->Int32)
+3c1f060119e0 108 Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Number*Smi->Int32)
+3c1f06011b60 dc Stub:BinaryOpICStub(BIT_OR_ReuseRight:Number*Smi->Int32)
+3c1f06011ca0 dc Stub:BinaryOpICStub(BIT_OR:Number*Smi->Smi)
+3c1f06011de0 dc Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Number*Smi->Smi)
+3c1f06011f20 dc Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Smi*Int32->Int32)
+3c1f06012060 104 Stub:BinaryOpICStub(BIT_OR_ReuseRight:Smi*Int32->Int32)
+3c1f060121e0 dc Stub:BinaryOpICStub(BIT_OR_ReuseRight:Smi*Int32->Smi)
+3c1f06012320 5c Stub:BinaryOpICStub(BIT_OR_ReuseLeft:Smi*Smi->Smi)
+3c1f060123e0 5c Stub:BinaryOpICStub(BIT_OR_ReuseRight:Smi*Smi->Smi)
+3c1f060124a0 13c Stub:BinaryOpICStub(BIT_XOR:Int32*Int32->Int32)
+3c1f06012640 168 Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Int32*Int32->Int32)
+3c1f06012820 164 Stub:BinaryOpICStub(BIT_XOR_ReuseRight:Int32*Int32->Int32)
+3c1f06012a00 13c Stub:BinaryOpICStub(BIT_XOR:Int32*Int32->Smi)
+3c1f06012ba0 13c Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Int32*Int32->Smi)
+3c1f06012d40 13c Stub:BinaryOpICStub(BIT_XOR:Int32*Number->Smi)
+3c1f06012ee0 dc Stub:BinaryOpICStub(BIT_XOR:Int32*Smi->Int32)
+3c1f06013020 108 Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Int32*Smi->Int32)
+3c1f060131a0 dc Stub:BinaryOpICStub(BIT_XOR_ReuseRight:Int32*Smi->Int32)
+3c1f060132e0 13c Stub:BinaryOpICStub(BIT_XOR:Number*Int32->Int32)
+3c1f06013480 dc Stub:BinaryOpICStub(BIT_XOR:Number*Smi->Int32)
+3c1f060135c0 dc Stub:BinaryOpICStub(BIT_XOR:Number*Smi->Smi)
+3c1f06013700 dc Stub:BinaryOpICStub(BIT_XOR:Smi*Int32->Int32)
+3c1f06013840 dc Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Smi*Int32->Int32)
+3c1f06013980 dc Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Smi*Int32->Smi)
+3c1f06013ac0 5c Stub:BinaryOpICStub(BIT_XOR:Smi*Smi->Smi)
+3c1f06013b80 5c Stub:BinaryOpICStub(BIT_XOR_ReuseLeft:Smi*Smi->Smi)
+3c1f06013c40 5c Stub:BinaryOpICStub(BIT_XOR_ReuseRight:Smi*Smi->Smi)
+3c1f06013d00 13c Stub:BinaryOpICStub(DIV:Int32*Int32->Int32)
+3c1f06013ea0 196 Stub:BinaryOpICStub(DIV:Int32*Int32->Number)
+3c1f060140a0 182 Stub:BinaryOpICStub(DIV:Int32*Number->Number)
+3c1f060142a0 1aa Stub:BinaryOpICStub(DIV_ReuseLeft:Int32*Number->Number)
+3c1f060144c0 f4 Stub:BinaryOpICStub(DIV:Int32*Smi->Int32)
+3c1f06014620 166 Stub:BinaryOpICStub(DIV:Int32*Smi->Number)
+3c1f06014800 186 Stub:BinaryOpICStub(DIV:Number*Int32->Number)
+3c1f06014a00 1aa Stub:BinaryOpICStub(DIV_ReuseLeft:Number*Int32->Number)
+3c1f06014c20 156 Stub:BinaryOpICStub(DIV:Number*Number->Number)
+3c1f06014de0 17a Stub:BinaryOpICStub(DIV_ReuseLeft:Number*Number->Number)
+3c1f06014fc0 17a Stub:BinaryOpICStub(DIV_ReuseRight:Number*Number->Number)
+3c1f060151a0 13a Stub:BinaryOpICStub(DIV:Number*Smi->Number)
+3c1f06015340 15e Stub:BinaryOpICStub(DIV_ReuseLeft:Number*Smi->Number)
+3c1f06015500 f0 Stub:BinaryOpICStub(DIV:Smi*Int32->Int32)
+3c1f06015660 166 Stub:BinaryOpICStub(DIV:Smi*Int32->Number)
+3c1f06015840 166 Stub:BinaryOpICStub(DIV_ReuseLeft:Smi*Int32->Number)
+3c1f06015a20 13a Stub:BinaryOpICStub(DIV:Smi*Number->Number)
+3c1f06015bc0 13a Stub:BinaryOpICStub(DIV_ReuseLeft:Smi*Number->Number)
+3c1f06015d60 15e Stub:BinaryOpICStub(DIV_ReuseRight:Smi*Number->Number)
+3c1f06015f20 11e Stub:BinaryOpICStub(DIV:Smi*Smi->Number)
+3c1f060160a0 11e Stub:BinaryOpICStub(DIV_ReuseLeft:Smi*Smi->Number)
+3c1f06016220 11e Stub:BinaryOpICStub(DIV_ReuseRight:Smi*Smi->Number)
+3c1f060163a0 a8 Stub:BinaryOpICStub(DIV:Smi*Smi->Smi)
+3c1f060164c0 a8 Stub:BinaryOpICStub(DIV_ReuseLeft:Smi*Smi->Smi)
+3c1f060165e0 a8 Stub:BinaryOpICStub(DIV_ReuseRight:Smi*Smi->Smi)
+3c1f06016700 183 Stub:BinaryOpICStub(MOD_ReuseLeft:Number*Smi->Number)
+3c1f06016900 a0 Stub:BinaryOpICStub(MOD:Smi*Smi->Smi)
+3c1f06016a00 a0 Stub:BinaryOpICStub(MOD_ReuseLeft:Smi*Smi->Smi)
+3c1f06016b00 11c Stub:BinaryOpICStub(MUL:Int32*Int32->Int32)
+3c1f06016c80 192 Stub:BinaryOpICStub(MUL:Int32*Int32->Number)
+3c1f06016e80 182 Stub:BinaryOpICStub(MUL:Int32*Number->Number)
+3c1f06017080 1a6 Stub:BinaryOpICStub(MUL_ReuseLeft:Int32*Number->Number)
+3c1f060172a0 d4 Stub:BinaryOpICStub(MUL:Int32*Smi->Int32)
+3c1f060173e0 100 Stub:BinaryOpICStub(MUL_ReuseLeft:Int32*Smi->Int32)
+3c1f06017540 166 Stub:BinaryOpICStub(MUL:Int32*Smi->Number)
+3c1f06017720 182 Stub:BinaryOpICStub(MUL:Number*Int32->Number)
+3c1f06017920 1a6 Stub:BinaryOpICStub(MUL_ReuseLeft:Number*Int32->Number)
+3c1f06017b40 1a6 Stub:BinaryOpICStub(MUL_ReuseRight:Number*Int32->Number)
+3c1f06017d60 152 Stub:BinaryOpICStub(MUL:Number*Number->Number)
+3c1f06017f20 17a Stub:BinaryOpICStub(MUL_ReuseLeft:Number*Number->Number)
+3c1f06018100 136 Stub:BinaryOpICStub(MUL:Number*Smi->Number)
+3c1f060182a0 15e Stub:BinaryOpICStub(MUL_ReuseLeft:Number*Smi->Number)
+3c1f06018460 136 Stub:BinaryOpICStub(MUL_ReuseRight:Number*Smi->Number)
+3c1f06018600 d0 Stub:BinaryOpICStub(MUL:Smi*Int32->Int32)
+3c1f06018740 d0 Stub:BinaryOpICStub(MUL_ReuseLeft:Smi*Int32->Int32)
+3c1f06018880 166 Stub:BinaryOpICStub(MUL:Smi*Int32->Number)
+3c1f06018a60 136 Stub:BinaryOpICStub(MUL:Smi*Number->Number)
+3c1f06018c00 136 Stub:BinaryOpICStub(MUL_ReuseLeft:Smi*Number->Number)
+3c1f06018da0 15a Stub:BinaryOpICStub(MUL_ReuseRight:Smi*Number->Number)
+3c1f06018f60 88 Stub:BinaryOpICStub(MUL:Smi*Smi->Int32)
+3c1f06019060 11a Stub:BinaryOpICStub(MUL:Smi*Smi->Number)
+3c1f060191e0 11a Stub:BinaryOpICStub(MUL_ReuseLeft:Smi*Smi->Number)
+3c1f06019360 84 Stub:BinaryOpICStub(MUL:Smi*Smi->Smi)
+3c1f06019460 84 Stub:BinaryOpICStub(MUL_ReuseLeft:Smi*Smi->Smi)
+3c1f06019560 84 Stub:BinaryOpICStub(MUL_ReuseRight:Smi*Smi->Smi)
+3c1f06019660 dc Stub:BinaryOpICStub(SAR_ReuseRight:Int32*Smi->Int32)
+3c1f060197a0 dc Stub:BinaryOpICStub(SAR:Int32*Smi->Smi)
+3c1f060198e0 dc Stub:BinaryOpICStub(SAR_ReuseRight:Int32*Smi->Smi)
+3c1f06019a20 e4 Stub:BinaryOpICStub(SAR:Number*Smi->Smi)
+3c1f06019b80 e4 Stub:BinaryOpICStub(SAR_ReuseRight:Number*Smi->Smi)
+3c1f06019ce0 64 Stub:BinaryOpICStub(SAR_ReuseLeft:Smi*Smi->Smi)
+3c1f06019dc0 64 Stub:BinaryOpICStub(SAR_ReuseRight:Smi*Smi->Smi)
+3c1f06019ea0 dc Stub:BinaryOpICStub(SHL:Int32*Smi->Int32)
+3c1f06019fe0 dc Stub:BinaryOpICStub(SHL_ReuseRight:Int32*Smi->Int32)
+3c1f0601a120 dc Stub:BinaryOpICStub(SHL:Int32*Smi->Smi)
+3c1f0601a260 dc Stub:BinaryOpICStub(SHL_ReuseRight:Int32*Smi->Smi)
+3c1f0601a3a0 e4 Stub:BinaryOpICStub(SHL_ReuseRight:Number*Smi->Smi)
+3c1f0601a500 64 Stub:BinaryOpICStub(SHL:Smi*Smi->Int32)
+3c1f0601a5e0 64 Stub:BinaryOpICStub(SHL_ReuseLeft:Smi*Smi->Int32)
+3c1f0601a6c0 64 Stub:BinaryOpICStub(SHL_ReuseRight:Smi*Smi->Int32)
+3c1f0601a7a0 64 Stub:BinaryOpICStub(SHL:Smi*Smi->Smi)
+3c1f0601a880 64 Stub:BinaryOpICStub(SHL_ReuseLeft:Smi*Smi->Smi)
+3c1f0601a960 64 Stub:BinaryOpICStub(SHL_ReuseRight:Smi*Smi->Smi)
+3c1f0601aa40 f4 Stub:BinaryOpICStub(SHR:Int32*Smi->Smi)
+3c1f0601aba0 f4 Stub:BinaryOpICStub(SHR_ReuseLeft:Int32*Smi->Smi)
+3c1f0601ad00 f4 Stub:BinaryOpICStub(SHR_ReuseRight:Int32*Smi->Smi)
+3c1f0601ae60 f8 Stub:BinaryOpICStub(SHR:Number*Smi->Smi)
+3c1f0601afc0 f8 Stub:BinaryOpICStub(SHR_ReuseLeft:Number*Smi->Smi)
+3c1f0601b120 196 Stub:BinaryOpICStub(SHR_ReuseRight:Number*Smi->Int32)
+3c1f0601b320 7c Stub:BinaryOpICStub(SHR:Smi*Smi->Smi)
+3c1f0601b400 7c Stub:BinaryOpICStub(SHR_ReuseLeft:Smi*Smi->Smi)
+3c1f0601b4e0 7c Stub:BinaryOpICStub(SHR_ReuseRight:Smi*Smi->Smi)
+3c1f0601b5c0 fc Stub:BinaryOpICStub(SUB:Int32*Int32->Int32)
+3c1f0601b720 12c Stub:BinaryOpICStub(SUB_ReuseLeft:Int32*Int32->Int32)
+3c1f0601b8c0 182 Stub:BinaryOpICStub(SUB:Int32*Number->Number)
+3c1f0601bac0 1a6 Stub:BinaryOpICStub(SUB_ReuseRight:Int32*Number->Number)
+3c1f0601bce0 ec Stub:BinaryOpICStub(SUB_ReuseLeft:Int32*Smi->Int32)
+3c1f0601be40 c0 Stub:BinaryOpICStub(SUB_ReuseRight:Int32*Smi->Int32)
+3c1f0601bf60 182 Stub:BinaryOpICStub(SUB:Number*Int32->Number)
+3c1f0601c160 1a6 Stub:BinaryOpICStub(SUB_ReuseLeft:Number*Int32->Number)
+3c1f0601c380 152 Stub:BinaryOpICStub(SUB:Number*Number->Number)
+3c1f0601c540 17a Stub:BinaryOpICStub(SUB_ReuseLeft:Number*Number->Number)
+3c1f0601c720 176 Stub:BinaryOpICStub(SUB_ReuseRight:Number*Number->Number)
+3c1f0601c900 136 Stub:BinaryOpICStub(SUB:Number*Smi->Number)
+3c1f0601caa0 15e Stub:BinaryOpICStub(SUB_ReuseLeft:Number*Smi->Number)
+3c1f0601cc60 136 Stub:BinaryOpICStub(SUB_ReuseRight:Number*Smi->Number)
+3c1f0601ce00 b0 Stub:BinaryOpICStub(SUB:Smi*Int32->Int32)
+3c1f0601cf20 136 Stub:BinaryOpICStub(SUB:Smi*Number->Number)
+3c1f0601d0c0 136 Stub:BinaryOpICStub(SUB_ReuseLeft:Smi*Number->Number)
+3c1f0601d260 15a Stub:BinaryOpICStub(SUB_ReuseRight:Smi*Number->Number)
+3c1f0601d420 6c Stub:BinaryOpICStub(SUB:Smi*Smi->Smi)
+3c1f0601d500 6c Stub:BinaryOpICStub(SUB_ReuseLeft:Smi*Smi->Smi)
+3c1f0601d5e0 6c Stub:BinaryOpICStub(SUB_ReuseRight:Smi*Smi->Smi)
+3c1f0601d6c0 a0 Stub:BinaryOpICStub(MOD:Smi*2->Smi)
+3c1f0601d7c0 a0 Stub:BinaryOpICStub(MOD:Smi*4->Smi)
+3c1f0601d8c0 a0 Stub:BinaryOpICStub(MOD_ReuseLeft:Smi*4->Smi)
+3c1f0601d9c0 a0 Stub:BinaryOpICStub(MOD:Smi*8->Smi)
+3c1f0601dac0 a0 Stub:BinaryOpICStub(MOD_ReuseLeft:Smi*16->Smi)
+3c1f0601dbc0 a0 Stub:BinaryOpICStub(MOD:Smi*32->Smi)
+3c1f0601dcc0 a8 Stub:BinaryOpICStub(MOD:Smi*2048->Smi)
+3c1f0601dde0 ec Stub:JSEntryStub
+3c1f0601df40 ec Stub:JSConstructEntryStub
+3c1f0601e0a0 10 Builtin:Illegal
+3c1f0601e120 10 Builtin:EmptyFunction
+3c1f0601e1a0 10 Builtin:ArrayPush
+3c1f0601e220 10 Builtin:ArrayPop
+3c1f0601e2a0 10 Builtin:ArrayShift
+3c1f0601e320 10 Builtin:ArrayUnshift
+3c1f0601e3a0 10 Builtin:ArraySlice
+3c1f0601e420 10 Builtin:ArraySplice
+3c1f0601e4a0 10 Builtin:ArrayConcat
+3c1f0601e520 15 Builtin:HandleApiCall
+3c1f0601e5a0 15 Builtin:HandleApiCallConstruct
+3c1f0601e620 10 Builtin:HandleApiCallAsFunction
+3c1f0601e6a0 10 Builtin:HandleApiCallAsConstructor
+3c1f0601e720 10 Builtin:StrictModePoisonPill
+3c1f0601e7a0 10 Builtin:GeneratorPoisonPill
+3c1f0601e820 fb Builtin:ArgumentsAdaptorTrampoline
+3c1f0601e980 54 Builtin:InOptimizationQueue
+3c1f0601ea40 212 Builtin:JSConstructStubGeneric
+3c1f0601ecc0 1a2 Builtin:JSConstructStubApi
+3c1f0601eee0 67 Builtin:JSEntryTrampoline
+3c1f0601efc0 62 Stub:CallConstructStub
+3c1f0601f0a0 52 Builtin:JSConstructEntryTrampoline
+3c1f0601f160 38 Builtin:CompileUnoptimized
+3c1f0601f200 44 Builtin:CompileOptimized
+3c1f0601f2c0 44 Builtin:CompileOptimizedConcurrent
+3c1f0601f380 6b Builtin:NotifyDeoptimized
+3c1f0601f460 6f Builtin:NotifySoftDeoptimized
+3c1f0601f540 6b Builtin:NotifyLazyDeoptimized
+3c1f0601f620 5a Builtin:NotifyStubFailure
+3c1f0601f6e0 5a Builtin:NotifyStubFailureSaveDoubles
+3c1f0601f7a0 15 Builtin:LoadIC_Miss
+3c1f0601f820 15 Builtin:KeyedLoadIC_Miss
+3c1f0601f8a0 16 Builtin:StoreIC_Miss
+3c1f0601f920 16 Builtin:KeyedStoreIC_Miss
+3c1f0601f9a0 23 Builtin:LoadIC_Getter_ForDeopt
+3c1f0601fa40 15 Builtin:KeyedLoadIC_Initialize
+3c1f0601fac0 15 Builtin:KeyedLoadIC_PreMonomorphic
+3c1f0601fb40 368 Stub:NameDictionaryLookupStub
+3c1f0601ff20 382 Builtin:KeyedLoadIC_Generic
+3c1f06020320 23c Builtin:KeyedLoadIC_String
+3c1f060205c0 56 Builtin:KeyedLoadIC_IndexedInterceptor
+3c1f06020680 d0 Builtin:KeyedLoadIC_SloppyArguments
+3c1f060207c0 25 Builtin:StoreIC_Setter_ForDeopt
+3c1f06020860 16 Builtin:KeyedStoreIC_Initialize
+3c1f060208e0 16 Builtin:KeyedStoreIC_PreMonomorphic
+3c1f06020960 69a Stub:RecordWriteStub
+3c1f06021060 688 Stub:RecordWriteStub
+3c1f06021760 676 Stub:RecordWriteStub
+3c1f06021e40 2b0 Stub:RecordWriteStub
+3c1f06022160 687 Stub:RecordWriteStub
+3c1f06022860 a70 Builtin:KeyedStoreIC_Generic
+3c1f06023340 16 Builtin:KeyedStoreIC_Initialize_Strict
+3c1f060233c0 16 Builtin:KeyedStoreIC_PreMonomorphic_Strict
+3c1f06023440 a70 Builtin:KeyedStoreIC_Generic_Strict
+3c1f06023f20 676 Stub:RecordWriteStub
+3c1f06024600 12e Builtin:KeyedStoreIC_SloppyArguments
+3c1f060247a0 16c Builtin:FunctionCall
+3c1f06024980 172 Builtin:FunctionApply
+3c1f06024b60 13e Stub:InternalArrayNoArgumentConstructorStub
+3c1f06024d00 1ae Stub:InternalArraySingleArgumentConstructorStub
+3c1f06024f20 162 Stub:InternalArrayNArgumentsConstructorStub
+3c1f06025100 13e Stub:InternalArrayNoArgumentConstructorStub
+3c1f060252a0 1ae Stub:InternalArraySingleArgumentConstructorStub
+3c1f060254c0 162 Stub:InternalArrayNArgumentsConstructorStub
+3c1f060256a0 6e Stub:InternalArrayConstructorStub
+3c1f06025780 14 Builtin:InternalArrayCode
+3c1f06025800 1d2 Stub:ArrayConstructorStub_Any
+3c1f06025a40 18 Builtin:ArrayCode
+3c1f06025ac0 17c Builtin:StringConstructCode
+3c1f06025ca0 4c Builtin:OnStackReplacement
+3c1f06025d60 e Builtin:InterruptCheck
+3c1f06025de0 3f Builtin:OsrAfterStackCheck
+3c1f06025e80 e Builtin:StackCheck
+3c1f06025f00 67 Builtin:MarkCodeAsExecutedOnce
+3c1f06025fe0 5e Builtin:MarkCodeAsExecutedTwice
+3c1f060260a0 5e Builtin:MakeQuadragenarianCodeYoungAgainOddMarking
+3c1f06026160 5e Builtin:MakeQuadragenarianCodeYoungAgainEvenMarking
+3c1f06026220 5e Builtin:MakeQuinquagenarianCodeYoungAgainOddMarking
+3c1f060262e0 5e Builtin:MakeQuinquagenarianCodeYoungAgainEvenMarking
+3c1f060263a0 5e Builtin:MakeSexagenarianCodeYoungAgainOddMarking
+3c1f06026460 5e Builtin:MakeSexagenarianCodeYoungAgainEvenMarking
+3c1f06026520 5e Builtin:MakeSeptuagenarianCodeYoungAgainOddMarking
+3c1f060265e0 5e Builtin:MakeSeptuagenarianCodeYoungAgainEvenMarking
+3c1f060266a0 5e Builtin:MakeOctogenarianCodeYoungAgainOddMarking
+3c1f06026760 5e Builtin:MakeOctogenarianCodeYoungAgainEvenMarking
+3c1f06026820 15 Builtin:LoadIC_Slow
+3c1f060268a0 15 Builtin:KeyedLoadIC_Slow
+3c1f06026920 16 Builtin:StoreIC_Slow
+3c1f060269a0 16 Builtin:KeyedStoreIC_Slow
+3c1f06026a20 36c Stub:NameDictionaryLookupStub
+3c1f06026e00 b3 Builtin:LoadIC_Normal
+3c1f06026f20 37f Stub:NameDictionaryLookupStub
+3c1f06027300 f9 Builtin:StoreIC_Normal
+3c1f06027460 54 Builtin:Return_DebugBreak
+3c1f06027520 50 Builtin:CallFunctionStub_DebugBreak
+3c1f060275e0 74 Builtin:CallConstructStub_DebugBreak
+3c1f060276c0 78 Builtin:CallConstructStub_Recording_DebugBreak
+3c1f060277a0 52 Builtin:CallICStub_DebugBreak
+3c1f06027860 52 Builtin:LoadIC_DebugBreak
+3c1f06027920 52 Builtin:KeyedLoadIC_DebugBreak
+3c1f060279e0 54 Builtin:StoreIC_DebugBreak
+3c1f06027aa0 54 Builtin:KeyedStoreIC_DebugBreak
+3c1f06027b60 50 Builtin:CompareNilIC_DebugBreak
+3c1f06027c20 52 Builtin:Slot_DebugBreak
+3c1f06027ce0 1 Builtin:PlainReturn_LiveEdit
+3c1f06027d60 29 Builtin:FrameDropper_LiveEdit
+3c1f06027e00 15 LoadInitialize:0
+3c1f06027e80 15 LoadInitialize:0
+3c1f06027f00 67c Stub:RecordWriteStub
+3c1f060285e0 187 Stub:CallConstructStub_Recording
+3c1f060287e0 2d4 Script:~native runtime.js
+3c1f06028b20 15 LoadPreMonomorphic:0
+3c1f06028ba0 15 LoadPreMonomorphic:0
+3c1f06028c20 31 Stub:CompareNilICStub(NullValue)(None)
+3c1f06028cc0 8a Stub:CallFunctionStub_Args1
+3c1f06028dc0 8a Stub:CallFunctionStub_Args2
+3c1f06028ec0 aa8 LazyCompile:EQUALS native runtime.js:9
+3c1f060299e0 19c LazyCompile:~STRICT_EQUALS native runtime.js:56
+3c1f06029be0 b4 Stub:StringCompareStub
+3c1f06029d00 47 Stub:CompareICStub
+3c1f06029dc0 4dc LazyCompile:COMPARE native runtime.js:67
+3c1f0602a300 391 Stub:StringAddStub_CheckBoth
+3c1f0602a700 354 LazyCompile:ADD native runtime.js:99
+3c1f0602aac0 154 LazyCompile:SUB native runtime.js:137
+3c1f0602ac80 154 LazyCompile:MUL native runtime.js:142
+3c1f0602ae40 154 LazyCompile:DIV native runtime.js:147
+3c1f0602b000 154 LazyCompile:MOD native runtime.js:152
+3c1f0602b1c0 154 LazyCompile:BIT_OR native runtime.js:157
+3c1f0602b380 20c LazyCompile:BIT_AND native runtime.js:162
+3c1f0602b600 154 LazyCompile:BIT_XOR native runtime.js:174
+3c1f0602b7c0 154 LazyCompile:SHL native runtime.js:179
+3c1f0602b980 20c LazyCompile:SAR native runtime.js:184
+3c1f0602bc00 154 LazyCompile:SHR native runtime.js:196
+3c1f0602bdc0 e4 LazyCompile:DELETE native runtime.js:201
+3c1f0602bf20 54c Stub:FastCloneShallowArrayStub
+3c1f0602c4e0 695 Stub:RecordWriteStub
+3c1f0602cbe0 fb Stub:StoreArrayLiteralElementStub
+3c1f0602cd40 1ac LazyCompile:IN native runtime.js:204
+3c1f0602cf60 47 Stub:CompareICStub
+3c1f0602d020 31 Stub:ToBooleanStub(None)
+3c1f0602d0c0 2f4 LazyCompile:INSTANCE_OF native runtime.js:211
+3c1f0602d420 d4 LazyCompile:FILTER_KEY native runtime.js:229
+3c1f0602d560 18e Stub:ArgumentsAccessStub_NewSloppyFast
+3c1f0602d760 18c LazyCompile:CALL_NON_FUNCTION native runtime.js:234
+3c1f0602d960 18c LazyCompile:CALL_NON_FUNCTION_AS_CONSTRUCTOR native runtime.js:241
+3c1f0602db60 65 Stub:ArgumentsAccessStub_ReadElement
+3c1f0602dc40 f4 LazyCompile:~CALL_FUNCTION_PROXY native runtime.js:248
+3c1f0602dda0 d4 LazyCompile:~CALL_FUNCTION_PROXY_AS_CONSTRUCTOR native runtime.js:254
+3c1f0602dee0 94 LazyCompile:TO_OBJECT native runtime.js:284
+3c1f0602dfe0 94 LazyCompile:TO_NUMBER native runtime.js:287
+3c1f0602e0e0 94 LazyCompile:TO_STRING native runtime.js:290
+3c1f0602e1e0 56 Stub:DoubleToIStub
+3c1f0602e2a0 19f Stub:NumberToStringStub
+3c1f0602e4a0 2bc LazyCompile:STRING_ADD_LEFT native runtime.js:112
+3c1f0602e7c0 2cc LazyCompile:STRING_ADD_RIGHT native runtime.js:124
+3c1f0602eb00 47 Stub:CompareICStub
+3c1f0602ebc0 47 Stub:CompareICStub
+3c1f0602ec80 47 Stub:CompareICStub
+3c1f0602ed40 51c LazyCompile:APPLY_PREPARE native runtime.js:259
+3c1f0602f2c0 cc LazyCompile:STACK_OVERFLOW native runtime.js:281
+3c1f0602f400 131 Stub:CallICStub(args(0), FUNCTION,
+3c1f0602f5a0 137 Stub:CallICStub(args(12), FUNCTION,
+3c1f0602f740 13d Stub:CallICStub(args(38), FUNCTION,
+3c1f0602f8e0 137 Stub:CallICStub(args(3), FUNCTION,
+3c1f0602fa80 7ac Script:~native v8natives.js
+3c1f060302a0 137 Stub:CallICStub(args(10), FUNCTION,
+3c1f06030440 26c LazyCompile:~SetUpGlobal native v8natives.js:114
+3c1f06030720 90 Stub:ArrayConstructorStub_More_Than_One
+3c1f06030820 11a Stub:CallIC_ArrayStub(args(10), FUNCTION,  (Array)
+3c1f060309a0 270 LazyCompile:~InstallFunctions native v8natives.js:4
+3c1f06030c80 5d Stub:CompareICStub
+3c1f06030d40 64 Stub:BinaryOpICStub(SAR:Smi*Smi->Smi)
+3c1f06030e20 5d Stub:CompareICStub
+3c1f06030ee0 8c Stub:LoadElementStub
+3c1f06030fe0 25 KeyedLoadIC:
+3c1f06031080 6c Stub:BinaryOpICStub(ADD:Smi*Smi->Smi)
+3c1f06031160 10 Stub:LoadFieldStub
+3c1f060311e0 25 LoadIC:length
+3c1f06031280 11a Stub:CallIC_ArrayStub(args(12), FUNCTION,  (Array)
+3c1f06031400 120 Stub:CallIC_ArrayStub(args(38), FUNCTION,  (Array)
+3c1f06031580 a2 Stub:ToNumberStub
+3c1f060316a0 3cc LazyCompile:~SetUpLockedPrototype native v8natives.js:45
+3c1f06031ae0 5c Stub:ToBooleanStub(SpecObject)
+3c1f06031ba0 6c Stub:BinaryOpICStub(ADD_ReuseLeft:Smi*Smi->Smi)
+3c1f06031c80 25 LoadIC:length
+3c1f06031d20 25 LoadIC:length
+3c1f06031dc0 13d Stub:CallICStub(args(20), FUNCTION,
+3c1f06031f60 137 Stub:CallICStub(args(4), FUNCTION,
+3c1f06032100 13d Stub:CallICStub(args(30), FUNCTION,
+3c1f060322a0 604 LazyCompile:~SetUpObject native v8natives.js:1032
+3c1f06032920 137 Stub:CallICStub(args(1), FUNCTION,
+3c1f06032ac0 1aa Stub:FastCloneShallowObjectStub
+3c1f06032ce0 184 LazyCompile:~ObjectConstructor native v8natives.js:1023
+3c1f06032ce0 184 LazyCompile:~ObjectConstructor native v8natives.js:1023
+3c1f06032ee0 120 Stub:CallIC_ArrayStub(args(20), FUNCTION,  (Array)
+3c1f06033060 25 LoadIC:length
+3c1f06033100 25 LoadIC:length
+3c1f060331a0 114 LazyCompile:~InstallGetterSetter native v8natives.js:24
+3c1f06033320 120 Stub:CallIC_ArrayStub(args(30), FUNCTION,  (Array)
+3c1f060334a0 244 LazyCompile:~SetUpBoolean native v8natives.js:1093
+3c1f06033760 15c LazyCompile:~BooleanConstructor native v8natives.js:1070
+3c1f06033760 15c LazyCompile:~BooleanConstructor native v8natives.js:1070
+3c1f06033920 1f4 LazyCompile:~ToBoolean native runtime.js:300
+3c1f06033b80 11a Stub:CallIC_ArrayStub(args(4), FUNCTION,  (Array)
+3c1f06033d00 1ee Stub:MathPowStub
+3c1f06033f60 13d Stub:CallICStub(args(16), FUNCTION,
+3c1f06034100 137 Stub:CallICStub(args(2), FUNCTION,
+3c1f060342a0 5dc LazyCompile:~SetUpNumber native v8natives.js:1212
+3c1f060348e0 17c LazyCompile:~NumberConstructor native v8natives.js:1104
+3c1f060348e0 17c LazyCompile:~NumberConstructor native v8natives.js:1104
+3c1f06034ac0 55 Stub:CompareICStub
+3c1f06034b80 2cc LazyCompile:ToNumber native runtime.js:307
+3c1f06034ec0 120 Stub:CallIC_ArrayStub(args(16), FUNCTION,  (Array)
+3c1f06035040 238 LazyCompile:~InstallConstants native v8natives.js:33
+3c1f060352e0 25 LoadIC:length
+3c1f06035380 1dc LazyCompile:~SetUpFunction native v8natives.js:1339
+3c1f060355c0 ea Stub:FastNewContextStub
+3c1f06035720 1dc LazyCompile:~FunctionConstructor native v8natives.js:1330
+3c1f06035720 1dc LazyCompile:~FunctionConstructor native v8natives.js:1330
+3c1f06035960 3b4 Script:~native symbol.js
+3c1f06035d80 ec LazyCompile:~InternalSymbol native symbol.js:25
+3c1f06035ee0 14 Stub:LoadFieldStub
+3c1f06035f60 25 LoadIC:for_intern
+3c1f06036000 38 KeyedLoadIC:Symbol.isConcatSpreadable
+3c1f060360a0 3c4 LazyCompile:~SetUpSymbol native symbol.js:59
+3c1f060364e0 17c LazyCompile:~SymbolConstructor native symbol.js:4
+3c1f060364e0 17c LazyCompile:~SymbolConstructor native symbol.js:4
+3c1f060366c0 4c Stub:CompareNilICStub(NullValue)(Undefined)
+3c1f06036780 25 LoadIC:length
+3c1f06036820 25 LoadIC:length
+3c1f060368c0 10c LazyCompile:~ExtendObject native symbol.js:78
+3c1f06036a40 11a Stub:CallIC_ArrayStub(args(2), FUNCTION,  (Array)
+3c1f06036bc0 11c Script:~native array.js
+3c1f06036d40 6a6 Stub:RecordWriteStub
+3c1f06037460 9f4 Stub:RecordWriteStub
+3c1f06037ec0 a12 Stub:RecordWriteStub
+3c1f06038940 26a Stub:FastNewClosureStub
+3c1f06038c20 13d Stub:CallICStub(args(42), FUNCTION,
+3c1f06038dc0 137 Stub:CallICStub(args(6), FUNCTION,
+3c1f06038f60 e44 LazyCompile:~SetUpArray native array.js:1105
+3c1f06039e20 1aa Stub:CallICStub(args(1), METHOD,
+3c1f0603a040 104 LazyCompile:~SetUpArray.c native array.js:1124
+3c1f0603a1c0 22c LazyCompile:~hasOwnProperty native v8natives.js:141
+3c1f0603a460 50 Stub:ToBooleanStub(Bool)
+3c1f0603a520 cc LazyCompile:ToName native runtime.js:343
+3c1f0603a660 294 LazyCompile:ToString native runtime.js:328
+3c1f0603a960 18 Stub:LoadConstantStub
+3c1f0603a9e0 2e Stub:hasOwnProperty
+3c1f0603aa80 25 LoadIC:hasOwnProperty
+3c1f0603ab20 f Stub:ToName
+3c1f0603aba0 25 LoadIC:ToName
+3c1f0603ac40 f Stub:ToString
+3c1f0603acc0 25 LoadIC:ToString
+3c1f0603ad60 18 Stub:LoadConstantStub
+3c1f0603ade0 38 KeyedLoadIC:push
+3c1f0603ae80 18 Stub:LoadConstantStub
+3c1f0603af00 120 Stub:CallIC_ArrayStub(args(42), FUNCTION,  (Array)
+3c1f0603b080 90 Stub:ArrayConstructorStub_None
+3c1f0603b180 114 Stub:CallIC_ArrayStub(args(0), FUNCTION,  (Array)
+3c1f0603b300 26 Stub:FunctionPrototypeStub
+3c1f0603b3a0 25 LoadIC:prototype
+3c1f0603b440 25 LoadIC:length
+3c1f0603b4e0 25 LoadIC:length
+3c1f0603b580 38 LoadPolymorphicIC:length
+3c1f0603b620 11a Stub:CallIC_ArrayStub(args(6), FUNCTION,  (Array)
+3c1f0603b7a0 1a4 Script:~native string.js
+3c1f0603b9c0 13d Stub:CallICStub(args(72), FUNCTION,
+3c1f0603bb60 71c LazyCompile:~SetUpString native string.js:620
+3c1f0603c2e0 1c4 LazyCompile:~StringConstructor native string.js:2
+3c1f0603c2e0 1c4 LazyCompile:~StringConstructor native string.js:2
+3c1f0603c520 120 Stub:CallIC_ArrayStub(args(72), FUNCTION,  (Array)
+3c1f0603c6a0 17e Stub:FastNewContextStub
+3c1f0603c880 6a1 Stub:RecordWriteStub
+3c1f0603cfa0 45c Function:~ native uri.js:3
+3c1f0603d460 b4 Script:~native uri.js
+3c1f0603d580 84 Script:~native fdlibm.js
+3c1f0603d680 18c Script:~native math.js
+3c1f0603d880 5c LazyCompile:~MathConstructor native math.js:5
+3c1f0603d940 13d Stub:CallICStub(args(70), FUNCTION,
+3c1f0603dae0 804 LazyCompile:~SetUpMath native math.js:232
+3c1f0603e360 120 Stub:CallIC_ArrayStub(args(70), FUNCTION,  (Array)
+3c1f0603e4e0 137 Stub:CallICStub(args(7), FUNCTION,
+3c1f0603e680 137 Stub:CallICStub(args(14), FUNCTION,
+3c1f0603e820 137 Stub:CallICStub(args(5), FUNCTION,
+3c1f0603e9c0 13d Stub:CallICStub(args(32), FUNCTION,
+3c1f0603eb60 16 StoreInitialize:0
+3c1f0603ebe0 e64 Script:~native messages.js
+3c1f0603fac0 ac LazyCompile:~ native messages.js:254
+3c1f0603fac0 ac LazyCompile:~ native messages.js:254
+3c1f0603fbe0 11a Stub:CallIC_ArrayStub(args(7), FUNCTION,  (Array)
+3c1f0603fd60 11a Stub:CallIC_ArrayStub(args(14), FUNCTION,  (Array)
+3c1f0603fee0 25 LoadIC:length
+3c1f0603ff80 25 LoadIC:prototype
+3c1f06040020 11a Stub:CallIC_ArrayStub(args(5), FUNCTION,  (Array)
+3c1f060401a0 25 LoadIC:prototype
+3c1f06040240 11a Stub:CallIC_ArrayStub(args(3), FUNCTION,  (Array)
+3c1f060403c0 120 Stub:CallIC_ArrayStub(args(32), FUNCTION,  (Array)
+3c1f06040540 25 LoadIC:prototype
+3c1f060405e0 26a Stub:FastNewClosureStub
+3c1f060408c0 1b4 LazyCompile:~SetUpError native messages.js:837
+3c1f06040ae0 334 LazyCompile:~SetUpError.a native messages.js:838
+3c1f06040e80 3f5 Stub:BinaryOpWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060412e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06041360 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060413e0 70 Stub:CompareICStub
+3c1f060414c0 5c LazyCompile:~d native messages.js:844
+3c1f06041580 214 LazyCompile: native messages.js:854
+3c1f06041580 214 LazyCompile: native messages.js:854
+3c1f06041800 113 Stub:CallApiGetterStub
+3c1f06041980 33 Stub:name
+3c1f06041a20 25 LoadIC:name
+3c1f06041ac0 f Stub:global
+3c1f06041b40 25 LoadIC:global
+3c1f06041be0 f Stub:builtins
+3c1f06041c60 25 LoadIC:builtins
+3c1f06041d00 16c LazyCompile:~captureStackTrace native messages.js:831
+3c1f06041ee0 16 StorePreMonomorphic:0
+3c1f06041f60 4a8 LazyCompile:~defineProperty native v8natives.js:833
+3c1f06042480 844 LazyCompile:~ToPropertyDescriptor native v8natives.js:269
+3c1f06042d40 1a4 LazyCompile:~PropertyDescriptor native v8natives.js:318
+3c1f06042f60 25 LoadIC:ToName
+3c1f06043000 8c LazyCompile:~$Array.get_ native v8natives.js:379
+3c1f06043100 70 Stub:CompareICStub
+3c1f060431e0 8c LazyCompile:~$Array.set_ native v8natives.js:389
+3c1f060432e0 8c LazyCompile:~ native v8natives.js:399
+3c1f060433e0 ec LazyCompile:~IsInconsistentDescriptor native v8natives.js:230
+3c1f06043540 1a4 Stub:CallICStub(args(0), METHOD,
+3c1f06043760 10c LazyCompile:~IsAccessorDescriptor native v8natives.js:218
+3c1f060438e0 74 LazyCompile:~$Array.set_ native v8natives.js:396
+3c1f060439c0 10c LazyCompile:~IsDataDescriptor native v8natives.js:222
+3c1f06043b40 74 LazyCompile:~$Array.enumerable_ native v8natives.js:356
+3c1f06043c20 74 LazyCompile:~$Array.configurable_ native v8natives.js:376
+3c1f06043d00 204 LazyCompile:~DefineOwnProperty native v8natives.js:708
+3c1f06043f80 1d2c LazyCompile:~DefineObjectProperty native v8natives.js:494
+3c1f06045d20 29c LazyCompile:ToObject native runtime.js:346
+3c1f06046020 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f060460e0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f060461a0 21f Stub:CompareICStub
+3c1f06046420 2dc LazyCompile:~ConvertDescriptorArrayToDescriptor native v8natives.js:409
+3c1f06046760 67c Stub:RecordWriteStub
+3c1f06046e40 b3 Stub:value_
+3c1f06046f60 25 StoreIC:value_
+3c1f06047000 b3 Stub:hasValue_
+3c1f06047120 25 StoreIC:hasValue_
+3c1f060471c0 b3 Stub:writable_
+3c1f060472e0 25 StoreIC:writable_
+3c1f06047380 b3 Stub:hasWritable_
+3c1f060474a0 25 StoreIC:hasWritable_
+3c1f06047540 b3 Stub:enumerable_
+3c1f06047660 25 StoreIC:enumerable_
+3c1f06047700 b3 Stub:hasEnumerable_
+3c1f06047820 25 StoreIC:hasEnumerable_
+3c1f060478c0 b3 Stub:configurable_
+3c1f060479e0 25 StoreIC:configurable_
+3c1f06047a80 b3 Stub:hasConfigurable_
+3c1f06047ba0 25 StoreIC:hasConfigurable_
+3c1f06047c40 b3 Stub:get_
+3c1f06047d60 25 StoreIC:get_
+3c1f06047e00 b3 Stub:hasGetter_
+3c1f06047f20 25 StoreIC:hasGetter_
+3c1f06047fc0 b3 Stub:set_
+3c1f060480e0 25 StoreIC:set_
+3c1f06048180 b3 Stub:hasSetter_
+3c1f060482a0 25 StoreIC:hasSetter_
+3c1f06048340 a4 Stub:LoadElementStub
+3c1f06048460 25 KeyedLoadIC:
+3c1f06048500 8c LazyCompile:~$Array.enumerable_ native v8natives.js:349
+3c1f06048600 8c LazyCompile:~$Array.configurable_ native v8natives.js:369
+3c1f06048700 8c LazyCompile:~$Array.writable_ native v8natives.js:359
+3c1f06048800 a0a Stub:RecordWriteStub
+3c1f06049280 64 Stub:StoreFieldStub
+3c1f06049360 25 StoreIC:configurable_
+3c1f06049400 64 Stub:StoreFieldStub
+3c1f060494e0 25 StoreIC:hasConfigurable_
+3c1f06049580 124 LazyCompile:~IsGenericDescriptor native v8natives.js:226
+3c1f06049720 18 Stub:LoadConstantStub
+3c1f060497a0 2e Stub:hasGetter
+3c1f06049840 25 LoadIC:hasGetter
+3c1f060498e0 10 Stub:LoadFieldStub
+3c1f06049960 25 LoadIC:hasGetter_
+3c1f06049a00 18 Stub:LoadConstantStub
+3c1f06049a80 2e Stub:hasValue
+3c1f06049b20 25 LoadIC:hasValue
+3c1f06049bc0 10 Stub:LoadFieldStub
+3c1f06049c40 25 LoadIC:hasValue_
+3c1f06049ce0 18 Stub:LoadConstantStub
+3c1f06049d60 2e Stub:hasWritable
+3c1f06049e00 25 LoadIC:hasWritable
+3c1f06049ea0 10 Stub:LoadFieldStub
+3c1f06049f20 25 LoadIC:hasWritable_
+3c1f06049fc0 1f0 Stub:CompareICStub
+3c1f0604a220 74 LazyCompile:~$Array.get_ native v8natives.js:386
+3c1f0604a300 74 LazyCompile:~$Array.writable_ native v8natives.js:366
+3c1f0604a3e0 74 LazyCompile:~$Array.writable_ native v8natives.js:363
+3c1f0604a4c0 5c Stub:BinaryOpICStub(BIT_OR:Smi*Smi->Smi)
+3c1f0604a580 74 LazyCompile:~$Array.get_ native v8natives.js:383
+3c1f0604a660 10 Stub:LoadFieldStub
+3c1f0604a6e0 25 LoadIC:configurable_
+3c1f0604a780 f Stub:IsAccessorDescriptor
+3c1f0604a800 25 LoadIC:IsAccessorDescriptor
+3c1f0604a8a0 74 LazyCompile:~$Array.set_ native v8natives.js:393
+3c1f0604a980 74 LazyCompile:~ native v8natives.js:406
+3c1f0604aa60 74 LazyCompile:~ native v8natives.js:403
+3c1f06041580 214 LazyCompile: native messages.js:854
+3c1f0604ab40 f Stub:$Error
+3c1f0604abc0 25 LoadIC:$Error
+3c1f0604ac60 f Stub:captureStackTrace
+3c1f0604ace0 25 LoadIC:captureStackTrace
+3c1f0604ad80 f Stub:ObjectDefineProperty
+3c1f0604ae00 25 LoadIC:ObjectDefineProperty
+3c1f0604aea0 f Stub:StackTraceGetter
+3c1f0604af20 25 LoadIC:StackTraceGetter
+3c1f0604afc0 64 Stub:StoreFieldStub
+3c1f0604b0a0 25 StoreIC:get
+3c1f0604b140 f Stub:StackTraceSetter
+3c1f0604b1c0 25 LoadIC:StackTraceSetter
+3c1f0604b260 64 Stub:StoreFieldStub
+3c1f0604b340 25 StoreIC:set
+3c1f0604b3e0 f Stub:ToPropertyDescriptor
+3c1f0604b460 25 LoadIC:ToPropertyDescriptor
+3c1f0604b500 f Stub:PropertyDescriptor
+3c1f0604b580 25 LoadIC:PropertyDescriptor
+3c1f0604b620 18 Stub:LoadConstantStub
+3c1f0604b6a0 2e Stub:setConfigurable
+3c1f0604b740 25 LoadIC:setConfigurable
+3c1f0604b7e0 f Stub:ToBoolean
+3c1f0604b860 25 LoadIC:ToBoolean
+3c1f0604b900 10 Stub:LoadFieldStub
+3c1f0604b980 25 LoadIC:configurable
+3c1f0604ba20 25 LoadIC:get
+3c1f0604bac0 18 Stub:LoadConstantStub
+3c1f0604bb40 2e Stub:setGet
+3c1f0604bbe0 25 LoadIC:setGet
+3c1f0604bc80 64 Stub:StoreFieldStub
+3c1f0604bd60 25 StoreIC:get_
+3c1f0604be00 64 Stub:StoreFieldStub
+3c1f0604bee0 25 StoreIC:hasGetter_
+3c1f0604bf80 25 LoadIC:set
+3c1f0604c020 18 Stub:LoadConstantStub
+3c1f0604c0a0 2e Stub:setSet
+3c1f0604c140 25 LoadIC:setSet
+3c1f0604c1e0 64 Stub:StoreFieldStub
+3c1f0604c2c0 25 StoreIC:set_
+3c1f0604c360 64 Stub:StoreFieldStub
+3c1f0604c440 25 StoreIC:hasSetter_
+3c1f0604c4e0 f Stub:IsInconsistentDescriptor
+3c1f0604c560 25 LoadIC:IsInconsistentDescriptor
+3c1f0604c600 f Stub:IsDataDescriptor
+3c1f0604c680 25 LoadIC:IsDataDescriptor
+3c1f0604c720 f Stub:DefineOwnProperty
+3c1f0604c7a0 25 LoadIC:DefineOwnProperty
+3c1f0604c840 f Stub:DefineObjectProperty
+3c1f0604c8c0 25 LoadIC:DefineObjectProperty
+3c1f0604c960 f Stub:ToObject
+3c1f0604c9e0 25 LoadIC:ToObject
+3c1f0604ca80 f Stub:ConvertDescriptorArrayToDescriptor
+3c1f0604cb00 25 LoadIC:ConvertDescriptorArrayToDescriptor
+3c1f0604cba0 18 Stub:LoadConstantStub
+3c1f0604cc20 2e Stub:setValue
+3c1f0604ccc0 25 LoadIC:setValue
+3c1f0604cd60 25 StoreIC:value_
+3c1f0604ce00 25 StoreIC:hasValue_
+3c1f0604cea0 18 Stub:LoadConstantStub
+3c1f0604cf20 2e Stub:setWritable
+3c1f0604cfc0 25 LoadIC:setWritable
+3c1f0604d060 64 Stub:StoreFieldStub
+3c1f0604d140 25 StoreIC:writable_
+3c1f0604d1e0 64 Stub:StoreFieldStub
+3c1f0604d2c0 25 StoreIC:hasWritable_
+3c1f0604d360 18 Stub:LoadConstantStub
+3c1f0604d3e0 2e Stub:setEnumerable
+3c1f0604d480 25 LoadIC:setEnumerable
+3c1f0604d520 64 Stub:StoreFieldStub
+3c1f0604d600 25 StoreIC:enumerable_
+3c1f0604d6a0 64 Stub:StoreFieldStub
+3c1f0604d780 25 StoreIC:hasEnumerable_
+3c1f0604d820 25 LoadIC:setConfigurable
+3c1f0604d8c0 f Stub:IsGenericDescriptor
+3c1f0604d940 25 LoadIC:IsGenericDescriptor
+3c1f0604d9e0 18 Stub:LoadConstantStub
+3c1f0604da60 2e Stub:isConfigurable
+3c1f0604db00 25 LoadIC:isConfigurable
+3c1f0604dba0 18 Stub:LoadConstantStub
+3c1f0604dc20 2e Stub:hasEnumerable
+3c1f0604dcc0 25 LoadIC:hasEnumerable
+3c1f0604dd60 10 Stub:LoadFieldStub
+3c1f0604dde0 25 LoadIC:hasEnumerable_
+3c1f0604de80 18 Stub:LoadConstantStub
+3c1f0604df00 2e Stub:isEnumerable
+3c1f0604dfa0 25 LoadIC:isEnumerable
+3c1f0604e040 10 Stub:LoadFieldStub
+3c1f0604e0c0 25 LoadIC:enumerable_
+3c1f0604e160 18 Stub:LoadConstantStub
+3c1f0604e1e0 2e Stub:hasConfigurable
+3c1f0604e280 25 LoadIC:hasConfigurable
+3c1f0604e320 10 Stub:LoadFieldStub
+3c1f0604e3a0 25 LoadIC:hasConfigurable_
+3c1f0604e440 25 LoadIC:isConfigurable
+3c1f0604e4e0 25 LoadIC:hasGetter
+3c1f0604e580 18 Stub:LoadConstantStub
+3c1f0604e600 2e Stub:getGet
+3c1f0604e6a0 25 LoadIC:getGet
+3c1f0604e740 10 Stub:LoadFieldStub
+3c1f0604e7c0 25 LoadIC:get_
+3c1f0604e860 18 Stub:LoadConstantStub
+3c1f0604e8e0 2e Stub:hasSetter
+3c1f0604e980 25 LoadIC:hasSetter
+3c1f0604ea20 10 Stub:LoadFieldStub
+3c1f0604eaa0 25 LoadIC:hasSetter_
+3c1f0604eb40 18 Stub:LoadConstantStub
+3c1f0604ebc0 2e Stub:getSet
+3c1f0604ec60 25 LoadIC:getSet
+3c1f0604ed00 10 Stub:LoadFieldStub
+3c1f0604ed80 25 LoadIC:set_
+3c1f06041580 214 LazyCompile: native messages.js:854
+3c1f06041580 214 LazyCompile: native messages.js:854
+3c1f06041580 214 LazyCompile: native messages.js:854
+3c1f06041580 214 LazyCompile: native messages.js:854
+3c1f06041580 214 LazyCompile: native messages.js:854
+3c1f0604ee20 11c LazyCompile:~SetUpStackOverflowBoilerplate native messages.js:927
+3c1f0604efa0 ac LazyCompile:~MakeRangeError native messages.js:281
+3c1f0604f0c0 f4 LazyCompile:~MakeGenericError native messages.js:247
+3c1f0604f220 104 LazyCompile:~FormatMessage native messages.js:257
+3c1f0604f3a0 6f0 LazyCompile:FormatString native messages.js:161
+3c1f0604fb00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f0604fb80 25 LoadIC:length
+3c1f0604fc20 4c Stub:CompareNilICStub(NullValue)(Generic)
+3c1f0604fce0 124 Script:~native apinatives.js
+3c1f0604fe80 32c Script:~native date.js
+3c1f06050220 c0 Stub:ArrayConstructorStub_One
+3c1f06050340 11a Stub:CallIC_ArrayStub(args(1), FUNCTION,  (Array)
+3c1f060504c0 13d Stub:CallICStub(args(92), FUNCTION,
+3c1f06050660 8b4 LazyCompile:~SetUpDate native date.js:489
+3c1f06050f80 16 StoreInitialize:0
+3c1f06051000 47 Stub:CompareICStub
+3c1f060510c0 a74 LazyCompile:~DateConstructor native date.js:62
+3c1f060510c0 a74 LazyCompile:~DateConstructor native date.js:62
+3c1f06051ba0 120 Stub:CallIC_ArrayStub(args(92), FUNCTION,  (Array)
+3c1f06051d20 114 Script:~native json.js
+3c1f06051ea0 12c LazyCompile:~SetUpJSON native json.js:193
+3c1f06052040 1ac Script:~native regexp.js
+3c1f06052260 137 Stub:CallICStub(args(8), FUNCTION,
+3c1f06052400 910 LazyCompile:~SetUpRegExp native regexp.js:279
+3c1f06052d80 164 LazyCompile:~RegExpConstructor native regexp.js:46
+3c1f06052d80 164 LazyCompile:~RegExpConstructor native regexp.js:46
+3c1f06052f60 11a Stub:CallIC_ArrayStub(args(8), FUNCTION,  (Array)
+3c1f060530e0 33c LazyCompile:ToPrimitive native runtime.js:293
+3c1f06053480 5c Stub:DoubleToIStub
+3c1f06053540 4a0 Stub:BinaryOpWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f06053a40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f06053ac0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f06053b40 84 LazyCompile:~RegExpMakeCaptureGetter native regexp.js:255
+3c1f06053c40 f Stub:$RegExp
+3c1f06053cc0 25 LoadIC:$RegExp
+3c1f06053d60 f Stub:RegExpMakeCaptureGetter
+3c1f06053de0 25 LoadIC:RegExpMakeCaptureGetter
+3c1f06053e80 114 Script:~native arraybuffer.js
+3c1f06054000 334 LazyCompile:~SetUpArrayBuffer native arraybuffer.js:53
+3c1f060543a0 16c LazyCompile:~ArrayBufferConstructor native arraybuffer.js:4
+3c1f060543a0 16c LazyCompile:~ArrayBufferConstructor native arraybuffer.js:4
+3c1f06054580 d4 LazyCompile:~InstallGetter native v8natives.js:18
+3c1f060546c0 41c Script:~native typedarray.js
+3c1f06054b40 304c LazyCompile:~SetupTypedArrays native typedarray.js:1358
+3c1f06057c00 30c LazyCompile:~Uint8ArrayConstructor native typedarray.js:71
+3c1f06057c00 30c LazyCompile:~Uint8ArrayConstructor native typedarray.js:71
+3c1f06057f80 30c LazyCompile:~Int8ArrayConstructor native typedarray.js:212
+3c1f06057f80 30c LazyCompile:~Int8ArrayConstructor native typedarray.js:212
+3c1f06058300 30c LazyCompile:~Uint16ArrayConstructor native typedarray.js:353
+3c1f06058300 30c LazyCompile:~Uint16ArrayConstructor native typedarray.js:353
+3c1f06058680 30c LazyCompile:~Int16ArrayConstructor native typedarray.js:494
+3c1f06058680 30c LazyCompile:~Int16ArrayConstructor native typedarray.js:494
+3c1f06058a00 30c LazyCompile:~Uint32ArrayConstructor native typedarray.js:635
+3c1f06058a00 30c LazyCompile:~Uint32ArrayConstructor native typedarray.js:635
+3c1f06058d80 30c LazyCompile:~Int32ArrayConstructor native typedarray.js:776
+3c1f06058d80 30c LazyCompile:~Int32ArrayConstructor native typedarray.js:776
+3c1f06059100 30c LazyCompile:~Float32ArrayConstructor native typedarray.js:917
+3c1f06059100 30c LazyCompile:~Float32ArrayConstructor native typedarray.js:917
+3c1f06059480 30c LazyCompile:~Float64ArrayConstructor native typedarray.js:1058
+3c1f06059480 30c LazyCompile:~Float64ArrayConstructor native typedarray.js:1058
+3c1f06059800 30c LazyCompile:~Uint8ClampedArrayConstructor native typedarray.js:1199
+3c1f06059800 30c LazyCompile:~Uint8ClampedArrayConstructor native typedarray.js:1199
+3c1f06059b80 56c LazyCompile:~SetupDataView native typedarray.js:1794
+3c1f0605a160 4ec LazyCompile:~DataViewConstructor native typedarray.js:1534
+3c1f0605a160 4ec LazyCompile:~DataViewConstructor native typedarray.js:1534
+3c1f0605a6c0 194 Script:~native weak_collection.js
+3c1f0605a8c0 294 LazyCompile:~SetUpWeakMap native weak_collection.js:78
+3c1f0605abc0 5b8 LazyCompile:~WeakMapConstructor native weak_collection.js:5
+3c1f0605abc0 5b8 LazyCompile:~WeakMapConstructor native weak_collection.js:5
+3c1f0605b1e0 274 LazyCompile:~SetUpWeakSet native weak_collection.js:151
+3c1f0605b4c0 4e0 LazyCompile:~WeakSetConstructor native weak_collection.js:92
+3c1f0605b4c0 4e0 LazyCompile:~WeakSetConstructor native weak_collection.js:92
+3c1f0605ba00 192 Stub:FastNewContextStub
+3c1f0605bc00 8e4 Function:~ native promise.js:18
+3c1f0605c560 294 Script:~native promise.js
+3c1f0605c860 16 StorePreMonomorphic:0
+3c1f0605c8e0 d4 Function:~ native object-observe.js:97
+3c1f0605ca20 174 Script:~native object-observe.js
+3c1f0605cc00 1a8 LazyCompile:~TypeMapCreateFromList native object-observe.js:78
+3c1f0605ce20 94 LazyCompile:~TypeMapCreate native object-observe.js:69
+3c1f0605cf20 a4 LazyCompile:~nullProtoObject native object-observe.js:66
+3c1f0605d040 b4 LazyCompile:~TypeMapAddType native object-observe.js:72
+3c1f0605d160 f Stub:TypeMapAddType
+3c1f0605d1e0 25 LoadIC:TypeMapAddType
+3c1f0605d280 2fc LazyCompile:~SetupObjectObserve native object-observe.js:476
+3c1f0605d5e0 194 Script:~native collection.js
+3c1f0605d7e0 33c LazyCompile:~SetUpSet native collection.js:80
+3c1f0605db80 4e0 LazyCompile:~SetConstructor native collection.js:5
+3c1f0605db80 4e0 LazyCompile:~SetConstructor native collection.js:5
+3c1f0605e0c0 35c LazyCompile:~SetUpMap native collection.js:180
+3c1f0605e480 5b8 LazyCompile:~MapConstructor native collection.js:96
+3c1f0605e480 5b8 LazyCompile:~MapConstructor native collection.js:96
+3c1f0605eaa0 16c Script:~native collection-iterator.js
+3c1f0605ec80 284 LazyCompile:~SetUpSetIterator native collection-iterator.js:44
+3c1f0605ef80 7c LazyCompile:~SetIteratorConstructor native collection-iterator.js:3
+3c1f0605ef80 7c LazyCompile:~SetIteratorConstructor native collection-iterator.js:3
+3c1f0605f060 1cc LazyCompile:~ExtendSetPrototype native collection-iterator.js:57
+3c1f0605f2a0 284 LazyCompile:~SetUpMapIterator native collection-iterator.js:115
+3c1f0605f5a0 7c LazyCompile:~MapIteratorConstructor native collection-iterator.js:67
+3c1f0605f5a0 7c LazyCompile:~MapIteratorConstructor native collection-iterator.js:67
+3c1f0605f680 1cc LazyCompile:~ExtendMapPrototype native collection-iterator.js:128
+3c1f0605f8c0 204 Script:~native array-iterator.js
+3c1f0605fb40 244 LazyCompile:~SetUpArrayIterator native array-iterator.js:56
+3c1f0605fe00 1cc LazyCompile:~ExtendArrayPrototype native array-iterator.js:68
+3c1f06060040 e34 LazyCompile:~ExtendTypedArrayPrototypes native array-iterator.js:78
+3c1f06060ee0 18c Script:~native string-iterator.js
+3c1f060610e0 244 LazyCompile:~SetUpStringIterator native string-iterator.js:46
+3c1f060613a0 10c LazyCompile:~ExtendStringPrototypeWithIterator native string-iterator.js:61
+3c1f06061520 2cc LazyCompile:~Instantiate native apinatives.js:10
+3c1f06061860 55 Stub:CompareICStub
+3c1f06061920 49c LazyCompile:InstantiateFunction native apinatives.js:31
+3c1f06061e20 4c Stub:ToBooleanStub(Smi)
+3c1f06061ee0 44 Stub:ToBooleanStub(Undefined)
+3c1f06061fa0 9ec Stub:RecordWriteStub
+3c1f06062a00 5c Stub:DoubleToIStub
+3c1f06062ac0 326 Stub:StoreElementStub
+3c1f06062e60 22 KeyedStoreIC:
+3c1f06062f00 5a0 LazyCompile:ConfigureTemplateInstance native apinatives.js:63
+3c1f06063500 25 KeyedLoadIC:
+3c1f060635a0 f Stub:InstantiateFunction
+3c1f06063620 25 LoadIC:InstantiateFunction
+3c1f060636c0 f Stub:kApiFunctionCache
+3c1f06063740 25 LoadIC:kApiFunctionCache
+3c1f060637e0 f Stub:ConfigureTemplateInstance
+3c1f06063860 25 LoadIC:ConfigureTemplateInstance
+3c1f06063900 152 Stub:FastNewContextStub
+3c1f06063ac0 93c Function:~ node.js:27
+3c1f06064460 b4 Script:~node.js
+3c1f06064580 68 Stub:ToBooleanStub(Undefined,SpecObject)
+3c1f06064660 a4 Stub:LoadElementStub
+3c1f06064780 25 KeyedLoadIC:
+3c1f06064820 f Stub:Instantiate
+3c1f060648a0 25 LoadIC:Instantiate
+3c1f06064940 1aa Stub:CallICStub(args(2), METHOD,
+3c1f06064b60 1ba Stub:FastCloneShallowObjectStub
+3c1f06064d80 114c LazyCompile:~startup node.js:30
+3c1f06065f40 2dc LazyCompile:~NativeModule.require node.js:755
+3c1f06066280 9c LazyCompile:~NativeModule.getCached node.js:779
+3c1f06066380 c4 LazyCompile:~NativeModule.exists node.js:783
+3c1f060664c0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06066540 fc LazyCompile:~NativeModule node.js:745
+3c1f060666a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06066720 ac LazyCompile:~NativeModule.cache node.js:810
+3c1f06066840 204 LazyCompile:~NativeModule.compile node.js:800
+3c1f06066ac0 9c LazyCompile:~NativeModule.getSource node.js:787
+3c1f06066bc0 d4 LazyCompile:~NativeModule.wrap node.js:791
+3c1f06066d00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06066d80 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06066e00 dc LazyCompile:~runInThisContext node.js:740
+3c1f06066f40 11a Stub:FastNewContextStub
+3c1f060670c0 58c Function:~ events.js:1
+3c1f060676c0 b4 Script:~events.js
+3c1f060677e0 18 Stub:LoadConstantStub
+3c1f06067860 25 LoadIC:getCached
+3c1f06067900 14 Stub:LoadFieldStub
+3c1f06067980 25 LoadIC:_cache
+3c1f06067a20 38 KeyedLoadIC:util
+3c1f06067ac0 18 Stub:LoadConstantStub
+3c1f06067b40 25 LoadIC:exists
+3c1f06067be0 14 Stub:LoadFieldStub
+3c1f06067c60 25 LoadIC:_source
+3c1f06067d00 48a Stub:NameDictionaryLookupStub
+3c1f06068200 1d0 Stub:hasOwnProperty
+3c1f06068440 25 LoadIC:hasOwnProperty
+3c1f060684e0 14 Stub:LoadFieldStub
+3c1f06068560 25 LoadIC:moduleLoadList
+3c1f06068600 18 Stub:LoadConstantStub
+3c1f06068680 2e Stub:push
+3c1f06068720 25 LoadIC:push
+3c1f060687c0 d1 Stub:filename
+3c1f06068900 25 StoreIC:filename
+3c1f060689a0 d1 Stub:id
+3c1f06068ae0 25 StoreIC:id
+3c1f06068b80 d1 Stub:exports
+3c1f06068cc0 25 StoreIC:exports
+3c1f06068d60 d1 Stub:loaded
+3c1f06068ea0 25 StoreIC:loaded
+3c1f06068f40 18 Stub:LoadConstantStub
+3c1f06068fc0 2e Stub:cache
+3c1f06069060 25 LoadIC:cache
+3c1f06069100 25 LoadIC:_cache
+3c1f060691a0 25 LoadIC:id
+3c1f06069240 2e Stub:compile
+3c1f060692e0 25 LoadIC:compile
+3c1f06069380 18 Stub:LoadConstantStub
+3c1f06069400 25 LoadIC:getSource
+3c1f060694a0 25 LoadIC:id
+3c1f06069540 25 LoadIC:_source
+3c1f060695e0 38 KeyedLoadIC:util
+3c1f06069680 18 Stub:LoadConstantStub
+3c1f06069700 25 LoadIC:wrap
+3c1f060697a0 25 LoadIC:wrapper
+3c1f06069840 25 LoadIC:wrapper
+3c1f060698e0 25 LoadIC:filename
+3c1f06069980 25 StoreIC:filename
+3c1f06069a20 306 Stub:FastNewContextStub
+3c1f06069da0 112c Function:~ util.js:1
+3c1f0606af40 b4 Script:~util.js
+3c1f0606b060 2e Stub:runInThisContext
+3c1f0606b100 25 LoadIC:runInThisContext
+3c1f0606b1a0 25 LoadIC:exports
+3c1f0606b240 25 LoadIC:require
+3c1f0606b2e0 25 LoadIC:filename
+3c1f0606b380 838 LazyCompile:~DoConstructRegExp native regexp.js:3
+3c1f0606bc20 62c LazyCompile:~charAt native string.js:22
+3c1f0606c2c0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f0606c380 10 Stub:LoadFieldStub
+3c1f0606c400 25 LoadIC:length
+3c1f0606c4a0 10e Stub:FastNewContextStub
+3c1f0606c620 1bc LazyCompile:~exports.deprecate util.js:65
+3c1f0606c840 9c LazyCompile:~isUndefined util.js:544
+3c1f0606c940 23 Stub:global
+3c1f0606c9e0 25 LoadIC:global
+3c1f0606ca80 b3 Stub:process
+3c1f0606cba0 25 LoadIC:process
+3c1f0606cc40 25 StoreIC:loaded
+3c1f0606cce0 25 LoadIC:exports
+3c1f0606cd80 1cc LazyCompile:~create native v8natives.js:824
+3c1f0606cfc0 42c LazyCompile:~defineProperties native v8natives.js:868
+3c1f0606d460 4cc LazyCompile:~GetOwnEnumerablePropertyNames native v8natives.js:850
+3c1f0606d9a0 25 LoadIC:length
+3c1f0606da40 74 LazyCompile:~$Array.enumerable_ native v8natives.js:353
+3c1f0606db20 25 LoadIC:length
+3c1f0606dbc0 1a4 LazyCompile:~__proto__ native v8natives.js:1017
+3c1f0606dde0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f0606dea0 bc LazyCompile:~EventEmitter events.js:25
+3c1f0606dfc0 10e Stub:InstanceofStub
+3c1f0606e140 304 LazyCompile:~EventEmitter.init events.js:43
+3c1f0606e4c0 114 LazyCompile:~getPrototypeOf native v8natives.js:719
+3c1f0606e640 b4 LazyCompile:~startup.processFatal node.js:228
+3c1f0606e760 1fc LazyCompile:~startup.globalVariables node.js:170
+3c1f0606e9c0 38 LoadPolymorphicIC:moduleLoadList
+3c1f0606ea60 1f6 Stub:FastNewContextStub
+3c1f0606ecc0 1864 Function:~ buffer.js:1
+3c1f060705a0 b4 Script:~buffer.js
+3c1f060706c0 17c LazyCompile:~createPool buffer.js:40
+3c1f060708a0 67 Stub:process
+3c1f06070980 25 LoadIC:process
+3c1f06070a20 21f Stub:CompareICStub
+3c1f06070ca0 23 Stub:process
+3c1f06070d40 25 LoadIC:process
+3c1f06070de0 6b Stub:symbol(hash 20e544a7)
+3c1f06070ec0 25 LoadIC:noDeprecation
+3c1f06070f60 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06070fe0 25c LazyCompile:~startup.globalTimeouts node.js:180
+3c1f060712a0 d4 LazyCompile:~startup.globalConsole node.js:212
+3c1f060713e0 374 LazyCompile:~__defineGetter__ native v8natives.js:163
+3c1f060717c0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f06071880 ec LazyCompile:~startup.processAssert node.js:260
+3c1f060719e0 43c LazyCompile:~startup.processConfig node.js:266
+3c1f06071e80 44c LazyCompile:~split native string.js:399
+3c1f06072340 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f06072400 c1 Stub:CompareICStub
+3c1f06072540 674 LazyCompile:~join native array.js:272
+3c1f06072c20 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f06072ce0 1138 LazyCompile:Join native array.js:75
+3c1f06073e80 1b4 LazyCompile:~UseSparseVariant native array.js:63
+3c1f060740a0 e8 Stub:StoreElementStub
+3c1f06074200 22 KeyedStoreIC:
+3c1f060742a0 fc LazyCompile:~ToUint32 native runtime.js:360
+3c1f06074400 f Stub:DoConstructRegExp
+3c1f06074480 25 LoadIC:DoConstructRegExp
+3c1f06074520 25 LoadIC:ToString
+3c1f060745c0 f Stub:StringCharAt
+3c1f06074640 25 LoadIC:StringCharAt
+3c1f060746e0 337 Stub:SubStringStub
+3c1f06074a80 c14 LazyCompile:~replace native string.js:122
+3c1f06075700 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f060757c0 21f Stub:CompareICStub
+3c1f06075a40 4c Stub:CompareNilICStub(NullValue)(Null)
+3c1f06075b00 25 LoadIC:lastIndex
+3c1f06075ba0 25 LoadIC:global
+3c1f06075c40 40 Stub:StoreFieldStub
+3c1f06075ce0 25 StoreIC:lastIndex
+3c1f06075d80 f Stub:lastMatchInfoOverride
+3c1f06075e00 25 LoadIC:lastMatchInfoOverride
+3c1f06075ea0 f Stub:lastMatchInfo
+3c1f06075f20 25 LoadIC:lastMatchInfo
+3c1f06075fc0 21c LazyCompile:~parse native json.js:28
+3c1f06076240 5d4 LazyCompile:~Revive native json.js:4
+3c1f06076880 38 KeyedLoadIC:target_defaults
+3c1f06076920 f Stub:ObjectHasOwnProperty
+3c1f060769a0 25 LoadIC:ObjectHasOwnProperty
+3c1f06076a40 f Stub:Revive
+3c1f06076ac0 25 LoadIC:Revive
+3c1f06076b60 f4 LazyCompile:~ node.js:278
+3c1f06076cc0 21f Stub:CompareICStub
+3c1f06076f40 25 LoadIC:length
+3c1f06076fe0 162 Stub:FastNewContextStub
+3c1f060771c0 1aa Stub:CallICStub(args(3), METHOD,
+3c1f060773e0 464 LazyCompile:~startup.processNextTick node.js:285
+3c1f060778c0 1dc LazyCompile:~startup.processStdio node.js:497
+3c1f06077b00 25 LoadIC:setGet
+3c1f06077ba0 25 LoadIC:setEnumerable
+3c1f06077c40 25 LoadIC:setConfigurable
+3c1f06077ce0 25 LoadIC:isEnumerable
+3c1f06077d80 fc LazyCompile:~startup.processKillAndExit node.js:592
+3c1f06077ee0 254 LazyCompile:~startup.processSignalHandlers node.js:634
+3c1f060781a0 10e Stub:CompareICStub
+3c1f06078320 2ac LazyCompile:~startup.processChannel node.js:687
+3c1f06078640 fe Stub:FastNewContextStub
+3c1f060787a0 1a4 LazyCompile:~startup.processRawDebug node.js:710
+3c1f060789c0 25 LoadIC:exports
+3c1f06078a60 2cc LazyCompile:~startup.resolveArgv0 node.js:719
+3c1f06078da0 38c LazyCompile:~indexOf native string.js:53
+3c1f060791a0 5d Stub:CompareICStub
+3c1f06079260 10e Stub:CompareICStub
+3c1f060793e0 68 Stub:ToBooleanStub(String)
+3c1f060794c0 4b LoadPolymorphicIC:moduleLoadList
+3c1f06079580 172 Stub:FastNewContextStub
+3c1f06079760 d6c Function:~ path.js:1
+3c1f0607a540 b4 Script:~path.js
+3c1f0607a660 72 Stub:resolve
+3c1f0607a740 ea StoreMegamorphic:0
+3c1f0607a8a0 4e8 LazyCompile:~posix.resolve path.js:413
+3c1f0607ae00 25 KeyedLoadIC:
+3c1f0607aea0 b4 LazyCompile:~isString util.js:534
+3c1f0607afc0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f0607b040 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f0607b0c0 25 LoadIC:length
+3c1f0607b160 25 LoadIC:length
+3c1f0607b200 398 LazyCompile:~normalizeArray path.js:31
+3c1f0607b600 25 LoadIC:length
+3c1f0607b6a0 25 LoadIC:push
+3c1f0607b740 25 LoadIC:length
+3c1f0607b7e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f0607b860 22 KeyedStoreIC:
+3c1f0607b900 206 Stub:FastNewContextStub
+3c1f0607bb80 d94 Function:~ module.js:1
+3c1f0607c980 b4 Script:~module.js
+3c1f0607caa0 3f4 Function:~ vm.js:1
+3c1f0607cf00 b4 Script:~vm.js
+3c1f0607d020 774 Function:~ assert.js:1
+3c1f0607d800 b4 Script:~assert.js
+3c1f0607d920 2e Stub:runInThisContext
+3c1f0607d9c0 25 LoadIC:runInThisContext
+3c1f0607da60 17c LazyCompile:~exports.inherits util.js:632
+3c1f0607dc40 f Stub:ObjectDefineProperties
+3c1f0607dcc0 25 LoadIC:ObjectDefineProperties
+3c1f0607dd60 f Stub:GetOwnEnumerablePropertyNames
+3c1f0607dde0 25 LoadIC:GetOwnEnumerablePropertyNames
+3c1f0607de80 f Stub:InternalArray
+3c1f0607df00 25 LoadIC:InternalArray
+3c1f0607dfa0 2e Stub:push
+3c1f0607e040 25 LoadIC:push
+3c1f0607e0e0 25 LoadIC:length
+3c1f0607e180 25 LoadIC:push
+3c1f0607e220 38 KeyedLoadIC:constructor
+3c1f0607e2c0 38 LoadPolymorphicIC:configurable
+3c1f0607e360 25 LoadIC:setValue
+3c1f0607e400 25 LoadIC:value
+3c1f0607e4a0 25 LoadIC:hasSetter
+3c1f0607e540 25 LoadIC:hasWritable
+3c1f0607e5e0 74 LazyCompile:~$Array.configurable_ native v8natives.js:373
+3c1f0607e6c0 25 LoadIC:hasValue
+3c1f0607e760 18 Stub:LoadConstantStub
+3c1f0607e7e0 2e Stub:getValue
+3c1f0607e880 25 LoadIC:getValue
+3c1f0607e920 25 LoadIC:value_
+3c1f0607e9c0 3c2 Stub:FastNewContextStub
+3c1f0607ee00 3724 Function:~ fs.js:1
+3c1f060825a0 b4 Script:~fs.js
+3c1f060826c0 364 Function:~ stream.js:1
+3c1f06082aa0 b4 Script:~stream.js
+3c1f06082bc0 90 Stub:super_
+3c1f06082cc0 23 Stub:Object
+3c1f06082d60 25 LoadIC:Object
+3c1f06082e00 25 LoadIC:create
+3c1f06082ea0 25 LoadIC:prototype
+3c1f06082f40 25 StoreIC:value
+3c1f06082fe0 36 Stub:constructor
+3c1f06083080 25 StoreIC:constructor
+3c1f06083120 25 LoadIC:setEnumerable
+3c1f060831c0 25 LoadIC:enumerable
+3c1f06083260 25 LoadIC:setWritable
+3c1f06083300 25 LoadIC:writable
+3c1f060833a0 18 Stub:LoadConstantStub
+3c1f06083420 2e Stub:isWritable
+3c1f060834c0 25 LoadIC:isWritable
+3c1f06083560 25 LoadIC:writable_
+3c1f06083600 2e Stub:prototype
+3c1f060836a0 25 StoreIC:prototype
+3c1f06083740 27e Stub:FastNewContextStub
+3c1f06083a20 c74 Function:~ _stream_readable.js:1
+3c1f06084700 b4 Script:~_stream_readable.js
+3c1f06084820 39c LazyCompile:~exports.debuglog util.js:98
+3c1f06084c20 1a4 LazyCompile:~toUpperCase native string.js:520
+3c1f06084e40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06084ec0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06084f40 683 Stub:RecordWriteStub
+3c1f06085640 367 Stub:RegExpExecStub
+3c1f06085a20 99c LazyCompile:~test native regexp.js:145
+3c1f06086420 389 RegExp:\bSTREAM\b
+3c1f06086820 38 LoadPolymorphicIC:prototype
+3c1f060868c0 2e Stub:prototype
+3c1f06086960 38 StorePolymorphicIC:prototype
+3c1f06086a00 22a Stub:FastNewContextStub
+3c1f06086ca0 a94 Function:~ _stream_writable.js:1
+3c1f060877a0 b4 Script:~_stream_writable.js
+3c1f060878c0 4b LoadPolymorphicIC:prototype
+3c1f06087980 2e Stub:prototype
+3c1f06087a20 4b StorePolymorphicIC:prototype
+3c1f06087ae0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06087b60 23 Stub:global
+3c1f06087c00 38 LoadPolymorphicIC:global
+3c1f06087ca0 67 Stub:process
+3c1f06087d80 25 LoadIC:process
+3c1f06087e20 23 Stub:process
+3c1f06087ec0 38 LoadPolymorphicIC:process
+3c1f06087f60 20d Stub:noDeprecation
+3c1f060881e0 38 LoadPolymorphicIC:noDeprecation
+3c1f06088280 38 LoadPolymorphicIC:get
+3c1f06088320 3f8 Function:~ _stream_duplex.js:1
+3c1f06088780 b4 Script:~_stream_duplex.js
+3c1f060888a0 5e LoadPolymorphicIC:prototype
+3c1f06088960 20c LazyCompile:~keys native v8natives.js:207
+3c1f06088be0 25 LoadIC:length
+3c1f06088c80 25 LoadIC:prototype
+3c1f06088d20 38 KeyedLoadIC:write
+3c1f06088dc0 25 LoadIC:prototype
+3c1f06088e60 18 Stub:LoadConstantStub
+3c1f06088ee0 38 KeyedLoadIC:cork
+3c1f06088f80 136 Stub:FastNewContextStub
+3c1f06089120 3dc Function:~ _stream_transform.js:1
+3c1f06089560 b4 Script:~_stream_transform.js
+3c1f06089680 1fc Function:~ _stream_passthrough.js:1
+3c1f060898e0 b4 Script:~_stream_passthrough.js
+3c1f06089a00 46c Function:~ smalloc.js:1
+3c1f06089ee0 b4 Script:~smalloc.js
+3c1f0608a000 38 LoadPolymorphicIC:enumerable
+3c1f0608a0a0 38 LoadPolymorphicIC:value
+3c1f0608a140 25 StoreIC:hasValue_
+3c1f0608a1e0 25 LoadIC:setWritable
+3c1f0608a280 38 LoadPolymorphicIC:writable
+3c1f0608a320 25 StoreIC:writable_
+3c1f0608a3c0 25 StoreIC:hasWritable_
+3c1f0608a460 25 LoadIC:hasGetter
+3c1f0608a500 25 LoadIC:hasGetter_
+3c1f0608a5a0 25 LoadIC:hasSetter
+3c1f0608a640 25 LoadIC:hasSetter_
+3c1f0608a6e0 25 LoadIC:hasEnumerable
+3c1f0608a780 25 LoadIC:hasEnumerable_
+3c1f0608a820 25 LoadIC:isEnumerable
+3c1f0608a8c0 25 LoadIC:enumerable_
+3c1f0608a960 25 LoadIC:hasConfigurable
+3c1f0608aa00 25 LoadIC:hasConfigurable_
+3c1f0608aaa0 25 LoadIC:hasValue
+3c1f0608ab40 25 LoadIC:hasValue_
+3c1f0608abe0 25 LoadIC:hasWritable
+3c1f0608ac80 25 LoadIC:hasWritable_
+3c1f0608ad20 25 LoadIC:isWritable
+3c1f0608adc0 25 LoadIC:writable_
+3c1f0608ae60 25 LoadIC:hasValue
+3c1f0608af00 25 LoadIC:getValue
+3c1f0608afa0 25 LoadIC:value_
+3c1f0608b040 9b Stub:value_
+3c1f0608b140 25 StoreIC:value_
+3c1f0608b1e0 b3 Stub:hasValue_
+3c1f0608b300 25 StoreIC:hasValue_
+3c1f0608b3a0 b3 Stub:writable_
+3c1f0608b4c0 25 StoreIC:writable_
+3c1f0608b560 b3 Stub:hasWritable_
+3c1f0608b680 25 StoreIC:hasWritable_
+3c1f0608b720 b3 Stub:enumerable_
+3c1f0608b840 25 StoreIC:enumerable_
+3c1f0608b8e0 b3 Stub:hasEnumerable_
+3c1f0608ba00 25 StoreIC:hasEnumerable_
+3c1f0608baa0 b3 Stub:configurable_
+3c1f0608bbc0 25 StoreIC:configurable_
+3c1f0608bc60 b3 Stub:hasConfigurable_
+3c1f0608bd80 25 StoreIC:hasConfigurable_
+3c1f0608be20 b3 Stub:get_
+3c1f0608bf40 25 StoreIC:get_
+3c1f0608bfe0 b3 Stub:hasGetter_
+3c1f0608c100 25 StoreIC:hasGetter_
+3c1f0608c1a0 b3 Stub:set_
+3c1f0608c2c0 25 StoreIC:set_
+3c1f0608c360 b3 Stub:hasSetter_
+3c1f0608c480 25 StoreIC:hasSetter_
+3c1f0608c520 25 LoadIC:setEnumerable
+3c1f0608c5c0 25 StoreIC:enumerable_
+3c1f0608c660 25 StoreIC:hasEnumerable_
+3c1f0608c700 25 LoadIC:setValue
+3c1f0608c7a0 40 Stub:StoreFieldStub
+3c1f0608c840 25 StoreIC:value_
+3c1f0608c8e0 38 LoadPolymorphicIC:enumerable
+3c1f0608c980 38 LoadPolymorphicIC:value
+3c1f0608ca20 38 LoadPolymorphicIC:writable
+3c1f0608cac0 4b LoadPolymorphicIC:enumerable
+3c1f0608cb80 4b LoadPolymorphicIC:value
+3c1f0608cc40 25 LoadIC:setConfigurable
+3c1f0608cce0 25 StoreIC:configurable_
+3c1f0608cd80 25 StoreIC:hasConfigurable_
+3c1f0608ce20 25 LoadIC:isConfigurable
+3c1f0608cec0 25 LoadIC:configurable_
+3c1f0608cf60 e9 LoadMegamorphic:0
+3c1f0608d0c0 29c LazyCompile:NonNumberToNumber native runtime.js:318
+3c1f0608d3c0 1c4 Stub:CompareICStub
+3c1f0608d600 f4 Stub:CompareICStub
+3c1f0608d760 53 Stub:toUpperCase
+3c1f0608d820 25 LoadIC:toUpperCase
+3c1f0608d8c0 23 Stub:RegExp
+3c1f0608d960 25 LoadIC:RegExp
+3c1f0608da00 2e Stub:test
+3c1f0608daa0 25 LoadIC:test
+3c1f0608db40 25 LoadIC:lastIndex
+3c1f0608dbe0 25 LoadIC:global
+3c1f0608dc80 25 LoadIC:source
+3c1f0608dd20 389 RegExp:\bMODULE\b
+3c1f0608e120 25 StoreIC:lastIndex
+3c1f0608e1c0 1aa Stub:CallICStub(args(5), METHOD,
+3c1f0608e3e0 48c LazyCompile:~Module._initPaths module.js:506
+3c1f0608e8e0 25 LoadIC:length
+3c1f0608e980 25 LoadIC:isString
+3c1f0608ea20 53 Stub:charAt
+3c1f0608eae0 25 LoadIC:charAt
+3c1f0608eb80 38 LoadPolymorphicIC:charAt
+3c1f0608ec20 53 Stub:split
+3c1f0608ece0 25 LoadIC:split
+3c1f0608ed80 25 LoadIC:length
+3c1f0608ee20 25 LoadIC:length
+3c1f0608eec0 2e Stub:pop
+3c1f0608ef60 25 LoadIC:pop
+3c1f0608f000 18 Stub:LoadConstantStub
+3c1f0608f080 2e Stub:join
+3c1f0608f120 25 LoadIC:join
+3c1f0608f1c0 f Stub:Join
+3c1f0608f240 25 LoadIC:Join
+3c1f0608f2e0 f Stub:ConvertToString
+3c1f0608f360 25 LoadIC:ConvertToString
+3c1f0608f400 f Stub:visited_arrays
+3c1f0608f480 25 LoadIC:visited_arrays
+3c1f0608f520 f Stub:UseSparseVariant
+3c1f0608f5a0 25 LoadIC:UseSparseVariant
+3c1f0608f640 25 LoadIC:length
+3c1f0608f6e0 25 LoadIC:length
+3c1f0608f780 2e Stub:length
+3c1f0608f820 25 StoreIC:length
+3c1f0608f8c0 134 LazyCompile:~Module.runMain module.js:499
+3c1f0608fa60 59c LazyCompile:Module._load module.js:273
+3c1f06090060 44 Stub:ToBooleanStub(Null)
+3c1f06090120 304 LazyCompile:~Module._resolveFilename module.js:321
+3c1f060904a0 8b4 LazyCompile:~Module._resolveLookupPaths module.js:222
+3c1f06090dc0 3ec LazyCompile:~substring native string.js:462
+3c1f06091220 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f060912e0 9e8 LazyCompile:~stringify native json.js:147
+3c1f06091d40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06091dc0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06091e40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06091ec0 74 LazyCompile:~debugs.(anonymous function) util.js:110
+3c1f06091fa0 5a0 LazyCompile:~Module._findPath module.js:153
+3c1f060925a0 464 LazyCompile:~slice native string.js:365
+3c1f06092a80 5d Stub:CompareICStub
+3c1f06092b40 4b LoadPolymorphicIC:charAt
+3c1f06092c00 15c LazyCompile:~tryFile module.js:132
+3c1f06092dc0 12c LazyCompile:statPath module.js:84
+3c1f06092f60 10c LazyCompile:~fs.statSync fs.js:799
+3c1f060930e0 21c LazyCompile:~nullCheck fs.js:109
+3c1f06093360 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060933e0 7c LazyCompile:~posix._makeLong path.js:529
+3c1f060934c0 29c LazyCompile:~fs.Stats fs.js:123
+3c1f060937c0 c4 LazyCompile:~fs.Stats.isDirectory fs.js:161
+3c1f06093900 dc LazyCompile:~fs.Stats._checkModeProperty fs.js:157
+3c1f06093a40 b20 LazyCompile:~realpathSync fs.js:1327
+3c1f060945c0 27c LazyCompile:~start fs.js:1350
+3c1f060948a0 1d2 Stub:RegExpConstructResultStub
+3c1f06094ae0 630 LazyCompile:~exec native regexp.js:98
+3c1f06095180 2ee RegExp:^[\/]*
+3c1f060954e0 25 KeyedLoadIC:
+3c1f06095580 22 KeyedStoreIC:
+3c1f06095620 25 KeyedLoadIC:
+3c1f060956c0 25 LoadIC:lastIndex
+3c1f06095760 25 LoadIC:global
+3c1f06095800 40e RegExp:(.*?)(?:[\/]+|$)
+3c1f06095c80 4c Stub:StoreGlobalStub
+3c1f06095d40 4c Stub:StoreGlobalStub
+3c1f06095e00 25 StoreIC:lastMatchInfoOverride
+3c1f06095ea0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06095f20 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06095fa0 21f Stub:CompareICStub
+3c1f06096220 10c LazyCompile:~fs.lstatSync fs.js:794
+3c1f060963a0 53 Stub:indexOf
+3c1f06096460 25 LoadIC:indexOf
+3c1f06096500 a8 Stub:dev
+3c1f06096620 25 StoreIC:dev
+3c1f060966c0 a8 Stub:mode
+3c1f060967e0 25 StoreIC:mode
+3c1f06096880 a8 Stub:nlink
+3c1f060969a0 25 StoreIC:nlink
+3c1f06096a40 a8 Stub:uid
+3c1f06096b60 25 StoreIC:uid
+3c1f06096c00 a8 Stub:gid
+3c1f06096d20 25 StoreIC:gid
+3c1f06096dc0 a8 Stub:rdev
+3c1f06096ee0 25 StoreIC:rdev
+3c1f06096f80 a8 Stub:blksize
+3c1f060970a0 25 StoreIC:blksize
+3c1f06097140 a8 Stub:ino
+3c1f06097260 25 StoreIC:ino
+3c1f06097300 a8 Stub:size
+3c1f06097420 25 StoreIC:size
+3c1f060974c0 a8 Stub:blocks
+3c1f060975e0 25 StoreIC:blocks
+3c1f06097680 23 Stub:Date
+3c1f06097720 25 LoadIC:Date
+3c1f060977c0 e5 Stub:atime
+3c1f06097920 25 StoreIC:atime
+3c1f060979c0 e5 Stub:mtime
+3c1f06097b20 25 StoreIC:mtime
+3c1f06097bc0 e5 Stub:ctime
+3c1f06097d20 25 StoreIC:ctime
+3c1f06097dc0 e5 Stub:birthtime
+3c1f06097f20 25 StoreIC:birthtime
+3c1f06097fc0 c4 LazyCompile:~fs.Stats.isSymbolicLink fs.js:177
+3c1f06098100 25 LoadIC:mode
+3c1f060981a0 25 LoadIC:symbol(hash 3bb2370a)
+3c1f06098240 25 LoadIC:length
+3c1f060982e0 25 StoreIC:lastIndex
+3c1f06098380 2e Stub:exec
+3c1f06098420 25 LoadIC:exec
+3c1f060984c0 25 LoadIC:length
+3c1f06098560 25 StoreIC:lastIndex
+3c1f06098600 25 LoadIC:lastIndex
+3c1f060986a0 25 LoadIC:prototype
+3c1f06098740 25 LoadIC:hasOwnProperty
+3c1f060987e0 2e Stub:call
+3c1f06098880 25 LoadIC:call
+3c1f06098920 18 Stub:LoadConstantStub
+3c1f060989a0 25 LoadIC:lstatSync
+3c1f06098a40 38 LoadPolymorphicIC:indexOf
+3c1f06098ae0 18 Stub:LoadConstantStub
+3c1f06098b60 25 LoadIC:lstat
+3c1f06098c00 25 LoadIC:_makeLong
+3c1f06098ca0 2e Stub:isSymbolicLink
+3c1f06098d40 25 LoadIC:isSymbolicLink
+3c1f06098de0 2e Stub:_checkModeProperty
+3c1f06098e80 25 LoadIC:_checkModeProperty
+3c1f06098f20 1bc LazyCompile:~Module module.js:38
+3c1f06099140 36c LazyCompile:~Module.load module.js:345
+3c1f06099520 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060995a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f06099620 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060996a0 dc LazyCompile:~ok assert.js:105
+3c1f060997e0 174 LazyCompile:~posix.dirname path.js:534
+3c1f060999c0 e4 LazyCompile:~posixSplitPath path.js:406
+3c1f06099b20 990 RegExp:^(\/?|)([\s\S]*?)((?:\.{1,2}|[^\/]+?|)(\.[^.\/]*|))(?:[\/]*)$
+3c1f0609a520 46c LazyCompile:~substr native string.js:488
+3c1f0609aa00 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f0609aac0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f0609ab40 580 LazyCompile:~Module._nodeModulePaths module.js:200
+3c1f0609b120 71c LazyCompile:~StringSplitOnRegExp native string.js:416
+3c1f0609b8a0 cc LazyCompile:~DoRegExpExec native regexp.js:67
+3c1f0609b9e0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f0609baa0 22 KeyedStoreIC:
+3c1f0609bb40 c2 Stub:CompareICStub
+3c1f0609bc80 f Stub:DoRegExpExec
+3c1f0609bd00 25 LoadIC:DoRegExpExec
+3c1f0609bda0 25 LoadIC:length
+3c1f0609be40 25 LoadIC:length
+3c1f0609bee0 70 Stub:CompareNilICStub(NullValue)(Null,MonomorphicMap)
+3c1f0609bfc0 70 Stub:CompareNilICStub(NullValue)(Null,MonomorphicMap)
+3c1f0609c0a0 2e0 LazyCompile:~ArrayConcatJS native array.js:344
+3c1f0609c3e0 25 LoadIC:length
+3c1f0609c480 18 Stub:LoadConstantStub
+3c1f0609c500 2e Stub:slice
+3c1f0609c5a0 25 LoadIC:slice
+3c1f0609c640 2e Stub:concat
+3c1f0609c6e0 25 LoadIC:concat
+3c1f0609c780 25 LoadIC:join
+3c1f0609c820 25 LoadIC:sep
+3c1f0609c8c0 25 LoadIC:push
+3c1f0609c960 a4 LazyCompile:~posix.extname path.js:563
+3c1f0609ca80 25 LoadIC:exec
+3c1f0609cb20 25 LoadIC:slice
+3c1f0609cbc0 11c LazyCompile:~Module._extensions..js module.js:476
+3c1f0609cd40 1aa Stub:CallICStub(args(4), METHOD,
+3c1f0609cf60 bb8 LazyCompile:fs.readFileSync fs.js:341
+3c1f0609db80 12c LazyCompile:~assertEncoding fs.js:103
+3c1f0609dd20 364 LazyCompile:~Buffer.isEncoding buffer.js:161
+3c1f0609e100 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f0609e180 1a4 LazyCompile:~toLowerCase native string.js:512
+3c1f0609e3a0 16c LazyCompile:~fs.openSync fs.js:499
+3c1f0609e580 1a4 LazyCompile:~modeNum fs.js:474
+3c1f0609e7a0 ac LazyCompile:~isNumber util.js:529
+3c1f0609e8c0 77c LazyCompile:~stringToFlags fs.js:420
+3c1f0609f0a0 b4 LazyCompile:~fs.fstatSync fs.js:790
+3c1f0609f1c0 c60 LazyCompile:~Buffer buffer.js:48
+3c1f0609fe80 b4 LazyCompile:~isBuffer util.js:585
+3c1f0609ffa0 122 Stub:FastNewContextStub
+3c1f060a0140 3c4 LazyCompile:~fs.readSync fs.js:538
+3c1f060a0580 23 Stub:Buffer
+3c1f060a0620 25 LoadIC:Buffer
+3c1f060a06c0 b4 LazyCompile:~fs.closeSync fs.js:470
+3c1f060a07e0 870 LazyCompile:~Buffer.toString buffer.js:237
+3c1f060a10c0 f Stub:$NaN
+3c1f060a1140 25 LoadIC:$NaN
+3c1f060a11e0 114 LazyCompile:~stripBOM module.js:464
+3c1f060a1360 50c LazyCompile:~charCodeAt native string.js:30
+3c1f060a18e0 d90 LazyCompile:~Module._compile module.js:378
+3c1f060a26e0 31f RegExp:^\#\!.*
+3c1f060a2a60 25 LoadIC:setGet
+3c1f060a2b00 25 StoreIC:get_
+3c1f060a2ba0 25 StoreIC:hasGetter_
+3c1f060a2c40 25 LoadIC:hasWritable
+3c1f060a2ce0 25 LoadIC:hasGetter
+3c1f060a2d80 25 LoadIC:getGet
+3c1f060a2e20 25 LoadIC:get_
+3c1f060a2ec0 25 LoadIC:hasSetter
+3c1f060a2f60 53 Stub:substr
+3c1f060a3020 25 LoadIC:substr
+3c1f060a30c0 25 LoadIC:length
+3c1f060a3160 25 LoadIC:length
+3c1f060a3200 25 LoadIC:length
+3c1f060a32a0 dc LazyCompile:~exports.runInThisContext vm.js:72
+3c1f060a33e0 564 Function:~ /dev/cpuprofilify/example/fibonacci.js:1
+3c1f060a39c0 b4 Script:~/dev/cpuprofilify/example/fibonacci.js
+3c1f060a3ae0 b4 LazyCompile:~require module.js:383
+3c1f060a3c00 144 LazyCompile:~Module.require module.js:362
+3c1f060a3dc0 7c Stub:ToBooleanStub(Bool,String)
+3c1f060a3ea0 68 Stub:ToBooleanStub(Null,SpecObject)
+3c1f060a3f80 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060a4000 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060a4080 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060a4100 25 LoadIC:_resolveFilename
+3c1f060a41a0 25 LoadIC:exists
+3c1f060a4240 25 LoadIC:_cache
+3c1f060a42e0 25 LoadIC:exists
+3c1f060a4380 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060a4400 7ac Function:~ http.js:1
+3c1f060a4c20 b4 Script:~http.js
+3c1f060a4d40 4ac Function:~ _http_incoming.js:1
+3c1f060a5260 b4 Script:~_http_incoming.js
+3c1f060a5380 1d6 Stub:FastNewContextStub
+3c1f060a55c0 9ec Function:~ _http_common.js:1
+3c1f060a6020 b4 Script:~_http_common.js
+3c1f060a6140 17c Function:~ freelist.js:1
+3c1f060a6320 b4 Script:~freelist.js
+3c1f060a6440 35c RegExp:\bHTTP\b
+3c1f060a6800 e4 LazyCompile:~exports.FreeList freelist.js:23
+3c1f060a6960 1e8 LazyCompile:~exports._extend util.js:644
+3c1f060a6bc0 10c LazyCompile:~isObject util.js:554
+3c1f060a6d40 5a4 LazyCompile:~sort native array.js:618
+3c1f060a7360 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f060a7420 be0 LazyCompile:~QuickSort native array.js:659
+3c1f060a8060 1d4 LazyCompile:~a native array.js:621
+3c1f060a82a0 10e Stub:CompareICStub
+3c1f060a8420 10e Stub:CompareICStub
+3c1f060a85a0 11a Stub:CompareICStub
+3c1f060a8720 22 KeyedStoreIC:
+3c1f060a87c0 36c LazyCompile:~InsertionSort native array.js:633
+3c1f060a8ba0 1ca Stub:FastCloneShallowObjectStub
+3c1f060a8de0 12a4 Function:~ _http_outgoing.js:1
+3c1f060aa100 b4 Script:~_http_outgoing.js
+3c1f060aa220 b94 Function:~ timers.js:1
+3c1f060aae20 b4 Script:~timers.js
+3c1f060aaf40 1ac Function:~ _linklist.js:1
+3c1f060ab160 b4 Script:~_linklist.js
+3c1f060ab280 373 RegExp:\bTIMER\b
+3c1f060ab660 a4 LazyCompile:~init _linklist.js:22
+3c1f060ab780 5e LoadPolymorphicIC:enumerable
+3c1f060ab840 4b LoadPolymorphicIC:configurable
+3c1f060ab900 4b LoadPolymorphicIC:get
+3c1f060ab9c0 25 LoadIC:isBuffer
+3c1f060aba60 25 LoadIC:isNumber
+3c1f060abb00 334 LazyCompile:~Buffer.byteLength buffer.js:211
+3c1f060abea0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060abf20 25 LoadIC:length
+3c1f060abfc0 f Stub:undefined
+3c1f060ac040 25 LoadIC:undefined
+3c1f060ac0e0 d1 Stub:parent
+3c1f060ac220 25 StoreIC:parent
+3c1f060ac2c0 25 LoadIC:length
+3c1f060ac360 25 LoadIC:poolSize
+3c1f060ac400 25 LoadIC:length
+3c1f060ac4a0 25 LoadIC:length
+3c1f060ac540 25 LoadIC:length
+3c1f060ac5e0 25 StoreIC:parent
+3c1f060ac680 25 LoadIC:length
+3c1f060ac720 25 LoadIC:isNumber
+3c1f060ac7c0 b5c LazyCompile:~Buffer.write buffer.js:357
+3c1f060ad380 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060ad400 ba4 Function:~ _http_server.js:1
+3c1f060ae020 b4 Script:~_http_server.js
+3c1f060ae140 38e Stub:FastNewContextStub
+3c1f060ae540 214c Function:~ net.js:1
+3c1f060b0700 b4 Script:~net.js
+3c1f060b0820 374 RegExp:\bNET\b
+3c1f060b0c00 25 LoadIC:setGet
+3c1f060b0ca0 25 LoadIC:setEnumerable
+3c1f060b0d40 25 LoadIC:setConfigurable
+3c1f060b0de0 504 Function:~ _http_agent.js:1
+3c1f060b1360 b4 Script:~_http_agent.js
+3c1f060b1480 4dc LazyCompile:~Agent _http_agent.js:39
+3c1f060b19c0 25 LoadIC:init
+3c1f060b1a60 25 LoadIC:call
+3c1f060b1b00 25 LoadIC:usingDomains
+3c1f060b1ba0 4a Stub:_events
+3c1f060b1c60 25 LoadIC:_events
+3c1f060b1d00 4a Stub:_maxListeners
+3c1f060b1dc0 25 LoadIC:_maxListeners
+3c1f060b1e60 744 LazyCompile:~addListener events.js:138
+3c1f060b2620 b4 LazyCompile:~isFunction util.js:570
+3c1f060b2740 bac Function:~ _http_client.js:1
+3c1f060b3360 b4 Script:~_http_client.js
+3c1f060b3480 1e6 Stub:FastNewContextStub
+3c1f060b36e0 d84 Function:~ url.js:1
+3c1f060b44e0 b4 Script:~url.js
+3c1f060b4600 28e Stub:FastNewContextStub
+3c1f060b4900 1c2 Stub:FastCloneShallowObjectStub
+3c1f060b4b40 1290 Function:~ punycode.js:2
+3c1f060b5e40 dc Function:~ punycode.js:1
+3c1f060b5f80 b4 Script:~punycode.js
+3c1f060b60a0 7d Stub:CompareICStub
+3c1f060b6180 7d Stub:CompareICStub
+3c1f060b6260 34c Function:~ querystring.js:1
+3c1f060b6620 b4 Script:~querystring.js
+3c1f060b6740 9c LazyCompile:~exports.createServer http.js:61
+3c1f060b6840 1b2 Stub:FastCloneShallowObjectStub
+3c1f060b6a60 26c LazyCompile:~Server _http_server.js:237
+3c1f060b6d40 5c4 LazyCompile:~Server net.js:988
+3c1f060b7380 66 Stub:_events
+3c1f060b7460 38 LoadPolymorphicIC:_events
+3c1f060b7500 66 Stub:_maxListeners
+3c1f060b75e0 38 LoadPolymorphicIC:_maxListeners
+3c1f060b7680 5e LoadPolymorphicIC:configurable
+3c1f060b7740 5e LoadPolymorphicIC:get
+3c1f060b7800 38 LoadPolymorphicIC:set
+3c1f060b78a0 25 LoadIC:setSet
+3c1f060b7940 25 StoreIC:set_
+3c1f060b79e0 25 StoreIC:hasSetter_
+3c1f060b7a80 25 LoadIC:getSet
+3c1f060b7b20 25 LoadIC:set_
+3c1f060b7bc0 25 LoadIC:isFunction
+3c1f060b7c60 25 LoadIC:_events
+3c1f060b7d00 25 LoadIC:_events
+3c1f060b7da0 31 Stub:symbol(hash 20e544a7)
+3c1f060b7e40 25 LoadIC:newListener
+3c1f060b7ee0 25 LoadIC:_events
+3c1f060b7f80 38 KeyedLoadIC:connection
+3c1f060b8020 25 LoadIC:_events
+3c1f060b80c0 25 LoadIC:isObject
+3c1f060b8160 25 LoadIC:_events
+3c1f060b8200 18 Stub:LoadConstantStub
+3c1f060b8280 38 KeyedLoadIC:connection
+3c1f060b8320 38 LoadPolymorphicIC:newListener
+3c1f060b83c0 8bc LazyCompile:~indexOf native array.js:953
+3c1f060b8ce0 25 LoadIC:length
+3c1f060b8d80 38 LoadPolymorphicIC:_events
+3c1f060b8e20 38 LoadPolymorphicIC:_events
+3c1f060b8ec0 4b LoadPolymorphicIC:newListener
+3c1f060b8f80 38 LoadPolymorphicIC:_events
+3c1f060b9020 38 LoadPolymorphicIC:_events
+3c1f060b90c0 38 LoadPolymorphicIC:_events
+3c1f060b9160 5e LoadPolymorphicIC:newListener
+3c1f060b9220 bcc LazyCompile:~Server.listen net.js:1186
+3c1f060b9e60 ec LazyCompile:~toNumber net.js:1034
+3c1f060b9fc0 f Stub:ToNumber
+3c1f060ba040 25 LoadIC:ToNumber
+3c1f060ba0e0 23 Stub:Number
+3c1f060ba180 25 LoadIC:Number
+3c1f060ba220 1c4 Stub:CompareICStub
+3c1f060ba460 f4 Stub:CompareICStub
+3c1f060ba5c0 11c LazyCompile:~isPipeName net.js:66
+3c1f060ba740 1aa Stub:CallICStub(args(6), METHOD,
+3c1f060ba960 284 LazyCompile:~listen net.js:1149
+3c1f060bac60 ba4 Function:~ cluster.js:1
+3c1f060bb880 b4 Script:~cluster.js
+3c1f060bb9a0 24a Stub:FastNewContextStub
+3c1f060bbc60 ddc Function:~ dgram.js:1
+3c1f060bcaa0 b4 Script:~dgram.js
+3c1f060bcbc0 d4 Function:~ constants.js:1
+3c1f060bcd00 b4 Script:~constants.js
+3c1f060bce20 33a Stub:FastNewContextStub
+3c1f060bd1c0 15fc Function:~ child_process.js:1
+3c1f060be820 b4 Script:~child_process.js
+3c1f060be940 2a4 Function:~ string_decoder.js:1
+3c1f060bec60 b4 Script:~string_decoder.js
+3c1f060bed80 124 LazyCompile:~handleWrapGetter child_process.js:39
+3c1f060bef20 25 LoadIC:defineProperty
+3c1f060befc0 25 StoreIC:get
+3c1f060bf060 2e Stub:_events
+3c1f060bf100 4b LoadPolymorphicIC:_events
+3c1f060bf1c0 2e Stub:_maxListeners
+3c1f060bf260 4b LoadPolymorphicIC:_maxListeners
+3c1f060bf320 67c Stub:RecordWriteStub
+3c1f060bfa00 b7 Stub:add
+3c1f060bfb20 79c LazyCompile:~masterInit cluster.js:213
+3c1f060c0320 b3 Stub:domain
+3c1f060c0440 25 StoreIC:domain
+3c1f060c04e0 b3 Stub:_events
+3c1f060c0600 25 StoreIC:_events
+3c1f060c06a0 b3 Stub:_maxListeners
+3c1f060c07c0 25 StoreIC:_maxListeners
+3c1f060c0860 5ac LazyCompile:~Server._listen2 net.js:1102
+3c1f060c0e80 79c LazyCompile:exports._createServerHandle net.js:1044
+3c1f060c1680 fc LazyCompile:~createTCP net.js:49
+3c1f060c17e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060c1860 cc LazyCompile:~_listen net.js:1036
+3c1f060c19a0 f Stub:ToPrimitive
+3c1f060c1a20 25 LoadIC:ToPrimitive
+3c1f060c1ac0 254 LazyCompile:NonStringToString native runtime.js:336
+3c1f060c1d80 498 Stub:BinaryOpWithAllocationSiteStub(ADD_CreateAllocationMementos:Smi*String->String)
+3c1f060c2280 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:Smi*String->String)
+3c1f060c2300 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:Smi*String->String)
+3c1f060c2380 ae Stub:BinaryOpWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Generic->String)
+3c1f060c24a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Generic->String)
+3c1f060c2520 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Generic->String)
+3c1f060c25a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060c2620 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f060c26a0 1b4 LazyCompile:~nextTick node.js:396
+3c1f060c28c0 15a Stub:LoadElementStub
+3c1f060c2a80 25 KeyedLoadIC:
+3c1f060c2b20 56 Stub:DoubleToIStub
+3c1f060c2be0 10c Stub:StoreElementStub
+3c1f060c2d60 22 KeyedStoreIC:
+3c1f060c2e00 404 LazyCompile:~process.on.process.addListener node.js:647
+3c1f060c3280 164 LazyCompile:~isSignal node.js:641
+3c1f060c3460 25 LoadIC:length
+3c1f060c3500 10c LazyCompile:~startup.lazyConstants node.js:221
+3c1f060c3680 25 LoadIC:_lazyConstants
+3c1f060c3720 25 LoadIC:_lazyConstants
+3c1f060c37c0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+3c1f060c3880 4b LoadPolymorphicIC:_events
+3c1f060c3940 4b LoadPolymorphicIC:_events
+3c1f060c3a00 4b LoadPolymorphicIC:_events
+3c1f060c3ac0 4b LoadPolymorphicIC:_events
+3c1f060c3b80 4b LoadPolymorphicIC:_events
+3c1f060c3c40 bc LazyCompile:~ node.js:213
+3c1f060c3d60 4fc Function:~ console.js:1
+3c1f060c42c0 b4 Script:~console.js
+3c1f060c43e0 1cc LazyCompile:~ node.js:500
+3c1f060c4620 664 LazyCompile:~createWritableStdioStream node.js:435
+3c1f060c4d00 9b4 LazyCompile:~Socket net.js:137
+3c1f060c5720 2f4 LazyCompile:~Duplex _stream_duplex.js:41
+3c1f060c5a80 154 LazyCompile:~Readable _stream_readable.js:99
+3c1f060c5c40 5f4 LazyCompile:~ReadableState _stream_readable.js:34
+3c1f060c62a0 227 Stub:CompareICStub
+3c1f060c6540 ac LazyCompile:~Stream stream.js:42
+3c1f060c6660 9e Stub:_events
+3c1f060c6760 5e LoadPolymorphicIC:_events
+3c1f060c6820 9e Stub:_maxListeners
+3c1f060c6920 5e LoadPolymorphicIC:_maxListeners
+3c1f060c69e0 194 LazyCompile:~Writable _stream_writable.js:146
+3c1f060c6be0 56c LazyCompile:~WritableState _stream_writable.js:42
+3c1f060c71c0 25 LoadIC:call
+3c1f060c7260 38 StorePolymorphicIC:domain
+3c1f060c7300 25 LoadIC:_events
+3c1f060c73a0 25 LoadIC:getPrototypeOf
+3c1f060c7440 82 Stub:_events
+3c1f060c7540 25 LoadIC:_events
+3c1f060c75e0 38 StorePolymorphicIC:_maxListeners
+3c1f060c7680 234 LazyCompile:~once events.js:188
+3c1f060c7920 39c LazyCompile:~Readable.on _stream_readable.js:670
+3c1f060c7d20 5e LoadPolymorphicIC:_events
+3c1f060c7de0 5e LoadPolymorphicIC:_events
+3c1f060c7ea0 5e LoadPolymorphicIC:_events
+3c1f060c7f60 5e LoadPolymorphicIC:_events
+3c1f060c8020 5e LoadPolymorphicIC:_events
+3c1f060c80e0 214 LazyCompile:~createHandle net.js:55
+3c1f060c8360 94 LazyCompile:~createPipe net.js:44
+3c1f060c8460 25 LoadIC:prototype
+3c1f060c8500 2e Stub:on
+3c1f060c85a0 25 LoadIC:on
+3c1f060c8640 25 LoadIC:call
+3c1f060c86e0 18c LazyCompile:~initSocketHandle net.js:121
+3c1f060c88e0 154 LazyCompile:~ node.js:515
+3c1f060c8aa0 25 LoadIC:symbol(hash 3bb2370a)
+3c1f060c8b40 25 LoadIC:guessHandleType
+3c1f060c8be0 25 LoadIC:require
+3c1f060c8c80 25 LoadIC:Socket
+3c1f060c8d20 40 Stub:StoreFieldStub
+3c1f060c8dc0 25 StoreIC:fd
+3c1f060c8e60 141 Stub:_connecting
+3c1f060c9020 25 StoreIC:_connecting
+3c1f060c90c0 141 Stub:_hadError
+3c1f060c9280 25 StoreIC:_hadError
+3c1f060c9320 141 Stub:_handle
+3c1f060c94e0 25 StoreIC:_handle
+3c1f060c9580 141 Stub:_host
+3c1f060c9740 25 StoreIC:_host
+3c1f060c97e0 25 LoadIC:isNumber
+3c1f060c9880 25 LoadIC:isUndefined
+3c1f060c9920 25 LoadIC:Duplex
+3c1f060c99c0 25 LoadIC:call
+3c1f060c9a60 25 LoadIC:call
+3c1f060c9b00 25 LoadIC:objectMode
+3c1f060c9ba0 d1 Stub:objectMode
+3c1f060c9ce0 25 StoreIC:objectMode
+3c1f060c9d80 25 LoadIC:Duplex
+3c1f060c9e20 25 LoadIC:objectMode
+3c1f060c9ec0 25 LoadIC:readableObjectMode
+3c1f060c9f60 25 StoreIC:objectMode
+3c1f060ca000 25 LoadIC:highWaterMark
+3c1f060ca0a0 25 LoadIC:objectMode
+3c1f060ca140 a8 Stub:highWaterMark
+3c1f060ca260 25 StoreIC:highWaterMark
+3c1f060ca300 25 LoadIC:highWaterMark
+3c1f060ca3a0 40 Stub:StoreFieldStub
+3c1f060ca440 25 StoreIC:highWaterMark
+3c1f060ca4e0 d1 Stub:buffer
+3c1f060ca620 25 StoreIC:buffer
+3c1f060ca6c0 a8 Stub:length
+3c1f060ca7e0 25 StoreIC:length
+3c1f060ca880 d1 Stub:pipes
+3c1f060ca9c0 25 StoreIC:pipes
+3c1f060caa60 a8 Stub:pipesCount
+3c1f060cab80 25 StoreIC:pipesCount
+3c1f060cac20 d1 Stub:flowing
+3c1f060cad60 25 StoreIC:flowing
+3c1f060cae00 d1 Stub:ended
+3c1f060caf40 25 StoreIC:ended
+3c1f060cafe0 d1 Stub:endEmitted
+3c1f060cb120 25 StoreIC:endEmitted
+3c1f060cb1c0 d1 Stub:reading
+3c1f060cb300 25 StoreIC:reading
+3c1f060cb3a0 d1 Stub:sync
+3c1f060cb4e0 25 StoreIC:sync
+3c1f060cb580 d1 Stub:needReadable
+3c1f060cb6c0 25 StoreIC:needReadable
+3c1f060cb760 d1 Stub:emittedReadable
+3c1f060cb8a0 25 StoreIC:emittedReadable
+3c1f060cb940 d1 Stub:readableListening
+3c1f060cba80 25 StoreIC:readableListening
+3c1f060cbb20 25 LoadIC:defaultEncoding
+3c1f060cbbc0 d7 Stub:defaultEncoding
+3c1f060cbd00 25 StoreIC:defaultEncoding
+3c1f060cbda0 d7 Stub:ranOut
+3c1f060cbee0 25 StoreIC:ranOut
+3c1f060cbf80 ab Stub:awaitDrain
+3c1f060cc0a0 25 StoreIC:awaitDrain
+3c1f060cc140 d7 Stub:readingMore
+3c1f060cc280 25 StoreIC:readingMore
+3c1f060cc320 d7 Stub:decoder
+3c1f060cc460 25 StoreIC:decoder
+3c1f060cc500 d7 Stub:encoding
+3c1f060cc640 25 StoreIC:encoding
+3c1f060cc6e0 25 LoadIC:encoding
+3c1f060cc780 155 Stub:_readableState
+3c1f060cc940 25 StoreIC:_readableState
+3c1f060cc9e0 141 Stub:readable
+3c1f060ccba0 25 StoreIC:readable
+3c1f060ccc40 25 LoadIC:call
+3c1f060ccce0 123 Stub:domain
+3c1f060cce80 4b StorePolymorphicIC:domain
+3c1f060ccf40 123 Stub:_events
+3c1f060cd0e0 38 StorePolymorphicIC:_events
+3c1f060cd180 123 Stub:_maxListeners
+3c1f060cd320 4b StorePolymorphicIC:_maxListeners
+3c1f060cd3e0 25 LoadIC:call
+3c1f060cd480 25 LoadIC:Duplex
+3c1f060cd520 25 LoadIC:objectMode
+3c1f060cd5c0 d1 Stub:objectMode
+3c1f060cd700 25 StoreIC:objectMode
+3c1f060cd7a0 25 LoadIC:Duplex
+3c1f060cd840 25 LoadIC:objectMode
+3c1f060cd8e0 25 LoadIC:writableObjectMode
+3c1f060cd980 25 StoreIC:objectMode
+3c1f060cda20 25 LoadIC:highWaterMark
+3c1f060cdac0 25 LoadIC:objectMode
+3c1f060cdb60 a8 Stub:highWaterMark
+3c1f060cdc80 25 StoreIC:highWaterMark
+3c1f060cdd20 25 LoadIC:highWaterMark
+3c1f060cddc0 25 StoreIC:highWaterMark
+3c1f060cde60 d1 Stub:needDrain
+3c1f060cdfa0 25 StoreIC:needDrain
+3c1f060ce040 d1 Stub:ending
+3c1f060ce180 25 StoreIC:ending
+3c1f060ce220 d1 Stub:ended
+3c1f060ce360 25 StoreIC:ended
+3c1f060ce400 d1 Stub:finished
+3c1f060ce540 25 StoreIC:finished
+3c1f060ce5e0 25 LoadIC:decodeStrings
+3c1f060ce680 d1 Stub:decodeStrings
+3c1f060ce7c0 25 StoreIC:decodeStrings
+3c1f060ce860 25 LoadIC:defaultEncoding
+3c1f060ce900 d1 Stub:defaultEncoding
+3c1f060cea40 25 StoreIC:defaultEncoding
+3c1f060ceae0 a8 Stub:length
+3c1f060cec00 25 StoreIC:length
+3c1f060ceca0 d1 Stub:writing
+3c1f060cede0 25 StoreIC:writing
+3c1f060cee80 a8 Stub:corked
+3c1f060cefa0 25 StoreIC:corked
+3c1f060cf040 d1 Stub:sync
+3c1f060cf180 25 StoreIC:sync
+3c1f060cf220 d1 Stub:bufferProcessing
+3c1f060cf360 25 StoreIC:bufferProcessing
+3c1f060cf400 d1 Stub:onwrite
+3c1f060cf540 141 Stub:_writableState
+3c1f060cf700 141 Stub:writable
+3c1f060cf8c0 25 StoreIC:writable
+3c1f060cf960 25 LoadIC:call
+3c1f060cfa00 25 LoadIC:readable
+3c1f060cfaa0 25 StoreIC:readable
+3c1f060cfb40 25 LoadIC:writable
+3c1f060cfbe0 141 Stub:allowHalfOpen
+3c1f060cfda0 25 StoreIC:allowHalfOpen
+3c1f060cfe40 25 LoadIC:allowHalfOpen
+3c1f060cfee0 9e Stub:once
+3c1f060cffe0 25 LoadIC:once
+3c1f060d0080 25 LoadIC:isFunction
+3c1f060d0120 b2 Stub:listener
+3c1f060d0240 25 StoreIC:listener
+3c1f060d02e0 66 Stub:on
+3c1f060d03c0 25 LoadIC:on
+3c1f060d0460 25 LoadIC:handle
+3c1f060d0500 25 LoadIC:isUndefined
+3c1f060d05a0 25 LoadIC:fd
+3c1f060d0640 25 LoadIC:fd
+3c1f060d06e0 25 LoadIC:process
+3c1f060d0780 25 LoadIC:guessHandleType
+3c1f060d0820 25 StoreIC:_handle
+3c1f060d08c0 25 LoadIC:_handle
+3c1f060d0960 2e Stub:open
+3c1f060d0a00 25 LoadIC:open
+3c1f060d0aa0 25 LoadIC:fd
+3c1f060d0b40 25 LoadIC:fd
+3c1f060d0be0 25 LoadIC:_handle
+3c1f060d0c80 25 LoadIC:readable
+3c1f060d0d20 25 StoreIC:readable
+3c1f060d0dc0 25 LoadIC:writable
+3c1f060d0e60 25 StoreIC:writable
+3c1f060d0f00 25 LoadIC:on
+3c1f060d0fa0 25 LoadIC:on
+3c1f060d1040 141 Stub:destroyed
+3c1f060d1200 25 StoreIC:destroyed
+3c1f060d12a0 118 Stub:bytesRead
+3c1f060d1420 25 StoreIC:bytesRead
+3c1f060d14c0 11b Stub:_bytesDispatched
+3c1f060d1640 25 StoreIC:_bytesDispatched
+3c1f060d16e0 25 LoadIC:_handle
+3c1f060d1780 25 LoadIC:_handle
+3c1f060d1820 e9 Stub:owner
+3c1f060d1980 25 StoreIC:owner
+3c1f060d1a20 25 LoadIC:_handle
+3c1f060d1ac0 b2 Stub:onread
+3c1f060d1be0 25 StoreIC:onread
+3c1f060d1c80 25 LoadIC:_handle
+3c1f060d1d20 4f Stub:symbol(hash 20e544a7)
+3c1f060d1de0 25 LoadIC:writev
+3c1f060d1e80 b9 Stub:_writev
+3c1f060d1fa0 25 StoreIC:_writev
+3c1f060d2040 147 Stub:_pendingData
+3c1f060d2200 25 StoreIC:_pendingData
+3c1f060d22a0 147 Stub:_pendingEncoding
+3c1f060d2460 25 StoreIC:_pendingEncoding
+3c1f060d2500 25 LoadIC:_writableState
+3c1f060d25a0 25 StoreIC:decodeStrings
+3c1f060d2640 25 LoadIC:allowHalfOpen
+3c1f060d26e0 25 StoreIC:allowHalfOpen
+3c1f060d2780 25 LoadIC:_handle
+3c1f060d2820 25 LoadIC:readable
+3c1f060d28c0 25 StoreIC:readable
+3c1f060d2960 b9 Stub:read
+3c1f060d2a80 25 StoreIC:read
+3c1f060d2b20 147 Stub:_type
+3c1f060d2ce0 25 StoreIC:_type
+3c1f060d2d80 25 LoadIC:_handle
+3c1f060d2e20 25 LoadIC:_handle
+3c1f060d2ec0 2e Stub:unref
+3c1f060d2f60 25 LoadIC:unref
+3c1f060d3000 25 LoadIC:_handle
+3c1f060d30a0 25 LoadIC:unref
+3c1f060d3140 11b Stub:fd
+3c1f060d32c0 25 StoreIC:fd
+3c1f060d3360 100 Stub:_isStdio
+3c1f060d34c0 25 StoreIC:_isStdio
+3c1f060d3560 b7 Stub:destroySoon
+3c1f060d3680 4c8 LazyCompile:~Console console.js:24
+3c1f060d3bc0 5e LoadPolymorphicIC:value
+3c1f060d3c80 4b LoadPolymorphicIC:writable
+3c1f060d3d40 2e4 LazyCompile:~bind native v8natives.js:1274
+3c1f060d40a0 134 LazyCompile:~Console.log console.js:54
+3c1f060d4240 25 LoadIC:length
+3c1f060d42e0 2e Stub:info
+3c1f060d4380 38 KeyedLoadIC:info
+3c1f060d4420 2e Stub:bind
+3c1f060d44c0 25 LoadIC:bind
+3c1f060d4560 33 Stub:length
+3c1f060d4600 25 LoadIC:length
+3c1f060d46a0 2e Stub:warn
+3c1f060d4740 134 LazyCompile:~Console.warn console.js:62
+3c1f060d48e0 15c LazyCompile:~Console.dir console.js:70
+3c1f060d4aa0 d4 LazyCompile:~Console.time console.js:77
+3c1f060d4be0 1ac LazyCompile:~Console.timeEnd console.js:82
+3c1f060d4e00 1e4 LazyCompile:~Console.trace console.js:92
+3c1f060d5060 1e4 LazyCompile:~Console.assert console.js:103
+3c1f060d52c0 ef Stub:ArgumentsAccessStub_NewStrict
+3c1f060d5420 4b4 LazyCompile:~b native v8natives.js:1278
+3c1f060d5940 f Stub:ToUint32
+3c1f060d59c0 25 LoadIC:ToUint32
+3c1f060d5a60 25 LoadIC:length
+3c1f060d5b00 6a4 LazyCompile:~exports.format util.js:23
+3c1f060d6220 80c LazyCompile:~StringReplaceGlobalRegExpWithFunction native string.js:267
+3c1f060d6aa0 2f7 RegExp:%[sdj%]
+3c1f060d6e00 9c LazyCompile:~isNull util.js:519
+3c1f060d6f00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f060d6f80 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060d7000 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060d7080 1cc LazyCompile:~Socket.write net.js:621
+3c1f060d72c0 38 LoadPolymorphicIC:length
+3c1f060d7360 2dc LazyCompile:~Writable.write _stream_writable.js:196
+3c1f060d76a0 2bc LazyCompile:~validChunk _stream_writable.js:180
+3c1f060d79c0 34c LazyCompile:~writeOrBuffer _stream_writable.js:265
+3c1f060d7d80 154 LazyCompile:~decodeChunk _stream_writable.js:253
+3c1f060d7f40 1ac LazyCompile:~doWrite _stream_writable.js:293
+3c1f060d8160 bc LazyCompile:~Socket._write net.js:699
+3c1f060d8280 830 LazyCompile:~Socket._writeGeneric net.js:629
+3c1f060d8b20 544 LazyCompile:~exports._unrefActive timers.js:546
+3c1f060d90e0 43c LazyCompile:~createWriteReq net.js:703
+3c1f060d9580 9c LazyCompile:~WritableState.onwrite _stream_writable.js:104
+3c1f060d9680 394 LazyCompile:~onwrite _stream_writable.js:327
+3c1f060d9a80 104 LazyCompile:~onwriteStateUpdate _stream_writable.js:320
+3c1f060d9c00 1c4 LazyCompile:~needFinish _stream_writable.js:463
+3c1f060d9e40 25 StoreIC:callback
+3c1f060d9ee0 25 StoreIC:domain
+3c1f060d9f80 25 LoadIC:push
+3c1f060da020 378 LazyCompile:_tickCallback node.js:345
+3c1f060da400 184 LazyCompile:~scheduleMicrotasks node.js:322
+3c1f060da600 dc LazyCompile:~ net.js:1141
+3c1f060da740 bf0 LazyCompile:~emit events.js:68
+3c1f060db3a0 b4 LazyCompile:~onListening /dev/cpuprofilify/example/fibonacci.js:37
+3c1f060db4c0 25 LoadIC:require
+3c1f060db560 25 LoadIC:length
+3c1f060db600 25 LoadIC:_stderr
+3c1f060db6a0 25 LoadIC:format
+3c1f060db740 2e Stub:apply
+3c1f060db7e0 25 LoadIC:apply
+3c1f060db880 25 LoadIC:length
+3c1f060db920 23 Stub:String
+3c1f060db9c0 25 LoadIC:String
+3c1f060dba60 53 Stub:replace
+3c1f060dbb20 25 LoadIC:replace
+3c1f060dbbc0 25 LoadIC:global
+3c1f060dbc60 f Stub:StringReplaceGlobalRegExpWithFunction
+3c1f060dbce0 25 LoadIC:StringReplaceGlobalRegExpWithFunction
+3c1f060dbd80 f Stub:reusableReplaceArray
+3c1f060dbe00 25 LoadIC:reusableReplaceArray
+3c1f060dbea0 5c Stub:StoreGlobalStub
+3c1f060dbf60 5c Stub:StoreGlobalStub
+3c1f060dc020 25 StoreIC:reusableReplaceArray
+3c1f060dc0c0 25 StoreIC:lastIndex
+3c1f060dc160 25 LoadIC:isString
+3c1f060dc200 25 LoadIC:Duplex
+3c1f060dc2a0 25 LoadIC:write
+3c1f060dc340 25 LoadIC:apply
+3c1f060dc3e0 25 LoadIC:_writableState
+3c1f060dc480 25 LoadIC:isFunction
+3c1f060dc520 25 LoadIC:isBuffer
+3c1f060dc5c0 25 LoadIC:defaultEncoding
+3c1f060dc660 25 LoadIC:isFunction
+3c1f060dc700 25 LoadIC:ended
+3c1f060dc7a0 25 LoadIC:isBuffer
+3c1f060dc840 25 LoadIC:isString
+3c1f060dc8e0 10 Stub:LoadFieldStub
+3c1f060dc960 25 LoadIC:pendingcb
+3c1f060dca00 44 Stub:StoreFieldStub
+3c1f060dcac0 25 StoreIC:pendingcb
+3c1f060dcb60 25 LoadIC:objectMode
+3c1f060dcc00 25 LoadIC:decodeStrings
+3c1f060dcca0 25 LoadIC:isBuffer
+3c1f060dcd40 25 LoadIC:objectMode
+3c1f060dcde0 25 LoadIC:length
+3c1f060dce80 25 LoadIC:length
+3c1f060dcf20 40 Stub:StoreFieldStub
+3c1f060dcfc0 25 StoreIC:length
+3c1f060dd060 25 LoadIC:length
+3c1f060dd100 25 LoadIC:highWaterMark
+3c1f060dd1a0 25 LoadIC:writing
+3c1f060dd240 25 LoadIC:corked
+3c1f060dd2e0 44 Stub:StoreFieldStub
+3c1f060dd3a0 25 StoreIC:writelen
+3c1f060dd440 6c Stub:StoreFieldStub
+3c1f060dd520 25 StoreIC:writecb
+3c1f060dd5c0 25 StoreIC:writing
+3c1f060dd660 25 StoreIC:sync
+3c1f060dd700 2e Stub:_write
+3c1f060dd7a0 25 LoadIC:_write
+3c1f060dd840 10 Stub:LoadFieldStub
+3c1f060dd8c0 25 LoadIC:onwrite
+3c1f060dd960 2e Stub:_writeGeneric
+3c1f060dda00 25 LoadIC:_writeGeneric
+3c1f060ddaa0 25 LoadIC:_connecting
+3c1f060ddb40 6c Stub:StoreFieldStub
+3c1f060ddc20 25 StoreIC:_pendingData
+3c1f060ddcc0 6c Stub:StoreFieldStub
+3c1f060ddda0 25 StoreIC:_pendingEncoding
+3c1f060dde40 25 LoadIC:_unrefActive
+3c1f060ddee0 bf Stub:symbol(hash 20e544a7)
+3c1f060de000 25 LoadIC:_idleTimeout
+3c1f060de0a0 25 LoadIC:_handle
+3c1f060de140 b2 Stub:oncomplete
+3c1f060de260 25 StoreIC:oncomplete
+3c1f060de300 90 Stub:async
+3c1f060de400 25 StoreIC:async
+3c1f060de4a0 25 LoadIC:isBuffer
+3c1f060de540 25 LoadIC:_handle
+3c1f060de5e0 2e Stub:writeUtf8String
+3c1f060de680 25 LoadIC:writeUtf8String
+3c1f060de720 10 Stub:LoadFieldStub
+3c1f060de7a0 25 LoadIC:_bytesDispatched
+3c1f060de840 25 LoadIC:bytes
+3c1f060de8e0 44 Stub:StoreFieldStub
+3c1f060de9a0 25 StoreIC:_bytesDispatched
+3c1f060dea40 25 LoadIC:async
+3c1f060deae0 25 LoadIC:_writableState
+3c1f060deb80 25 LoadIC:sync
+3c1f060dec20 25 LoadIC:writecb
+3c1f060decc0 25 StoreIC:writing
+3c1f060ded60 25 StoreIC:writecb
+3c1f060dee00 25 LoadIC:length
+3c1f060deea0 10 Stub:LoadFieldStub
+3c1f060def20 25 LoadIC:writelen
+3c1f060defc0 25 StoreIC:length
+3c1f060df060 25 StoreIC:writelen
+3c1f060df100 25 LoadIC:ending
+3c1f060df1a0 25 LoadIC:corked
+3c1f060df240 10 Stub:LoadFieldStub
+3c1f060df2c0 25 LoadIC:bufferProcessing
+3c1f060df360 10 Stub:LoadFieldStub
+3c1f060df3e0 25 LoadIC:bufferedRequest
+3c1f060df480 25 StoreIC:sync
+3c1f060df520 25 LoadIC:callback
+3c1f060df5c0 ac LazyCompile:~ _stream_writable.js:348
+3c1f060df6e0 12c LazyCompile:~afterWrite _stream_writable.js:357
+3c1f060df880 12c LazyCompile:~onwriteDrain _stream_writable.js:368
+3c1f060dfa20 74 LazyCompile:~cb _stream_writable.js:211
+3c1f060dfb00 1ac LazyCompile:~finishMaybe _stream_writable.js:478
+3c1f060dfd20 144 LazyCompile:~runMicrotasksCallback node.js:335
+3c1f060dfee0 25 LoadIC:push
+3c1f060dff80 25 StoreIC:callback
+3c1f060e0020 25 LoadIC:length
+3c1f060e00c0 25 LoadIC:needDrain
+3c1f060e0160 25 LoadIC:pendingcb
+3c1f060e0200 25 StoreIC:pendingcb
+3c1f060e02a0 1f4 LazyCompile:~tickDone node.js:309
+3c1f060e0500 3d4 LazyCompile:~onconnection net.js:1274
+3c1f060e0940 38 LoadPolymorphicIC:objectMode
+3c1f060e09e0 38 LoadPolymorphicIC:readableObjectMode
+3c1f060e0a80 38 LoadPolymorphicIC:highWaterMark
+3c1f060e0b20 38 LoadPolymorphicIC:defaultEncoding
+3c1f060e0bc0 38 LoadPolymorphicIC:encoding
+3c1f060e0c60 38 LoadPolymorphicIC:objectMode
+3c1f060e0d00 38 LoadPolymorphicIC:writableObjectMode
+3c1f060e0da0 38 LoadPolymorphicIC:highWaterMark
+3c1f060e0e40 38 LoadPolymorphicIC:decodeStrings
+3c1f060e0ee0 38 LoadPolymorphicIC:defaultEncoding
+3c1f060e0f80 d7 Stub:writecb
+3c1f060e10c0 25 StoreIC:writecb
+3c1f060e1160 ab Stub:writelen
+3c1f060e1280 25 StoreIC:writelen
+3c1f060e1320 d7 Stub:bufferedRequest
+3c1f060e1460 25 StoreIC:bufferedRequest
+3c1f060e1500 d7 Stub:lastBufferedRequest
+3c1f060e1640 25 StoreIC:lastBufferedRequest
+3c1f060e16e0 ab Stub:pendingcb
+3c1f060e1800 25 StoreIC:pendingcb
+3c1f060e18a0 d7 Stub:prefinished
+3c1f060e19e0 25 StoreIC:prefinished
+3c1f060e1a80 d7 Stub:errorEmitted
+3c1f060e1bc0 25 StoreIC:errorEmitted
+3c1f060e1c60 38 LoadPolymorphicIC:readable
+3c1f060e1d00 38 LoadPolymorphicIC:writable
+3c1f060e1da0 38 LoadPolymorphicIC:allowHalfOpen
+3c1f060e1e40 38 LoadPolymorphicIC:handle
+3c1f060e1ee0 a16 Stub:RecordWriteStub
+3c1f060e2960 68 Stub:StoreFieldStub
+3c1f060e2a40 38 StorePolymorphicIC:owner
+3c1f060e2ae0 68 Stub:StoreFieldStub
+3c1f060e2bc0 38 StorePolymorphicIC:onread
+3c1f060e2c60 2e Stub:writev
+3c1f060e2d00 38 LoadPolymorphicIC:writev
+3c1f060e2da0 38 LoadPolymorphicIC:_writableState
+3c1f060e2e40 38 LoadPolymorphicIC:allowHalfOpen
+3c1f060e2ee0 58 Stub:ToBooleanStub(Undefined,Bool)
+3c1f060e2fa0 38 StorePolymorphicIC:allowHalfOpen
+3c1f060e3040 38 LoadPolymorphicIC:_handle
+3c1f060e30e0 38 LoadPolymorphicIC:readable
+3c1f060e3180 1bc LazyCompile:~Socket.read net.js:304
+3c1f060e33a0 a44 LazyCompile:~Readable.read _stream_readable.js:263
+3c1f060e3e60 3bc LazyCompile:~howMuchToRead _stream_readable.js:225
+3c1f060e4280 13c LazyCompile:~isNaN native v8natives.js:67
+3c1f060e4420 314 LazyCompile:~Socket._read net.js:389
+3c1f060e47a0 25 LoadIC:_events
+3c1f060e4840 25 LoadIC:_events
+3c1f060e48e0 38 KeyedLoadIC:connection
+3c1f060e4980 25 LoadIC:isUndefined
+3c1f060e4a20 25 LoadIC:domain
+3c1f060e4ac0 25 LoadIC:isFunction
+3c1f060e4b60 25 LoadIC:length
+3c1f060e4c00 73c LazyCompile:~connectionListener _http_server.js:271
+3c1f060e53a0 104 LazyCompile:~httpSocketSetup _http_common.js:222
+3c1f060e5520 6b8 LazyCompile:~removeListener events.js:211
+3c1f060e5c40 1fc LazyCompile:~Socket.setTimeout net.js:322
+3c1f060e5ea0 29c LazyCompile:~exports.enroll timers.js:154
+3c1f060e61a0 1d4 LazyCompile:~isFinite native v8natives.js:71
+3c1f060e63e0 38 LoadPolymorphicIC:_idleTimeout
+3c1f060e6480 58 Stub:ToBooleanStub(Undefined,Smi)
+3c1f060e6540 16c LazyCompile:~remove _linklist.js:47
+3c1f060e6720 72 Stub:_idleNext
+3c1f060e6800 25 StoreIC:_idleNext
+3c1f060e68a0 cb Stub:_idlePrev
+3c1f060e69e0 25 StoreIC:_idlePrev
+3c1f060e6a80 e8 Stub:StoreElementStub
+3c1f060e6be0 22 KeyedStoreIC:
+3c1f060e6c80 114 LazyCompile:~append _linklist.js:63
+3c1f060e6e00 10 Stub:LoadFieldStub
+3c1f060e6e80 25 LoadIC:_idleNext
+3c1f060e6f20 10 Stub:LoadFieldStub
+3c1f060e6fa0 25 LoadIC:_idlePrev
+3c1f060e7040 6c Stub:StoreFieldStub
+3c1f060e7120 25 StoreIC:_idleNext
+3c1f060e71c0 6c Stub:StoreFieldStub
+3c1f060e72a0 25 StoreIC:_idlePrev
+3c1f060e7340 15c LazyCompile:~exports.FreeList.alloc freelist.js:31
+3c1f060e7500 16c LazyCompile:~ _http_common.js:167
+3c1f060e76e0 22 KeyedStoreIC:
+3c1f060e7780 e8 Stub:StoreElementStub
+3c1f060e78e0 22 KeyedStoreIC:
+3c1f060e7980 12c LazyCompile:~Readable.resume _stream_readable.js:703
+3c1f060e7b20 12c LazyCompile:~resume _stream_readable.js:713
+3c1f060e7cc0 38 LoadPolymorphicIC:push
+3c1f060e7d60 25 LoadIC:isObject
+3c1f060e7e00 25 LoadIC:_events
+3c1f060e7ea0 38 KeyedLoadIC:drain
+3c1f060e7f40 25 LoadIC:_events
+3c1f060e7fe0 25 LoadIC:_events
+3c1f060e8080 38 KeyedLoadIC:drain
+3c1f060e8120 25 LoadIC:_events
+3c1f060e81c0 38 KeyedLoadIC:drain
+3c1f060e8260 4f Stub:symbol(hash 20e544a7)
+3c1f060e8320 25 LoadIC:warned
+3c1f060e83c0 25 LoadIC:isUndefined
+3c1f060e8460 25 LoadIC:_maxListeners
+3c1f060e8500 25 LoadIC:defaultMaxListeners
+3c1f060e85a0 25 LoadIC:_events
+3c1f060e8640 38 KeyedLoadIC:drain
+3c1f060e86e0 25 LoadIC:length
+3c1f060e8780 25 LoadIC:domain
+3c1f060e8820 a4 LazyCompile:~ _stream_readable.js:716
+3c1f060e8940 1fc LazyCompile:~resume_ _stream_readable.js:722
+3c1f060e8ba0 38 LoadPolymorphicIC:_events
+3c1f060e8c40 38 LoadPolymorphicIC:_events
+3c1f060e8ce0 1b0 LazyCompile:~flow _stream_readable.js:745
+3c1f060e8f00 25 LoadIC:_readableState
+3c1f060e8fa0 25 LoadIC:isNumber
+3c1f060e9040 25 LoadIC:length
+3c1f060e90e0 25 LoadIC:ended
+3c1f060e9180 25 LoadIC:objectMode
+3c1f060e9220 25 LoadIC:isNull
+3c1f060e92c0 23 Stub:isNaN
+3c1f060e9360 25 LoadIC:isNaN
+3c1f060e9400 b9 Stub:CompareICStub
+3c1f060e9520 25 LoadIC:ended
+3c1f060e95c0 25 LoadIC:needReadable
+3c1f060e9660 25 LoadIC:length
+3c1f060e9700 25 LoadIC:ended
+3c1f060e97a0 25 LoadIC:reading
+3c1f060e9840 25 LoadIC:isNull
+3c1f060e98e0 25 StoreIC:needReadable
+3c1f060e9980 25 LoadIC:length
+3c1f060e9a20 40 Stub:StoreFieldStub
+3c1f060e9ac0 25 StoreIC:length
+3c1f060e9b60 25 LoadIC:length
+3c1f060e9c00 25 LoadIC:ended
+3c1f060e9ca0 25 StoreIC:needReadable
+3c1f060e9d40 25 LoadIC:isNull
+3c1f060e9de0 bc LazyCompile:~NativeBuffer buffer.js:133
+3c1f060e9f00 5f4 LazyCompile:~onread net.js:507
+3c1f060ea560 7d Stub:CompareICStub
+3c1f060ea640 4b LoadPolymorphicIC:_idleTimeout
+3c1f060ea700 25 LoadIC:remove
+3c1f060ea7a0 38 LoadPolymorphicIC:_idleNext
+3c1f060ea840 25 LoadIC:_idleNext
+3c1f060ea8e0 25 LoadIC:_idlePrev
+3c1f060ea980 25 StoreIC:_idlePrev
+3c1f060eaa20 38 LoadPolymorphicIC:_idlePrev
+3c1f060eaac0 25 LoadIC:_idlePrev
+3c1f060eab60 25 LoadIC:_idleNext
+3c1f060eac00 68 Stub:StoreFieldStub
+3c1f060eace0 25 StoreIC:_idleNext
+3c1f060ead80 38 StorePolymorphicIC:_idleNext
+3c1f060eae20 38 StorePolymorphicIC:_idlePrev
+3c1f060eaec0 25 LoadIC:now
+3c1f060eaf60 44 Stub:StoreFieldStub
+3c1f060eb020 25 StoreIC:_idleStart
+3c1f060eb0c0 25 LoadIC:when
+3c1f060eb160 25 LoadIC:append
+3c1f060eb200 25 LoadIC:_idleNext
+3c1f060eb2a0 25 StoreIC:_idleNext
+3c1f060eb340 25 LoadIC:_idleNext
+3c1f060eb3e0 25 StoreIC:_idlePrev
+3c1f060eb480 25 StoreIC:_idlePrev
+3c1f060eb520 25 StoreIC:_idleNext
+3c1f060eb5c0 1e4 LazyCompile:~Readable.push _stream_readable.js:115
+3c1f060eb820 75c LazyCompile:~readableAddChunk _stream_readable.js:139
+3c1f060ebfe0 1cc LazyCompile:~chunkInvalid _stream_readable.js:378
+3c1f060ec220 4b LoadPolymorphicIC:_events
+3c1f060ec2e0 4b LoadPolymorphicIC:_events
+3c1f060ec3a0 38 LoadPolymorphicIC:domain
+3c1f060ec440 25 LoadIC:call
+3c1f060ec4e0 71c LazyCompile:~socketOnData _http_server.js:340
+3c1f060ecc60 5ec LazyCompile:~parserOnHeadersComplete _http_common.js:63
+3c1f060ed2c0 374 LazyCompile:~IncomingMessage _http_incoming.js:39
+3c1f060ed6a0 4b LoadPolymorphicIC:objectMode
+3c1f060ed760 4b LoadPolymorphicIC:highWaterMark
+3c1f060ed820 4b LoadPolymorphicIC:defaultEncoding
+3c1f060ed8e0 4b LoadPolymorphicIC:encoding
+3c1f060ed9a0 82 Stub:_events
+3c1f060edaa0 82 Stub:_maxListeners
+3c1f060edba0 f Stub:NonStringToString
+3c1f060edc20 25 LoadIC:NonStringToString
+3c1f060edcc0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:Smi*String->String)
+3c1f060edd40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f060eddc0 560 LazyCompile:~min native math.js:64
+3c1f060ee380 2f0 LazyCompile:~IncomingMessage._addHeaderLines _http_incoming.js:118
+3c1f060ee6e0 5ac LazyCompile:~IncomingMessage._addHeaderLine _http_incoming.js:147
+3c1f060eed00 25 LoadIC:push
+3c1f060eeda0 25 LoadIC:push
+3c1f060eee40 2e Stub:_addHeaderLine
+3c1f060eeee0 25 LoadIC:_addHeaderLine
+3c1f060eef80 53 Stub:toLowerCase
+3c1f060ef040 25 LoadIC:toLowerCase
+3c1f060ef0e0 25 LoadIC:isUndefined
+3c1f060ef180 6b4 LazyCompile:~parserOnIncoming _http_server.js:420
+3c1f060ef8a0 22c LazyCompile:~ServerResponse _http_server.js:101
+3c1f060efb40 34c LazyCompile:~OutgoingMessage _http_outgoing.js:64
+3c1f060eff00 82 Stub:_events
+3c1f060f0000 82 Stub:_maxListeners
+3c1f060f0100 1c4 LazyCompile:~ServerResponse.assignSocket _http_server.js:149
+3c1f060f0340 38 LoadPolymorphicIC:_events
+3c1f060f03e0 38 LoadPolymorphicIC:_events
+3c1f060f0480 38 LoadPolymorphicIC:_events
+3c1f060f0520 38 LoadPolymorphicIC:_events
+3c1f060f05c0 38 LoadPolymorphicIC:_maxListeners
+3c1f060f0660 38 LoadPolymorphicIC:_events
+3c1f060f0700 5e LoadPolymorphicIC:_events
+3c1f060f07c0 5e LoadPolymorphicIC:_events
+3c1f060f0880 330 LazyCompile:~OutgoingMessage._flush _http_outgoing.js:595
+3c1f060f0c20 29c LazyCompile:~onRequest /dev/cpuprofilify/example/fibonacci.js:28
+3c1f060f0f20 570 LazyCompile:~ServerResponse.writeHead _http_server.js:175
+3c1f060f1500 9e7 Stub:RecordWriteStub
+3c1f060f1f60 56 Stub:DoubleToIStub
+3c1f060f2020 56 Stub:DoubleToIStub
+3c1f060f20e0 335 Stub:LoadElementStub
+3c1f060f2480 25 KeyedLoadIC:
+3c1f060f2520 33c LazyCompile:~toString native v8natives.js:1112
+3c1f060f28c0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f2940 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f29c0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f2a40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f2ac0 ac4 LazyCompile:~OutgoingMessage._storeHeader _http_outgoing.js:195
+3c1f060f3600 94 LazyCompile:~isArray native array.js:1102
+3c1f060f3700 624 LazyCompile:~storeHeader _http_outgoing.js:299
+3c1f060f3da0 29e RegExp:[\r\n]
+3c1f060f40a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f4120 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f41a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f4220 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f42a0 2d6 RegExp:Connection
+3c1f060f45e0 36d RegExp:Transfer-Encoding
+3c1f060f49c0 32b RegExp:Content-Length
+3c1f060f4d60 292 RegExp:Date
+3c1f060f5060 28b RegExp:Expect
+3c1f060f5360 20c LazyCompile:~utcDate _http_outgoing.js:50
+3c1f060f55e0 394 LazyCompile:~toUTCString native date.js:404
+3c1f060f59e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f5a60 c4 LazyCompile:~TwoDigitString native date.js:111
+3c1f060f5ba0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f060f5c20 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f5ca0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f5d20 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f5da0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f5e20 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f060f5ea0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f5f20 254 LazyCompile:~TimeStringUTC native date.js:135
+3c1f060f61e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f6260 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f62e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f6360 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f63e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f6460 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f64e0 c4 LazyCompile:~getMilliseconds native date.js:263
+3c1f060f6620 25 LoadIC:isNumber
+3c1f060f66c0 23 Stub:isFinite
+3c1f060f6760 25 LoadIC:isFinite
+3c1f060f6800 4f Stub:symbol(hash 20e544a7)
+3c1f060f68c0 25 LoadIC:_idleNext
+3c1f060f6960 25 LoadIC:init
+3c1f060f6a00 5e LoadPolymorphicIC:_idleTimeout
+3c1f060f6ac0 4b LoadPolymorphicIC:_idleNext
+3c1f060f6b80 38 LoadPolymorphicIC:_idleNext
+3c1f060f6c20 38 LoadPolymorphicIC:_idlePrev
+3c1f060f6cc0 38 StorePolymorphicIC:_idlePrev
+3c1f060f6d60 4b LoadPolymorphicIC:_idlePrev
+3c1f060f6e20 38 LoadPolymorphicIC:_idlePrev
+3c1f060f6ec0 38 LoadPolymorphicIC:_idleNext
+3c1f060f6f60 38 StorePolymorphicIC:_idleNext
+3c1f060f7000 25 LoadIC:when
+3c1f060f70a0 2e Stub:start
+3c1f060f7140 25 LoadIC:start
+3c1f060f71e0 25 StoreIC:when
+3c1f060f7280 4b LoadPolymorphicIC:_idleNext
+3c1f060f7340 4b LoadPolymorphicIC:_idlePrev
+3c1f060f7400 4b StorePolymorphicIC:_idleNext
+3c1f060f74c0 4b StorePolymorphicIC:_idlePrev
+3c1f060f7580 38 StorePolymorphicIC:_idleNext
+3c1f060f7620 38 StorePolymorphicIC:_idlePrev
+3c1f060f76c0 38 StorePolymorphicIC:_idlePrev
+3c1f060f7760 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f77e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f7860 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f78e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f7960 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f79e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f7a60 38 LoadPolymorphicIC:length
+3c1f060f7b00 49c LazyCompile:~parseInt native v8natives.js:75
+3c1f060f8000 1a4 LazyCompile:~cal_arrayConcat /dev/cpuprofilify/example/fibonacci.js:42
+3c1f060f8220 25 LoadIC:length
+3c1f060f82c0 6d4 LazyCompile:~reduce native array.js:1044
+3c1f060f8a00 fc LazyCompile:~toFib /dev/cpuprofilify/example/fibonacci.js:44
+3c1f060f8b60 25 LoadIC:concat
+3c1f060f8c00 11a Stub:BinaryOpICStub(ADD:Smi*Smi->Number)
+3c1f060f8d80 fc LazyCompile:~toFib /dev/cpuprofilify/example/fibonacci.js:44
+3c1f060f8ee0 21e LazyCompile:*toFib /dev/cpuprofilify/example/fibonacci.js:44
+3c1f060f9160 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Smi->String)
+3c1f060f91e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f9260 50c Stub:BinaryOpWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Number->String)
+3c1f060f97e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Number->String)
+3c1f060f9860 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Number->String)
+3c1f060f98e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060f9960 7ec LazyCompile:~OutgoingMessage.end _http_outgoing.js:502
+3c1f060fa1c0 cc LazyCompile:~Writable.cork _stream_writable.js:223
+3c1f060fa300 9fc LazyCompile:~OutgoingMessage.write _http_outgoing.js:409
+3c1f060fad60 25 LoadIC:byteLength
+3c1f060fae00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060fae80 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060faf00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060faf80 2cc LazyCompile:~OutgoingMessage._send _http_outgoing.js:125
+3c1f060fb2c0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060fb340 5e0 LazyCompile:~OutgoingMessage._writeRaw _http_outgoing.js:145
+3c1f060fb980 7d Stub:CompareICStub
+3c1f060fba60 38 LoadPolymorphicIC:_writableState
+3c1f060fbb00 d4 LazyCompile:~WriteReq _stream_writable.js:35
+3c1f060fbc40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*Generic->String)
+3c1f060fbcc0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060fbd40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+3c1f060fbdc0 14 Stub:LoadFieldStub
+3c1f060fbe40 25 LoadIC:_headerSent
+3c1f060fbee0 4c Stub:_writeRaw
+3c1f060fbfa0 25 LoadIC:_writeRaw
+3c1f060fc040 25 LoadIC:isFunction
+3c1f060fc0e0 25 LoadIC:length
+3c1f060fc180 14 Stub:LoadFieldStub
+3c1f060fc200 25 LoadIC:connection
+3c1f060fc2a0 25 LoadIC:connection
+3c1f060fc340 14 Stub:LoadFieldStub
+3c1f060fc3c0 25 LoadIC:_httpMessage
+3c1f060fc460 25 LoadIC:connection
+3c1f060fc500 25 LoadIC:writable
+3c1f060fc5a0 25 LoadIC:connection
+3c1f060fc640 25 LoadIC:destroyed
+3c1f060fc6e0 25 LoadIC:output
+3c1f060fc780 25 LoadIC:length
+3c1f060fc820 25 LoadIC:connection
+3c1f060fc8c0 2e Stub:write
+3c1f060fc960 25 LoadIC:write
+3c1f060fca00 74 Stub:ToBooleanStub(Undefined,String)
+3c1f060fcae0 38 LoadPolymorphicIC:length
+3c1f060fcb80 10 Stub:LoadFieldStub
+3c1f060fcc00 25 LoadIC:lastBufferedRequest
+3c1f060fcca0 d1 Stub:chunk
+3c1f060fcde0 25 StoreIC:chunk
+3c1f060fce80 d1 Stub:encoding
+3c1f060fcfc0 25 StoreIC:encoding
+3c1f060fd060 d1 Stub:callback
+3c1f060fd1a0 25 StoreIC:lastBufferedRequest
+3c1f060fd240 1c4 LazyCompile:~Writable.uncork _stream_writable.js:229
+3c1f060fd480 53c LazyCompile:~clearBuffer _stream_writable.js:377
+3c1f060fda20 25 LoadIC:push
+3c1f060fdac0 25 LoadIC:callback
+3c1f060fdb60 25 LoadIC:push
+3c1f060fdc00 25 LoadIC:next
+3c1f060fdca0 c4 LazyCompile:~Socket._writev net.js:694
+3c1f060fdde0 38 LoadPolymorphicIC:_connecting
+3c1f060fde80 6c Stub:StoreFieldStub
+3c1f060fdf60 38 StorePolymorphicIC:_pendingData
+3c1f060fe000 38 StorePolymorphicIC:_pendingEncoding
+3c1f060fe0a0 5e LoadPolymorphicIC:_idleTimeout
+3c1f060fe160 5e LoadPolymorphicIC:_idleNext
+3c1f060fe220 38 LoadPolymorphicIC:_idleNext
+3c1f060fe2c0 38 LoadPolymorphicIC:_idlePrev
+3c1f060fe360 5e LoadPolymorphicIC:_idlePrev
+3c1f060fe420 38 LoadPolymorphicIC:_idlePrev
+3c1f060fe4c0 38 LoadPolymorphicIC:_idleNext
+3c1f060fe560 38 StorePolymorphicIC:_idleNext
+3c1f060fe600 5e StorePolymorphicIC:_idleNext
+3c1f060fe6c0 5e StorePolymorphicIC:_idlePrev
+3c1f060fe780 38 StorePolymorphicIC:_idleStart
+3c1f060fe820 4b StorePolymorphicIC:_idleNext
+3c1f060fe8e0 4b StorePolymorphicIC:_idlePrev
+3c1f060fe9a0 4b StorePolymorphicIC:_idlePrev
+3c1f060fea60 38 LoadPolymorphicIC:_handle
+3c1f060feb00 25 LoadIC:length
+3c1f060feba0 25 LoadIC:chunk
+3c1f060fec40 25 LoadIC:encoding
+3c1f060fece0 38 LoadPolymorphicIC:_bytesDispatched
+3c1f060fed80 38 LoadPolymorphicIC:bytes
+3c1f060fee20 38 StorePolymorphicIC:_bytesDispatched
+3c1f060feec0 38 LoadPolymorphicIC:async
+3c1f060fef60 38 LoadPolymorphicIC:_writableState
+3c1f06106060 7d Stub:CompareICStub
+3c1f06106140 124 LazyCompile:~ServerResponse._finish _http_server.js:115
+3c1f061062e0 e4 LazyCompile:~OutgoingMessage._finish _http_outgoing.js:570
+3c1f06106440 88 Stub:ToBooleanStub(Bool,SpecObject,String)
+3c1f06106540 4b LoadPolymorphicIC:domain
+3c1f06106600 25 LoadIC:call
+3c1f061066a0 334 LazyCompile:~resOnFinish _http_server.js:453
+3c1f06106a40 7d Stub:CompareICStub
+3c1f06106b20 e4 LazyCompile:~IncomingMessage._dump _http_incoming.js:191
+3c1f06106c80 25 LoadIC:_readableState
+3c1f06106d20 25 LoadIC:flowing
+3c1f06106dc0 25 StoreIC:flowing
+3c1f06106e60 4f Stub:symbol(hash 20e544a7)
+3c1f06106f20 25 LoadIC:resumeScheduled
+3c1f06106fc0 d7 Stub:resumeScheduled
+3c1f06107100 25 StoreIC:resumeScheduled
+3c1f061071a0 16c LazyCompile:~ServerResponse.detachSocket _http_server.js:159
+3c1f06107380 7d Stub:CompareICStub
+3c1f06107460 25 LoadIC:isFunction
+3c1f06107500 25 LoadIC:_events
+3c1f061075a0 25 LoadIC:_events
+3c1f06107640 38 KeyedLoadIC:close
+3c1f061076e0 6b Stub:CompareICStub
+3c1f061077c0 21f Stub:CompareICStub
+3c1f06107a40 7d Stub:CompareICStub
+3c1f06107b20 38 LoadPolymorphicIC:domain
+3c1f06107bc0 2d4 LazyCompile:~parserOnMessageComplete _http_common.js:138
+3c1f06107f00 25 LoadIC:length
+3c1f06107fa0 25 LoadIC:_readableState
+3c1f06108040 25 LoadIC:isString
+3c1f061080e0 25 LoadIC:isBuffer
+3c1f06108180 a4 LazyCompile:~isNullOrUndefined util.js:524
+3c1f061082a0 23c LazyCompile:~onEofChunk _stream_readable.js:390
+3c1f06108540 1ec LazyCompile:~emitReadable _stream_readable.js:407
+3c1f061087a0 19c LazyCompile:~needMoreData _stream_readable.js:195
+3c1f061089a0 25 LoadIC:isString
+3c1f06108a40 25 LoadIC:isNullOrUndefined
+3c1f06108ae0 25 StoreIC:reading
+3c1f06108b80 25 LoadIC:ended
+3c1f06108c20 25 LoadIC:ended
+3c1f06108cc0 fc LazyCompile:~readStart _http_incoming.js:25
+3c1f06108e20 38 LoadPolymorphicIC:_readableState
+3c1f06108ec0 38 LoadPolymorphicIC:flowing
+3c1f06108f60 58 Stub:ToBooleanStub(Bool,Null)
+3c1f06109020 4b LoadPolymorphicIC:domain
+3c1f061090e0 38 LoadPolymorphicIC:_readableState
+3c1f06109180 25 LoadIC:needReadable
+3c1f06109220 25 StoreIC:reading
+3c1f061092c0 25 StoreIC:sync
+3c1f06109360 25 LoadIC:length
+3c1f06109400 25 StoreIC:needReadable
+3c1f061094a0 2e Stub:_read
+3c1f06109540 25 LoadIC:_read
+3c1f061095e0 25 LoadIC:highWaterMark
+3c1f06109680 25 LoadIC:_connecting
+3c1f06109720 25 LoadIC:_handle
+3c1f061097c0 25 LoadIC:_handle
+3c1f06109860 25 LoadIC:reading
+3c1f06109900 25 StoreIC:sync
+3c1f061099a0 25 LoadIC:reading
+3c1f06109a40 12c LazyCompile:~maybeReadMore _stream_readable.js:435
+3c1f06109be0 1c0 LazyCompile:~ _stream_writable.js:395
+3c1f06109e00 25 LoadIC:length
+3c1f06109ea0 25 LoadIC:pendingcb
+3c1f06109f40 25 StoreIC:pendingcb
+3c1f06109fe0 b4 LazyCompile:~finish _http_outgoing.js:520
+3c1f0610a100 25 LoadIC:reading
+3c1f0610a1a0 11c LazyCompile:~IncomingMessage.read _http_incoming.js:93
+3c1f0610a320 4b LoadPolymorphicIC:_readableState
+3c1f0610a3e0 204 LazyCompile:~endReadable _stream_readable.js:893
+3c1f0610a660 25 StoreIC:resumeScheduled
+3c1f0610a700 88 Stub:emit
+3c1f0610a800 25 LoadIC:emit
+3c1f0610a8a0 25 LoadIC:_readableState
+3c1f0610a940 25 LoadIC:flowing
+3c1f0610a9e0 25 LoadIC:flowing
+3c1f0610aa80 25 LoadIC:read
+3c1f0610ab20 64 Stub:StoreFieldStub
+3c1f0610ac00 25 StoreIC:emittedReadable
+3c1f0610aca0 25 LoadIC:length
+3c1f0610ad40 25 LoadIC:_readableState
+3c1f0610ade0 25 LoadIC:length
+3c1f0610ae80 25 LoadIC:endEmitted
+3c1f0610af20 25 StoreIC:ended
+3c1f0610afc0 25 LoadIC:flowing
+3c1f0610b060 25 LoadIC:reading
+3c1f0610b100 9c LazyCompile:~ _stream_readable.js:414
+3c1f0610b200 104 LazyCompile:~emitReadable_ _stream_readable.js:422
+3c1f0610b380 a4 LazyCompile:~ _stream_readable.js:438
+3c1f0610b4a0 298 LazyCompile:~maybeReadMore_ _stream_readable.js:444
+3c1f0610b7a0 15c LazyCompile:~ _stream_readable.js:903
+3c1f0610b960 25 LoadIC:endEmitted
+3c1f0610ba00 41c LazyCompile:~afterWrite net.js:754
+3c1f0610be80 38 StorePolymorphicIC:_idlePrev
+3c1f0610bf20 25 LoadIC:owner
+3c1f0610bfc0 25 LoadIC:_handle
+3c1f0610c060 25 LoadIC:_unrefActive
+3c1f0610c100 16c LazyCompile:~maybeDestroy net.js:420
+3c1f0610c2e0 38 LoadPolymorphicIC:_readableState
+3c1f0610c380 25 LoadIC:decoder
+3c1f0610c420 25 StoreIC:ended
+3c1f0610c4c0 25 LoadIC:_readableState
+3c1f0610c560 25 StoreIC:needReadable
+3c1f0610c600 25 LoadIC:emittedReadable
+3c1f0610c6a0 25 LoadIC:flowing
+3c1f0610c740 25 StoreIC:emittedReadable
+3c1f0610c7e0 25 LoadIC:sync
+3c1f0610c880 a6 Stub:emit
+3c1f0610c9a0 25 LoadIC:emit
+3c1f0610ca40 38 LoadPolymorphicIC:_readableState
+3c1f0610cae0 38 LoadPolymorphicIC:read
+3c1f0610cb80 38 LoadPolymorphicIC:_readableState
+3c1f0610cc20 5e LoadPolymorphicIC:domain
+3c1f0610cce0 264 LazyCompile:~onSocketEnd net.js:257
+3c1f0610cfc0 90 Stub:listener
+3c1f0610d0c0 25 StoreIC:listener
+3c1f0610d160 38 LoadPolymorphicIC:on
+3c1f0610d200 25 LoadIC:length
+3c1f0610d2a0 25 StoreIC:endEmitted
+3c1f0610d340 25 StoreIC:readable
+3c1f0610d3e0 25 LoadIC:emit
+3c1f0610d480 38 LoadPolymorphicIC:length
+3c1f0610d520 15c LazyCompile:~g events.js:194
+3c1f0610d6e0 25 LoadIC:_events
+3c1f0610d780 38 KeyedLoadIC:end
+3c1f0610d820 25 LoadIC:length
+3c1f0610d8c0 25 LoadIC:isFunction
+3c1f0610d960 25 LoadIC:listener
+3c1f0610da00 25 LoadIC:isObject
+3c1f0610daa0 25 LoadIC:listener
+3c1f0610db40 25 LoadIC:length
+3c1f0610dbe0 2e Stub:splice
+3c1f0610dc80 25 LoadIC:splice
+3c1f0610dd20 25 LoadIC:_events
+3c1f0610ddc0 25 LoadIC:removeListener
+3c1f0610de60 16c LazyCompile:~onend _stream_duplex.js:62
+3c1f0610e040 334 LazyCompile:~socketOnEnd _http_server.js:382
+3c1f0610e3e0 198 LazyCompile:~abortIncoming _http_server.js:276
+3c1f0610e5e0 1fc LazyCompile:~Socket.end net.js:406
+3c1f0610e840 2c4 LazyCompile:~Writable.end _stream_writable.js:436
+3c1f0610eb80 60 Stub:CompareNilICStub(NullValue)(Undefined,Null)
+3c1f0610ec40 19c LazyCompile:~endWritable _stream_writable.js:491
+3c1f0610ee40 f4 LazyCompile:~prefinish _stream_writable.js:471
+3c1f0610efa0 404 LazyCompile:~onSocketFinish net.js:208
+3c1f0610f420 dc LazyCompile:~Socket.destroy net.js:499
+3c1f0610f560 55c LazyCompile:~Socket._destroy net.js:442
+3c1f0610fb20 20c LazyCompile:~exports.unenroll timers.js:137
+3c1f0610fda0 25 KeyedLoadIC:
+3c1f0610fe40 184 LazyCompile:~fireErrorCallbacks net.js:447
+3c1f06110040 214 LazyCompile:~Server._emitCloseIfDrained net.js:1380
+3c1f061102c0 25 LoadIC:readable
+3c1f06110360 25 LoadIC:writable
+3c1f06110400 25 LoadIC:apply
+3c1f061104a0 a6 Stub:removeListener
+3c1f061105c0 25 LoadIC:removeListener
+3c1f06110660 25 LoadIC:apply
+3c1f06110700 b4 LazyCompile:~ net.js:267
+3c1f06110820 25 LoadIC:destroyed
+3c1f061108c0 ec LazyCompile:~ net.js:474
+3c1f06110a20 25 LoadIC:isObject
+3c1f06110ac0 25 LoadIC:length
+3c1f06110b60 23 Stub:Array
+3c1f06110c00 25 LoadIC:Array
+3c1f06110ca0 25 LoadIC:slice
+3c1f06110d40 25 LoadIC:length
+3c1f06110de0 38 LoadPolymorphicIC:apply
+3c1f06110e80 38 LoadPolymorphicIC:length
+3c1f06110f20 12c LazyCompile:~serverSocketCloseListener _http_server.js:285
+3c1f061110c0 264 LazyCompile:~freeParser _http_common.js:195
+3c1f061113a0 13c LazyCompile:~exports.FreeList.free freelist.js:38
+3c1f06111540 25 LoadIC:length
+3c1f061115e0 5d4 LazyCompile:~unrefTimeout timers.js:478
+3c1f06111c20 6b Stub:CompareICStub
+3c1f06111d00 1f0 Stub:CompareICStub
+3c1f06111f60 3bc LazyCompile:_makeTimerTimeout timers.js:445
+3c1f06112380 4b LoadPolymorphicIC:_idleNext
+3c1f06112440 4b LoadPolymorphicIC:_idlePrev
+3c1f06112500 4b LoadPolymorphicIC:_idlePrev
+3c1f061125c0 4b LoadPolymorphicIC:_idleNext
+3c1f06112680 c4 LazyCompile:~utcDate._onTimeout _http_outgoing.js:59
+3c1f061127c0 bc LazyCompile:~isEmpty _linklist.js:73
+3c1f061128e0 7d Stub:CompareICStub
