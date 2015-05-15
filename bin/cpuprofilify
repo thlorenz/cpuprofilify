@@ -28,7 +28,7 @@ var flags = [ 'shortStack' , 'unresolveds' , 'sysinternals' , 'v8internals' , 'v
   , negatedFlags = flags.map(function negate(x) { return 'no' + x })
 
 var argv = minimist(process.argv.slice(2)
-  , { boolean: flags.concat(negatedFlags).concat([ 'help', 'type' ]) }
+  , { boolean: flags.concat(negatedFlags).concat([ 'map', 'help', 'type' ]) }
 );
 
 if (argv.help) return usage();
@@ -40,10 +40,14 @@ function considerFlag(name) {
 }
 flags.forEach(considerFlag);
 
+if (argv.map) {
+  opts.map = fs.readFileSync(argv.map).toString('utf8');
+}
+
 var bufs = [];
 process.stdin
   .on('data', function ondata(d) {
-    bufs.push(d);  
+    bufs.push(d);
   })
   .on('error', onmsg('error'))
   .on('end', function onend() {

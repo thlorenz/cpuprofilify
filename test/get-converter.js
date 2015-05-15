@@ -33,8 +33,13 @@ test('\ngiven any string and overriding type to be perf', function (t) {
 })
 
 test('\ngiven a instruments stack info line', function (t) {
-  var fn = getConverter([ 'Running Time,Self,,Symbol Name' ], 0);
-  t.equal(fn.name, 'InstrumentsConverter', 'returns instruments converter')
-  t.equal(fn.proto.type, 'instruments', 'type is instruments')
+  var fns = [
+      getConverter([ 'Running Time,Self,,Symbol Name' ], 0),
+      getConverter([ 'Running Time,Self (ms),,Symbol Name' ], 0)
+  ];
+  fns.forEach(function (fn) {
+      t.equal(fn.name, 'InstrumentsConverter', 'returns instruments converter')
+      t.equal(fn.proto.type, 'instruments', 'type is instruments')
+  });
   t.end()
 })
