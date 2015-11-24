@@ -17,6 +17,13 @@ test('\ngiven a perf stack info line (v3.18.7-200)', function (t) {
   t.end()
 })
 
+test('\ngiven a perf stack info line (v4.3.g6a13fe)', function (t) {
+  var fn = getConverter([ 'node  9541 11313.993067:          1 cycles:u: '], 0);
+  t.equal(fn.name, 'PerfConverter', 'returns perf converter')
+  t.equal(fn.proto.type, 'perf', 'type is perf')
+  t.end()
+})
+
 
 test('\ngiven a dtrace stack info line', function (t) {
   var fn = getConverter([ 'iojs 86454 181016967: profile-1ms:'], 0);
