@@ -37,10 +37,3 @@ test('\ngiven any string and overriding type to be perf', function (t) {
   t.equal(fn.proto.type, 'perf', 'type is perf')
   t.end()
 })
-
-test('\ngiven a instruments stack info line', function (t) {
-  var fn = getConverter([ 'Running Time,Self,,Symbol Name' ], 0);
-  t.equal(fn.name, 'InstrumentsConverter', 'returns instruments converter')
-  t.equal(fn.proto.type, 'instruments', 'type is instruments')
-  t.end()
-})

@@ -81,7 +81,7 @@ OPTIONS:
 --optimizationinfo, --nooptimizationinfo  JS optimization info is removed unless this flag is set (default: false)
 
 
---type                              type of input `perf|dtrace|instruments`. If not supplied it will be detected. 
+--type                              type of input `perf|dtrace`. If not supplied it will be detected. 
 --help                              print this help
 
 EXAMPLE:
@@ -202,7 +202,7 @@ fs.writeFileSync('/tmp/my.cpuprofile', JSON.stringify(cpuprofile));</code></pre>
 <td class="type">
 <span class="param-type">string</span>
 </td>
-<td class="description last"><p>type of input <code>perf|dtrace|instruments</code>. If not supplied it will be detected.</p></td>
+<td class="description last"><p>type of input <code>perf|dtrace</code>. If not supplied it will be detected.</p></td>
 </tr>
 <tr>
 <td class="name"><code>shortStack</code></td>

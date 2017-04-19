@@ -41,7 +41,7 @@ proto.convert =
  * @param {Array.<String>} trace a trace generated via `perf script` or the `profile_1ms.d` DTrace script
  * @param {Object=} opts 
  * @param {string} opts.map a map containing symbols information, if not given it will be read from /tmp/perf-<pid>.map. 
- * @param {string} opts.type type of input `perf|dtrace|instruments`. If not supplied it will be detected. 
+ * @param {string} opts.type type of input `perf|dtrace`. If not supplied it will be detected. 
  * @param {Boolean} opts.shortStack stacks that have only one line are ignored unless this flag is set
  * @param {Boolean} opts.optimizationinfo JS optimization info is removed unless this flag is set (default: false)
  * @param {Boolean} opts.unresolveds unresolved addresses like `0x1a23c` are filtered from the trace unless this flag is set (default: false)
@@ -69,12 +69,6 @@ function convert(trace, opts) {
     this._traceStart = traceUtil.traceStart(this._trace);
 
     this._converterCtr = getConverter(this._trace, this._traceStart, this._opts.type);
-    if (this._converterCtr.proto.type === 'instruments')
-      this.emit('warn', 'You are converting an instruments callgraph.\n' +
-                        'It only contain aggregation data but no timeline.\n' +
-                        'However a timeline from 0s-5s will appear when loaded in DevTools.\n' +
-                        'It will not show the true execution order. Please be aware!');
-    
     this._resolveTraceInfo();
     this._tryResolveSymbols();
     this._filterInternals();

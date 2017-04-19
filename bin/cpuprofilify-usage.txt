@@ -14,7 +14,7 @@ OPTIONS:
 --optimizationinfo, --nooptimizationinfo  JS optimization info is removed unless this flag is set (default: false)
 
 
---type                              type of input `perf|dtrace|instruments`. If not supplied it will be detected. 
+--type                              type of input `perf|dtrace`. If not supplied it will be detected. 
 --help                              print this help
 
 EXAMPLE:
