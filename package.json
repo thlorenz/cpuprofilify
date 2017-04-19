@@ -1,6 +1,6 @@
 {
   "name": "cpuprofilify",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Converts output of various profiling/sampling tools to the .cpuprofile format so it can be loaded into Chrome DevTools.",
   "main": "index.js",
   "scripts": {
