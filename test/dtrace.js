@@ -1,7 +1,5 @@
-'use strict';
-
 var test = require('tape')
-  , check = require('./util/check-conversion')
+var check = require('./util/check-conversion')
 
 var stack1 = [
     'iojs 86454 181016967: profile-1ms:'
@@ -53,7 +51,7 @@ var stack1 = [
   , '            node`node::Start(int, char**)+0x1ce'
   , '            node`start+0x34'
   , '            node`0x3'
-];
+]
 
 var stack2 = [
     'iojs 86454 181012037: profile-1ms:'
@@ -63,14 +61,10 @@ var stack2 = [
   , '              node`node::Start(int, char**)+0x1ce'
   , '              node`start+0x34'
   , '              node`0x3'
-];
+]
 
-function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true));
-}
-
-test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript with the default settings', function (t) {
-  var opts = { 
+test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript with the default settings', function(t) {
+  var opts = {
     fns: 22,
     hits: 1,
     id: 20,
@@ -103,14 +97,14 @@ test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript wi
   check(t, stack1, null, opts)
 })
 
-test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping optimization info', function (t) {
+test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping optimization info', function(t) {
   var opts = {
       fns  : 22
     , hits : 1
     , id   : 20
     , fn   : '*ArrayConcatJS'
     , url  : 'native array.js'
-    , names: 
+    , names:
         [ 'iojs',
           'uv_run',
           'uv__io_poll',
@@ -137,8 +131,8 @@ test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript ke
   check(t, stack1, { optimizationinfo: true }, opts)
 })
 
-test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping v8internals', function (t) {
-  var opts = { 
+test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping v8internals', function(t) {
+  var opts = {
     fns: 48,
     hits: 1,
     id: 46,
@@ -194,13 +188,11 @@ test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript ke
       ' Stub:CEntryStub',
       'v8::internal::Runtime_ArrayConcat(int, v8::internal::Object**, v8::internal::Isolate*)' ] }
 
- 
-
   check(t, stack1, { v8internals: true }, opts)
 })
 
-test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping sysinternals', function (t) {
-  var opts = { 
+test('\nwhen converting a DTrace stack containing C++ and resolved JavaScript keeping sysinternals', function(t) {
+  var opts = {
     fns: 4,
     hits: 1,
     id: 2,

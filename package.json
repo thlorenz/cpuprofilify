@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "docme": "docme README.md -- --configure .jsdocrc",
-    "test": "tape test/*.js"
+    "test": "tape test/*.js && standart"
   },
   "bin": {
     "cpuprofilify": "bin/cpuprofilify",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "JSONSelect": "~0.4.0",
+    "standart": "~6.1.0",
     "tape": "~3.4.0"
   },
   "keywords": [

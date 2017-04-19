@@ -1,20 +1,19 @@
-'use strict';
 var select = require('JSONSelect')
-  , cpuprofilify = require('../../')()
+var cpuprofilify = require('../../')()
 
 function inspect(obj, depth) {
-  console.error(require('util').inspect(obj, false, depth || 5, true));
+  console.error(require('util').inspect(obj, false, depth || 5, true))
 }
 
 module.exports = function check(t, stack, convertOpts, opts) {
-  var res = cpuprofilify.convert(stack, convertOpts);
+  var res = cpuprofilify.convert(stack, convertOpts)
 
   var hits   =  select.match('.hitCount:expr(x=1)', res)
-    , nohits =  select.match('.hitCount:expr(x=0)', res)
-    , fns    =  select.match('.functionName', res)
-    , id     =  select.match('.hitCount:expr(x=1) ~.id', res)
-    , fn     =  select.match('.hitCount:expr(x=1) ~.functionName', res)
-    , url    =  select.match('.hitCount:expr(x=1) ~.url', res)
+  var nohits =  select.match('.hitCount:expr(x=0)', res)
+  var fns    =  select.match('.functionName', res)
+  var id     =  select.match('.hitCount:expr(x=1) ~.id', res)
+  var fn     =  select.match('.hitCount:expr(x=1) ~.functionName', res)
+  var url    =  select.match('.hitCount:expr(x=1) ~.url', res)
 
   if (!opts) {
     inspect({

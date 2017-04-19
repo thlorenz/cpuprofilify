@@ -1,8 +1,7 @@
-'use strict';
-
 var test = require('tape')
-  , check = require('./util/check-conversion')
+var check = require('./util/check-conversion')
 
+/* eslint-disable no-tabs */
 var stack1 = [
     'node 22610 13108.249784: cpu-clock:u: '
   , '	    7f8f7ab2e910 strlen (/lib/x86_64-linux-gnu/libc-2.19.so)'
@@ -29,10 +28,11 @@ var stack1 = [
   , '	          704354 v8::Context::New(v8::Isolate*, v8::ExtensionConfiguration*, v8::Handle<v8::ObjectTemplate>, v8::Handle<v8::Value>) (/usr/local/bin/node)'
   , '	          a5e6a7 node::Start(int, char**) (/usr/local/bin/node)'
   , '	    7f8f7aac6ec5 __libc_start_main (/lib/x86_64-linux-gnu/libc-2.19.so)'
-];
+]
+/* eslint-enable no-tabs */
 
-test('\nwhen converting a perf stack containing C++ and resolved JavaScript with the default settings', function (t) {
-  var opts = { 
+test('\nwhen converting a perf stack containing C++ and resolved JavaScript with the default settings', function(t) {
+  var opts = {
     fns   : 6,
     hits  : 1,
     id    : 4,
@@ -49,8 +49,8 @@ test('\nwhen converting a perf stack containing C++ and resolved JavaScript with
   check(t, stack1, null, opts)
 })
 
-test('\nwhen converting a perf stack containing C++ and resolved JavaScript keeping v8internals', function (t) {
-  var opts = { 
+test('\nwhen converting a perf stack containing C++ and resolved JavaScript keeping v8internals', function(t) {
+  var opts = {
     fns   : 24,
     hits  : 1,
     id    : 22,
@@ -84,8 +84,8 @@ test('\nwhen converting a perf stack containing C++ and resolved JavaScript keep
   check(t, stack1, { v8internals: true }, opts)
 })
 
-test('\nwhen converting a perf stack containing C++ and resolved JavaScript keeping sysinternals', function (t) {
-  var opts = { 
+test('\nwhen converting a perf stack containing C++ and resolved JavaScript keeping sysinternals', function(t) {
+  var opts = {
     fns   : 7,
     hits  : 1,
     id    : 5,
@@ -98,7 +98,7 @@ test('\nwhen converting a perf stack containing C++ and resolved JavaScript keep
       '~*native messages.js',
       '~*SetUpError native ',
       '~*SetUpError.a native ',
-      'strlen' ] } 
+      'strlen' ] }
 
   check(t, stack1, { sysinternals: true }, opts)
 })
