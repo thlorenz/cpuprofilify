@@ -31,9 +31,13 @@ Converts output of various profiling/sampling tools to the .cpuprofile format so
 cpuprofilify installs two binary scripts:
 
 - **`profile_1ms.d`**: DTrace script that samples your process, use either of the following to generate a trace
-  - `sudo profile_1ms.d -c <command> | cpuprofilify > out.cpuprofile`
+  - `sudo profile_1ms.d -c 'node --perf-basic-prof <app>' | cpuprofilify > out.cpuprofile`
   - `sudo profile_1ms.d -p <process id> | cpuprofilify > out.cpuprofile`
 - **`cpuprofilify`**: which will convert a *perf* or *DTrace* trace into a `.cpuprofile` importable into Chrome DevTools
+  - `perf record -e cycles:u -g -- node --perf-basic-prof <app> && perf script | cpuprofilify > out.cpuprofile`
+
+Use the `perf record` and `perf script` commands on Linux to generate input to cpuprofilify and the provided
+`profile_1ms.d` script to do so on OSX via dtrace.
 
 ## Example
 
@@ -65,7 +69,7 @@ Now open `/tmp/example.cpuprofile` in Chrome DevTools *Profiles - Load*
 ## Usage
 
 ```
-cat trace.txt | cpuprofilify <options> > my.cpuprofile 
+cat trace.txt | cpuprofilify <options> > my.cpuprofile
 
   Converts the given trace taking according to the given opttions
 
@@ -81,12 +85,12 @@ OPTIONS:
 --optimizationinfo, --nooptimizationinfo  JS optimization info is removed unless this flag is set (default: false)
 
 
---type                              type of input `perf|dtrace`. If not supplied it will be detected. 
+--type                              type of input `perf|dtrace`. If not supplied it will be detected.
 --help                              print this help
 
 EXAMPLE:
 
-  Generate cpuprofile from DTrace data with default options 
+  Generate cpuprofile from DTrace data with default options
   using higher switchrate in order to deal with large amount of data being emitted
 
     sudo profile_1ms.d -x switchrate=1000hz  -c <command> | cpuprofilify > out.cpuprofile
@@ -96,7 +100,7 @@ EXAMPLE:
     sudo profile_1ms.d -c <command> | cpuprofilify --v8internals > out.cpuprofile
 
   Generate cpuprofile from DTrace data with default options filtering v8 gc events
-    
+
     sudo profile_1ms.d -c <command> | cpuprofilify --nov8gc > out.cpuprofile
 ```
 
