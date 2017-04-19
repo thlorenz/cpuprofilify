@@ -11,6 +11,13 @@
     "cpuprofilify": "bin/cpuprofilify",
     "profile_1ms.d": "bin/profile_1ms.d"
   },
+  "files": [
+    "index.js",
+    "bin",
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
   "browser": {
     "./lib/resolve-symbols.js": "./lib/resolve-symbols.browser.js"
   },
@@ -23,7 +30,7 @@
     "inherits": "~2.0.1",
     "minimist": "^1.1.0",
     "npmlog": "~1.0.0",
-    "resolve-jit-symbols": "~0.4.3",
+    "resolve-jit-symbols": "~0.5.0",
     "trace-filter-internals": "^0.1.0",
     "xtend": "~4.0.0"
   },
