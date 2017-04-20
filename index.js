@@ -22,6 +22,8 @@ inherits(CpuProfilifier, EventEmitter)
 
 var proto = CpuProfilifier.prototype
 module.exports = CpuProfilifier
+module.exports.dtraceRegex = getConverter.dtraceRegex
+module.exports.perfRegex = getConverter.perfRegex
 
 proto.convert =
 
